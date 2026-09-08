@@ -1,0 +1,502 @@
+[
+    {
+        "class_index": 0,
+        "class_name": "n01440764",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01440764/n01440764_10290.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                83.42240142822266,
+                91.92269897460938,
+                79.46769714355469
+            ],
+            "modified_mean_rgb": [
+                134.4434051513672,
+                63.895198822021484,
+                55.18080139160156
+            ],
+            "original_mean_pixel": 84.9376,
+            "modified_mean_pixel": 84.5064,
+            "mean_absolute_pixel_change": 34.4451
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                83.42240142822266,
+                91.92269897460938,
+                79.46769714355469
+            ],
+            "modified_mean_rgb": [
+                57.947200775146484,
+                63.895198822021484,
+                131.67799377441406
+            ],
+            "original_mean_pixel": 84.9376,
+            "modified_mean_pixel": 84.5068,
+            "mean_absolute_pixel_change": 35.2376
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                83.42240142822266,
+                91.92269897460938,
+                79.46769714355469
+            ],
+            "modified_mean_rgb": [
+                87.96189880371094,
+                87.96189880371094,
+                87.96189880371094
+            ],
+            "original_mean_pixel": 84.9376,
+            "modified_mean_pixel": 87.9619,
+            "mean_absolute_pixel_change": 13.0657
+        }
+    },
+    {
+        "class_index": 1,
+        "class_name": "n01484850",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01484850/n01484850_10016.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                126.4561996459961,
+                140.30780029296875,
+                138.26620483398438
+            ],
+            "modified_mean_rgb": [
+                164.5697021484375,
+                97.7688980102539,
+                96.3386001586914
+            ],
+            "original_mean_pixel": 135.0101,
+            "modified_mean_pixel": 119.5591,
+            "mean_absolute_pixel_change": 40.86
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                126.4561996459961,
+                140.30780029296875,
+                138.26620483398438
+            ],
+            "modified_mean_rgb": [
+                88.06739807128906,
+                97.7688980102539,
+                172.8343963623047
+            ],
+            "original_mean_pixel": 135.0101,
+            "modified_mean_pixel": 119.5569,
+            "mean_absolute_pixel_change": 38.4986
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                126.4561996459961,
+                140.30780029296875,
+                138.26620483398438
+            ],
+            "modified_mean_rgb": [
+                135.92930603027344,
+                135.92930603027344,
+                135.92930603027344
+            ],
+            "original_mean_pixel": 135.0101,
+            "modified_mean_pixel": 135.9293,
+            "mean_absolute_pixel_change": 7.2321
+        }
+    },
+    {
+        "class_index": 2,
+        "class_name": "n01494475",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01494475/n01494475_10002.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                25.11829948425293,
+                99.92620086669922,
+                133.68359375
+            ],
+            "modified_mean_rgb": [
+                93.63359832763672,
+                69.49479675292969,
+                93.11710357666016
+            ],
+            "original_mean_pixel": 86.2427,
+            "modified_mean_pixel": 85.4152,
+            "mean_absolute_pixel_change": 46.5044
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                25.11829948425293,
+                99.92620086669922,
+                133.68359375
+            ],
+            "modified_mean_rgb": [
+                17.20840072631836,
+                69.49479675292969,
+                169.63560485839844
+            ],
+            "original_mean_pixel": 86.2427,
+            "modified_mean_pixel": 85.4463,
+            "mean_absolute_pixel_change": 24.7644
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                25.11829948425293,
+                99.92620086669922,
+                133.68359375
+            ],
+            "modified_mean_rgb": [
+                81.39939880371094,
+                81.39939880371094,
+                81.39939880371094
+            ],
+            "original_mean_pixel": 86.2427,
+            "modified_mean_pixel": 81.3994,
+            "mean_absolute_pixel_change": 42.5388
+        }
+    },
+    {
+        "class_index": 3,
+        "class_name": "n01531178",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01531178/n01531178_1006.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                130.9967041015625,
+                136.01870727539062,
+                95.28559875488281
+            ],
+            "modified_mean_rgb": [
+                167.80999755859375,
+                94.75800323486328,
+                66.25630187988281
+            ],
+            "original_mean_pixel": 120.767,
+            "modified_mean_pixel": 109.6081,
+            "mean_absolute_pixel_change": 35.7011
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                130.9967041015625,
+                136.01870727539062,
+                95.28559875488281
+            ],
+            "modified_mean_rgb": [
+                91.19960021972656,
+                94.75800323486328,
+                142.73150634765625
+            ],
+            "original_mean_pixel": 120.767,
+            "modified_mean_pixel": 109.5631,
+            "mean_absolute_pixel_change": 42.8345
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                130.9967041015625,
+                136.01870727539062,
+                95.28559875488281
+            ],
+            "modified_mean_rgb": [
+                129.88819885253906,
+                129.88819885253906,
+                129.88819885253906
+            ],
+            "original_mean_pixel": 120.767,
+            "modified_mean_pixel": 129.8882,
+            "mean_absolute_pixel_change": 17.3734
+        }
+    },
+    {
+        "class_index": 4,
+        "class_name": "n01632777",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01632777/n01632777_1000.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                51.0077018737793,
+                27.794200897216797,
+                19.432100296020508
+            ],
+            "modified_mean_rgb": [
+                111.7531967163086,
+                19.015300750732422,
+                13.150500297546387
+            ],
+            "original_mean_pixel": 32.7447,
+            "modified_mean_pixel": 47.973,
+            "mean_absolute_pixel_change": 25.2687
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                51.0077018737793,
+                27.794200897216797,
+                19.432100296020508
+            ],
+            "modified_mean_rgb": [
+                35.250999450683594,
+                19.015300750732422,
+                89.6541976928711
+            ],
+            "original_mean_pixel": 32.7447,
+            "modified_mean_pixel": 47.9735,
+            "mean_absolute_pixel_change": 31.5859
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                51.0077018737793,
+                27.794200897216797,
+                19.432100296020508
+            ],
+            "modified_mean_rgb": [
+                33.780799865722656,
+                33.780799865722656,
+                33.780799865722656
+            ],
+            "original_mean_pixel": 32.7447,
+            "modified_mean_pixel": 33.7808,
+            "mean_absolute_pixel_change": 12.5923
+        }
+    },
+    {
+        "class_index": 5,
+        "class_name": "n01665541",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01665541/n01665541_10021.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                105.67939758300781,
+                90.83100128173828,
+                83.14810180664062
+            ],
+            "modified_mean_rgb": [
+                150.02529907226562,
+                63.13079833984375,
+                57.754798889160156
+            ],
+            "original_mean_pixel": 93.2195,
+            "modified_mean_pixel": 90.3037,
+            "mean_absolute_pixel_change": 32.4798
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                105.67939758300781,
+                90.83100128173828,
+                83.14810180664062
+            ],
+            "modified_mean_rgb": [
+                73.52490234375,
+                63.13079833984375,
+                134.25250244140625
+            ],
+            "original_mean_pixel": 93.2195,
+            "modified_mean_pixel": 90.3027,
+            "mean_absolute_pixel_change": 36.9863
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                105.67939758300781,
+                90.83100128173828,
+                83.14810180664062
+            ],
+            "modified_mean_rgb": [
+                94.3949966430664,
+                94.3949966430664,
+                94.3949966430664
+            ],
+            "original_mean_pixel": 93.2195,
+            "modified_mean_pixel": 94.395,
+            "mean_absolute_pixel_change": 8.8891
+        }
+    },
+    {
+        "class_index": 6,
+        "class_name": "n01687978",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01687978/n01687978_10013.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                91.83830261230469,
+                78.46620178222656,
+                60.911598205566406
+            ],
+            "modified_mean_rgb": [
+                140.33709716796875,
+                54.483001708984375,
+                42.19029998779297
+            ],
+            "original_mean_pixel": 77.072,
+            "modified_mean_pixel": 79.0035,
+            "mean_absolute_pixel_change": 30.4011
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                91.83830261230469,
+                78.46620178222656,
+                60.911598205566406
+            ],
+            "modified_mean_rgb": [
+                63.83890151977539,
+                54.483001708984375,
+                118.6897964477539
+            ],
+            "original_mean_pixel": 77.072,
+            "modified_mean_pixel": 79.0039,
+            "mean_absolute_pixel_change": 36.5869
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                91.83830261230469,
+                78.46620178222656,
+                60.911598205566406
+            ],
+            "modified_mean_rgb": [
+                80.46080017089844,
+                80.46080017089844,
+                80.46080017089844
+            ],
+            "original_mean_pixel": 77.072,
+            "modified_mean_pixel": 80.4608,
+            "mean_absolute_pixel_change": 12.1285
+        }
+    },
+    {
+        "class_index": 7,
+        "class_name": "n01695060",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01695060/n01695060_10009.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                114.53630065917969,
+                113.01860046386719,
+                106.12409973144531
+            ],
+            "modified_mean_rgb": [
+                156.22520446777344,
+                78.6613998413086,
+                73.83470153808594
+            ],
+            "original_mean_pixel": 111.2263,
+            "modified_mean_pixel": 102.9071,
+            "mean_absolute_pixel_change": 36.1118
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                114.53630065917969,
+                113.01860046386719,
+                106.12409973144531
+            ],
+            "modified_mean_rgb": [
+                79.72760009765625,
+                78.6613998413086,
+                150.33740234375
+            ],
+            "original_mean_pixel": 111.2263,
+            "modified_mean_pixel": 102.9088,
+            "mean_absolute_pixel_change": 37.793
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                114.53630065917969,
+                113.01860046386719,
+                106.12409973144531
+            ],
+            "modified_mean_rgb": [
+                112.68669891357422,
+                112.68669891357422,
+                112.68669891357422
+            ],
+            "original_mean_pixel": 111.2263,
+            "modified_mean_pixel": 112.6867,
+            "mean_absolute_pixel_change": 8.651
+        }
+    },
+    {
+        "class_index": 8,
+        "class_name": "n01749939",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01749939/n01749939_10048.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                113.58779907226562,
+                113.34639739990234,
+                102.54419708251953
+            ],
+            "modified_mean_rgb": [
+                155.56190490722656,
+                78.89830017089844,
+                71.33309936523438
+            ],
+            "original_mean_pixel": 109.8261,
+            "modified_mean_pixel": 101.9311,
+            "mean_absolute_pixel_change": 35.8778
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                113.58779907226562,
+                113.34639739990234,
+                102.54419708251953
+            ],
+            "modified_mean_rgb": [
+                79.06490325927734,
+                78.89830017089844,
+                147.8292999267578
+            ],
+            "original_mean_pixel": 109.8261,
+            "modified_mean_pixel": 101.9308,
+            "mean_absolute_pixel_change": 38.0854
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                113.58779907226562,
+                113.34639739990234,
+                102.54419708251953
+            ],
+            "modified_mean_rgb": [
+                112.18099975585938,
+                112.18099975585938,
+                112.18099975585938
+            ],
+            "original_mean_pixel": 109.8261,
+            "modified_mean_pixel": 112.181,
+            "mean_absolute_pixel_change": 5.2809
+        }
+    },
+    {
+        "class_index": 9,
+        "class_name": "n01775062",
+        "image": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01775062/n01775062_1.JPEG",
+        "red_transform": {
+            "original_mean_rgb": [
+                109.7957992553711,
+                116.19950103759766,
+                81.98979949951172
+            ],
+            "modified_mean_rgb": [
+                152.90660095214844,
+                80.89080047607422,
+                56.94260025024414
+            ],
+            "original_mean_pixel": 102.6617,
+            "modified_mean_pixel": 96.9133,
+            "mean_absolute_pixel_change": 34.4889
+        },
+        "blue_transform": {
+            "original_mean_rgb": [
+                109.7957992553711,
+                116.19950103759766,
+                81.98979949951172
+            ],
+            "modified_mean_rgb": [
+                76.40779876708984,
+                80.89080047607422,
+                133.443603515625
+            ],
+            "original_mean_pixel": 102.6617,
+            "modified_mean_pixel": 96.914,
+            "mean_absolute_pixel_change": 40.0502
+        },
+        "grayscale_transform": {
+            "original_mean_rgb": [
+                109.7957992553711,
+                116.19950103759766,
+                81.98979949951172
+            ],
+            "modified_mean_rgb": [
+                110.38349914550781,
+                110.38349914550781,
+                110.38349914550781
+            ],
+            "original_mean_pixel": 102.6617,
+            "modified_mean_pixel": 110.3835,
+            "mean_absolute_pixel_change": 21.3955
+        }
+    }
+]

@@ -1,0 +1,8 @@
+numpy
+pillow
+matplotlib
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+opencv-python
+git+https://github.com/facebookresearch/segment-anything.git

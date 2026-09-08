@@ -1,0 +1,87 @@
+{
+    "classes": [
+        {
+            "index": 0,
+            "id": "n01440764",
+            "name": "n01440764",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01440764"
+        },
+        {
+            "index": 1,
+            "id": "n01484850",
+            "name": "n01484850",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01484850"
+        },
+        {
+            "index": 2,
+            "id": "n01494475",
+            "name": "n01494475",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01494475"
+        },
+        {
+            "index": 3,
+            "id": "n01531178",
+            "name": "n01531178",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01531178"
+        },
+        {
+            "index": 4,
+            "id": "n01632777",
+            "name": "n01632777",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01632777"
+        },
+        {
+            "index": 5,
+            "id": "n01665541",
+            "name": "n01665541",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01665541"
+        },
+        {
+            "index": 6,
+            "id": "n01687978",
+            "name": "n01687978",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01687978"
+        },
+        {
+            "index": 7,
+            "id": "n01695060",
+            "name": "n01695060",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01695060"
+        },
+        {
+            "index": 8,
+            "id": "n01749939",
+            "name": "n01749939",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01749939"
+        },
+        {
+            "index": 9,
+            "id": "n01775062",
+            "name": "n01775062",
+            "path": "/home/payal/Desktop/antiG/5Template-Project/archive/train.X1/n01775062"
+        }
+    ],
+    "group_a": {
+        "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "correlated_color": "warm_red",
+        "mismatch_color": "cool_blue"
+    },
+    "group_b": {
+        "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "correlated_color": "cool_blue",
+        "mismatch_color": "warm_red"
+    },
+    "note": "These classes were frozen from the discovered dataset directories because no prior metadata file was present."
+}
