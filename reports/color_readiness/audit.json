@@ -1,0 +1,427 @@
+{
+  "audited_utc": "2026-09-30T08:02:45.622592+00:00",
+  "checks": {
+    "historical_class_indices_ids_and_groups_match": true,
+    "both_historical_reports_and_pixel_samples_match_classes": true,
+    "all_13500_source_hashes_and_decodes_passed": true,
+    "split_manifest_hashes_paths_groups_and_no_exact_leakage_passed": true,
+    "temporary_400_outputs_pixel_formula_size_channels_and_assignments_passed": true
+  },
+  "split_counts": {
+    "train": 10400,
+    "validation": 2600,
+    "test": 500
+  },
+  "legacy_source_counts": {
+    "n01440764": 1300,
+    "n01484850": 1300,
+    "n01494475": 1300,
+    "n01531178": 1300,
+    "n01632777": 1300,
+    "n01665541": 1300,
+    "n01687978": 1300,
+    "n01695060": 1300,
+    "n01749939": 1300,
+    "n01775062": 1300
+  },
+  "current_settings": {
+    "correlated_ratio": 0.9,
+    "original_weight": 0.7,
+    "tint_weight": 0.3,
+    "resolution": [
+      224,
+      224
+    ]
+  },
+  "current_color_dataset_exists": false,
+  "assignment_counts_without_writing_images": {
+    "train": {
+      "n01440764": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "red": 936,
+        "blue": 104
+      },
+      "n01484850": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "red": 936,
+        "blue": 104
+      },
+      "n01494475": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "red": 936,
+        "blue": 104
+      },
+      "n01531178": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "red": 936,
+        "blue": 104
+      },
+      "n01632777": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "red": 936,
+        "blue": 104
+      },
+      "n01665541": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "blue": 936,
+        "red": 104
+      },
+      "n01687978": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "blue": 936,
+        "red": 104
+      },
+      "n01695060": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "blue": 936,
+        "red": 104
+      },
+      "n01749939": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "blue": 936,
+        "red": 104
+      },
+      "n01775062": {
+        "total": 1040,
+        "aligned": 936,
+        "mismatched": 104,
+        "blue": 936,
+        "red": 104
+      }
+    },
+    "validation": {
+      "n01440764": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "red": 234,
+        "blue": 26
+      },
+      "n01484850": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "red": 234,
+        "blue": 26
+      },
+      "n01494475": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "red": 234,
+        "blue": 26
+      },
+      "n01531178": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "red": 234,
+        "blue": 26
+      },
+      "n01632777": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "red": 234,
+        "blue": 26
+      },
+      "n01665541": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "blue": 234,
+        "red": 26
+      },
+      "n01687978": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "blue": 234,
+        "red": 26
+      },
+      "n01695060": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "blue": 234,
+        "red": 26
+      },
+      "n01749939": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "blue": 234,
+        "red": 26
+      },
+      "n01775062": {
+        "total": 260,
+        "aligned": 234,
+        "mismatched": 26,
+        "blue": 234,
+        "red": 26
+      }
+    },
+    "test": {
+      "n01440764": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "red": 45,
+        "blue": 5
+      },
+      "n01484850": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "red": 45,
+        "blue": 5
+      },
+      "n01494475": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "red": 45,
+        "blue": 5
+      },
+      "n01531178": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "red": 45,
+        "blue": 5
+      },
+      "n01632777": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "red": 45,
+        "blue": 5
+      },
+      "n01665541": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "blue": 45,
+        "red": 5
+      },
+      "n01687978": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "blue": 45,
+        "red": 5
+      },
+      "n01695060": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "blue": 45,
+        "red": 5
+      },
+      "n01749939": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "blue": 45,
+        "red": 5
+      },
+      "n01775062": {
+        "total": 50,
+        "aligned": 45,
+        "mismatched": 5,
+        "blue": 45,
+        "red": 5
+      }
+    }
+  },
+  "temporary_smoke_test": {
+    "source_images": 100,
+    "outputs_pixel_verified": 400,
+    "per_mode_colors": {
+      "correlated": {
+        "red": 50,
+        "blue": 50
+      },
+      "randomized": {
+        "blue": 50,
+        "red": 50
+      },
+      "reversed": {
+        "blue": 50,
+        "red": 50
+      },
+      "grayscale": {
+        "grayscale": 100
+      }
+    },
+    "randomized_per_class_counts": {
+      "n01440764": {
+        "class_index": 0,
+        "total": 10,
+        "red": 7,
+        "blue": 3,
+        "red_percentage": 70.0,
+        "blue_percentage": 30.0
+      },
+      "n01484850": {
+        "class_index": 1,
+        "total": 10,
+        "red": 5,
+        "blue": 5,
+        "red_percentage": 50.0,
+        "blue_percentage": 50.0
+      },
+      "n01494475": {
+        "class_index": 2,
+        "total": 10,
+        "red": 5,
+        "blue": 5,
+        "red_percentage": 50.0,
+        "blue_percentage": 50.0
+      },
+      "n01531178": {
+        "class_index": 3,
+        "total": 10,
+        "red": 6,
+        "blue": 4,
+        "red_percentage": 60.0,
+        "blue_percentage": 40.0
+      },
+      "n01632777": {
+        "class_index": 4,
+        "total": 10,
+        "red": 4,
+        "blue": 6,
+        "red_percentage": 40.0,
+        "blue_percentage": 60.0
+      },
+      "n01665541": {
+        "class_index": 5,
+        "total": 10,
+        "red": 5,
+        "blue": 5,
+        "red_percentage": 50.0,
+        "blue_percentage": 50.0
+      },
+      "n01687978": {
+        "class_index": 6,
+        "total": 10,
+        "red": 6,
+        "blue": 4,
+        "red_percentage": 60.0,
+        "blue_percentage": 40.0
+      },
+      "n01695060": {
+        "class_index": 7,
+        "total": 10,
+        "red": 6,
+        "blue": 4,
+        "red_percentage": 60.0,
+        "blue_percentage": 40.0
+      },
+      "n01749939": {
+        "class_index": 8,
+        "total": 10,
+        "red": 4,
+        "blue": 6,
+        "red_percentage": 40.0,
+        "blue_percentage": 60.0
+      },
+      "n01775062": {
+        "class_index": 9,
+        "total": 10,
+        "red": 2,
+        "blue": 8,
+        "red_percentage": 20.0,
+        "blue_percentage": 80.0
+      }
+    }
+  },
+  "legacy_missing_file_probe": {
+    "files_checked": 99,
+    "bad_files": 0,
+    "wrong_size": 0,
+    "wrong_mode": 0
+  },
+  "findings": [
+    {
+      "priority": "high",
+      "issue": "Legacy generation ignores source_splits.csv",
+      "detail": "It reads all 1300 train.X1 images per class, mixing our 1040 train and 260 validation images; val.X test images are omitted."
+    },
+    {
+      "priority": "high",
+      "issue": "Legacy integrity audit cannot establish completeness",
+      "detail": "Removing one temporary output produced files_checked=99, bad_files=0. Missing directories are skipped and image.load() is not called."
+    },
+    {
+      "priority": "medium",
+      "issue": "Reversed means 100% opposite, not 10/90",
+      "detail": "This is a valid fully conflicting stress test but differs from the previously discussed mirrored correlation and needs an explicit name."
+    },
+    {
+      "priority": "medium",
+      "issue": "Randomized is globally shuffled, not exact 50/50 per class",
+      "detail": "Finite-sample class-color associations can remain; especially important for small test sets."
+    },
+    {
+      "priority": "medium",
+      "issue": "Only correlated mode saves image-level manifests",
+      "detail": "Randomized, reversed, and grayscale assignments lack equivalent manifest records."
+    },
+    {
+      "priority": "medium",
+      "issue": "Visual panels illustrate transformations, not actual assignments",
+      "detail": "The CORRELATED panel always uses the group-majority tint, including when a saved sample would belong to the mismatch minority."
+    },
+    {
+      "priority": "medium",
+      "issue": "No untinted standardized control output",
+      "detail": "Grayscale removes natural object colors as well as the tint; use an untinted RGB control to distinguish this effect."
+    },
+    {
+      "priority": "medium",
+      "issue": "Legacy ratio metadata is hard-coded",
+      "detail": "Changing CORRELATED_RATIO alone would leave experiment_metadata.json and report prose claiming 90/10."
+    },
+    {
+      "priority": "context",
+      "issue": "Historical image counts differ",
+      "detail": "Recovered reports state 12973 source images; the fresh training source has 13000. The reason for the old 27-image difference is unknown without its manifest."
+    },
+    {
+      "priority": "context",
+      "issue": "Not a complete robustness experiment yet",
+      "detail": "No current Color dataset or model evaluation exists. No near-duplicate or manual all-image label audit was performed."
+    }
+  ],
+  "status": "source_data_and_core_color_transform_verified; production_generation_needs_updates",
+  "legacy_code_sha256": "92551c1e8433993f5cd693bbb7494eef03a017910aea5eb6f84f063e59416fa5",
+  "visual_inspection": {
+    "artifact": "reports/color_readiness/transformation_samples.png",
+    "scope": "One training image per class; original, red, blue and grayscale previews. Not a full label audit.",
+    "observations": [
+      "Both tints preserve visible image structure and recolor the whole frame, including the background.",
+      "Some sampled objects are small, occluded, or accompanied by people; notably the tench and Komodo dragon examples. Background segmentation must verify the target animal is selected rather than another foreground object.",
+      "A red overlay need not make the red channel dominant when the original image is strongly blue. Assignment correctness is verified by the blend equation, not channel dominance."
+    ]
+  }
+}

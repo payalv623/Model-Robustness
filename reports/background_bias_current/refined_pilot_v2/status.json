@@ -1,0 +1,12 @@
+{
+  "elapsed_seconds": 113.94704704200012,
+  "failed_sources": 0,
+  "flagged_sources": 21,
+  "full_dataset_verified": false,
+  "generated_sources": 30,
+  "sam_device": "mps",
+  "status": "pilot_generated_pending_review",
+  "total_sources": 30,
+  "training_ready": false,
+  "updated_utc": "2026-09-30T10:20:34.985223+00:00"
+}

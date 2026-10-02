@@ -1,0 +1,28 @@
+{
+  "status": "numerical_audit_passed_quality_review_pending",
+  "source_count": 13500,
+  "flagged_sources": 8575,
+  "required_visual_sample_pending": 150,
+  "flag_counts_nonexclusive": {
+    "low_sam_stability": 8032,
+    "weak_target_detection": 811,
+    "multiple_instances_require_review": 759,
+    "low_sam_predicted_iou": 416,
+    "weak_secondary_detection_withheld": 399,
+    "extreme_mask_area": 140,
+    "manual_recovery_annotation_requires_review": 2
+  },
+  "flagged_sources_by_class": {
+    "n01440764": 841,
+    "n01484850": 828,
+    "n01494475": 585,
+    "n01531178": 555,
+    "n01632777": 1097,
+    "n01665541": 673,
+    "n01687978": 925,
+    "n01695060": 826,
+    "n01749939": 940,
+    "n01775062": 1305
+  },
+  "training_ready": false
+}

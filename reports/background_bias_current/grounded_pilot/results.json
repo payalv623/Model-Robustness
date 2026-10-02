@@ -1,0 +1,2044 @@
+[
+  {
+    "area_fraction": 0.050144,
+    "class_id": "n01440764",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 46790,
+        "soft_boundary_pixels": 1756,
+        "unchanged_foreground_pixels": 1630
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 46790,
+        "soft_boundary_pixels": 1756,
+        "unchanged_foreground_pixels": 1630
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 46790,
+        "soft_boundary_pixels": 1756,
+        "unchanged_foreground_pixels": 1630
+      }
+    },
+    "detection_seconds": 1.907363708000048,
+    "detections": [
+      {
+        "box_xyxy": [
+          86.64302062988281,
+          164.60723876953125,
+          204.88050842285156,
+          212.63726806640625
+        ],
+        "raw_index": 0,
+        "score": 0.46670520305633545
+      },
+      {
+        "box_xyxy": [
+          66.46722412109375,
+          222.32249450683594,
+          195.44195556640625,
+          250.0
+        ],
+        "raw_index": 1,
+        "score": 0.27494537830352783
+      }
+    ],
+    "flags": [
+      "multiple_distinct_detections_review_target_coverage",
+      "low_sam_stability"
+    ],
+    "identity": "34a36e96212864e2109d92cfdf8b499611a135f8e0df34d80f3cd71a32a87b09",
+    "masks_sha256": "cd9baba9bd4bd5ac1c77125368c4767a4107f11ef81b0959f5d18b8d2c72db7e",
+    "original_size": [
+      250,
+      250
+    ],
+    "prompt": "a tench fish. a fish.",
+    "raw_labels": [
+      "a tench fish a fish",
+      "a tench fish a fish"
+    ],
+    "sam_predicted_ious": [
+      0.9567452073097229,
+      0.9540005922317505,
+      0.9450472593307495
+    ],
+    "sam_stability_scores": [
+      0.9010113477706909,
+      0.9047134518623352,
+      0.9212055206298828
+    ],
+    "segmentation_seconds": 2.8091530000001512,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01440764/n01440764_10026.JPEG",
+    "source_sha256": "1278bc934896315c902cc4b9972ee43797840e98aecb724a10c01646c3ae416d",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.13026666666666667,
+    "class_id": "n01440764",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 42373,
+        "soft_boundary_pixels": 2516,
+        "unchanged_foreground_pixels": 5287
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 42373,
+        "soft_boundary_pixels": 2516,
+        "unchanged_foreground_pixels": 5287
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 42373,
+        "soft_boundary_pixels": 2516,
+        "unchanged_foreground_pixels": 5287
+      }
+    },
+    "detection_seconds": 2.287383666000096,
+    "detections": [
+      {
+        "box_xyxy": [
+          44.589412689208984,
+          52.10026550292969,
+          175.46629333496094,
+          111.8883285522461
+        ],
+        "raw_index": 0,
+        "score": 0.4260696768760681
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "eccc083bc14ad1368841a8f79df4a720c60edc9e4b208cf401a34a6b0389c403",
+    "masks_sha256": "d593b26a499550f6ce924104bf025abe72b0ef2f2a566963f2923bc2b6593356",
+    "original_size": [
+      200,
+      150
+    ],
+    "prompt": "a tench fish. a fish.",
+    "raw_labels": [
+      "a tench fish a fish",
+      "a tench fish a fish"
+    ],
+    "sam_predicted_ious": [
+      0.9614170789718628,
+      0.9631572365760803,
+      0.7961078882217407
+    ],
+    "sam_stability_scores": [
+      0.9325451850891113,
+      0.9333333373069763,
+      0.11805389821529388
+    ],
+    "segmentation_seconds": 2.357283332999941,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01440764/n01440764_10027.JPEG",
+    "source_sha256": "3e02b55b641dc1d3d95767951b95fb2f572d8011fd19ce27c2fcba1a44802e38",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.219648,
+    "class_id": "n01440764",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 37285,
+        "soft_boundary_pixels": 3769,
+        "unchanged_foreground_pixels": 9122
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 37285,
+        "soft_boundary_pixels": 3769,
+        "unchanged_foreground_pixels": 9122
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 37285,
+        "soft_boundary_pixels": 3769,
+        "unchanged_foreground_pixels": 9122
+      }
+    },
+    "detection_seconds": 2.2198143330006133,
+    "detections": [
+      {
+        "box_xyxy": [
+          26.821434020996094,
+          75.26010131835938,
+          479.1807556152344,
+          264.60833740234375
+        ],
+        "raw_index": 0,
+        "score": 0.408203661441803
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "3c44b57f6955f5ab76c35a7dc03a314e7f899b0e25e5d21d3dc4ed28cb7f5377",
+    "masks_sha256": "f9ebb7b327fcd8e130d85fed0fbba02c8fc38bb1488409ef0e7c6870c3784b4f",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "a tench fish. a fish.",
+    "raw_labels": [
+      "a tench fish a fish",
+      "a tench fish"
+    ],
+    "sam_predicted_ious": [
+      0.9970886707305908,
+      1.0004513263702393,
+      0.7974408864974976
+    ],
+    "sam_stability_scores": [
+      0.9799915552139282,
+      0.9434522390365601,
+      0.15731298923492432
+    ],
+    "segmentation_seconds": 2.0989670420003677,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01440764/n01440764_10029.JPEG",
+    "source_sha256": "4b699c715c1ce7f7901f2cdb18736c1dd55ae5c0c9fa204b2085faf5af8c95ec",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.27667733333333333,
+    "class_id": "n01484850",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 33927,
+        "soft_boundary_pixels": 4423,
+        "unchanged_foreground_pixels": 11826
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 33927,
+        "soft_boundary_pixels": 4423,
+        "unchanged_foreground_pixels": 11826
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 33927,
+        "soft_boundary_pixels": 4423,
+        "unchanged_foreground_pixels": 11826
+      }
+    },
+    "detection_seconds": 2.051556125001298,
+    "detections": [
+      {
+        "box_xyxy": [
+          57.047889709472656,
+          93.64849090576172,
+          496.615478515625,
+          326.5190734863281
+        ],
+        "raw_index": 0,
+        "score": 0.40721580386161804
+      }
+    ],
+    "flags": [
+      "low_sam_predicted_iou",
+      "low_sam_stability"
+    ],
+    "identity": "a48a1efeaca646981885f2cff7170d2c760e2d43713009beae3b297f30ed7350",
+    "masks_sha256": "73d5918f2422dfa28b370ee7b07bc89b38d9265fd3294fc62f0758b6951ed4b1",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "a great white shark. a shark.",
+    "raw_labels": [
+      "a great white shark a shark",
+      "a great white shark a shark"
+    ],
+    "sam_predicted_ious": [
+      0.8779222965240479,
+      0.8760759830474854,
+      0.8275884389877319
+    ],
+    "sam_stability_scores": [
+      0.8384060263633728,
+      0.559224545955658,
+      0.7758362293243408
+    ],
+    "segmentation_seconds": 2.030256042000474,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01484850/n01484850_10016.JPEG",
+    "source_sha256": "c006a3d47a880ae183cbc2836dcc53ba98e350e97c9652c05840da7c4859776b",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.04622933333333333,
+    "class_id": "n01484850",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 47025,
+        "soft_boundary_pixels": 1597,
+        "unchanged_foreground_pixels": 1554
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 47025,
+        "soft_boundary_pixels": 1597,
+        "unchanged_foreground_pixels": 1554
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 47025,
+        "soft_boundary_pixels": 1597,
+        "unchanged_foreground_pixels": 1554
+      }
+    },
+    "detection_seconds": 2.3017552500004967,
+    "detections": [
+      {
+        "box_xyxy": [
+          179.19125366210938,
+          1.4928449392318726,
+          424.08966064453125,
+          115.3170166015625
+        ],
+        "raw_index": 0,
+        "score": 0.40641313791275024
+      },
+      {
+        "box_xyxy": [
+          183.31105041503906,
+          4.261275768280029,
+          290.3990478515625,
+          113.398681640625
+        ],
+        "raw_index": 1,
+        "score": 0.2898437976837158
+      }
+    ],
+    "flags": [
+      "multiple_distinct_detections_review_target_coverage",
+      "low_sam_stability"
+    ],
+    "identity": "b1657fbff88974982c33a4295db238fe04fb077020db23258b027f9710dc6311",
+    "masks_sha256": "0492c7e490253124146ddb855ef26a23d08128446ac3b88f4e566db4bee369ff",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "a great white shark. a shark.",
+    "raw_labels": [
+      "a great white shark a shark",
+      "a great white shark a shark"
+    ],
+    "sam_predicted_ious": [
+      0.9455728530883789,
+      0.9510785937309265,
+      0.934328556060791
+    ],
+    "sam_stability_scores": [
+      0.8607683181762695,
+      0.9291032552719116,
+      0.9207444787025452
+    ],
+    "segmentation_seconds": 2.054210125001191,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01484850/n01484850_10036.JPEG",
+    "source_sha256": "903f9b7d398bdfbba3abe530e9c37ebee94a9e9c18389765d7d64249a206c580",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.14294259818731117,
+    "class_id": "n01484850",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 40990,
+        "soft_boundary_pixels": 3900,
+        "unchanged_foreground_pixels": 5286
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 40990,
+        "soft_boundary_pixels": 3900,
+        "unchanged_foreground_pixels": 5286
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 40990,
+        "soft_boundary_pixels": 3900,
+        "unchanged_foreground_pixels": 5286
+      }
+    },
+    "detection_seconds": 2.474183374999484,
+    "detections": [
+      {
+        "box_xyxy": [
+          39.43455123901367,
+          114.02239227294922,
+          489.72332763671875,
+          250.88754272460938
+        ],
+        "raw_index": 0,
+        "score": 0.41734421253204346
+      }
+    ],
+    "flags": [],
+    "identity": "db0c40c386d2007dc68e816cce783da023086da716c78f581bc165e26900aca4",
+    "masks_sha256": "9547e402461c2900a98ff0246c1cbef0576b0cc95e078dd2463757ff3a544e1b",
+    "original_size": [
+      500,
+      331
+    ],
+    "prompt": "a great white shark. a shark.",
+    "raw_labels": [
+      "a great white shark a shark",
+      "a great white shark a shark",
+      "a great white shark a shark"
+    ],
+    "sam_predicted_ious": [
+      0.9810237884521484,
+      0.9888052940368652,
+      0.8873156309127808
+    ],
+    "sam_stability_scores": [
+      0.9775795936584473,
+      0.9722627997398376,
+      0.8000335693359375
+    ],
+    "segmentation_seconds": 2.0799561669991817,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01484850/n01484850_10073.JPEG",
+    "source_sha256": "644a63c54b16a22ef8c86b1738e5721c05941b42a0295768c06767a9d6a6be12",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.061570809906273595,
+    "class_id": "n01494475",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45511,
+        "soft_boundary_pixels": 2980,
+        "unchanged_foreground_pixels": 1685
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45511,
+        "soft_boundary_pixels": 2980,
+        "unchanged_foreground_pixels": 1685
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45511,
+        "soft_boundary_pixels": 2980,
+        "unchanged_foreground_pixels": 1685
+      }
+    },
+    "detection_seconds": 2.0738991250000254,
+    "detections": [
+      {
+        "box_xyxy": [
+          174.1404266357422,
+          256.5508117675781,
+          899.7738647460938,
+          495.36602783203125
+        ],
+        "raw_index": 0,
+        "score": 0.43629875779151917
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "ca47f49ad5cf697dff6a413a3da5d7a554b07f039813516896dd8407021d47ed",
+    "masks_sha256": "dfdae153ed1891a68707c17f2a297e7276c9a33ef7b3aa4a75afa45021177fe0",
+    "original_size": [
+      989,
+      742
+    ],
+    "prompt": "a hammerhead shark. a shark.",
+    "raw_labels": [
+      "a hammerhead shark",
+      "a hammerhead shark",
+      "a hammerhead shark",
+      "a shark",
+      "a shark",
+      "a shark"
+    ],
+    "sam_predicted_ious": [
+      0.9229364991188049,
+      0.9241524934768677,
+      0.9178556203842163
+    ],
+    "sam_stability_scores": [
+      0.8142917156219482,
+      0.9161224961280823,
+      0.9346635937690735
+    ],
+    "segmentation_seconds": 2.034618417001184,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01494475/n01494475_10008.JPEG",
+    "source_sha256": "f40d6fda52403820963638ca2aa79d3a8703478846fc43e092ad2e25e9c7520c",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.0896,
+    "class_id": "n01494475",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44894,
+        "soft_boundary_pixels": 1539,
+        "unchanged_foreground_pixels": 3743
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44894,
+        "soft_boundary_pixels": 1539,
+        "unchanged_foreground_pixels": 3743
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44894,
+        "soft_boundary_pixels": 1539,
+        "unchanged_foreground_pixels": 3743
+      }
+    },
+    "detection_seconds": 2.075713749998613,
+    "detections": [
+      {
+        "box_xyxy": [
+          1.733332872390747,
+          122.0715560913086,
+          237.67080688476562,
+          264.7859191894531
+        ],
+        "raw_index": 0,
+        "score": 0.43665391206741333
+      }
+    ],
+    "flags": [],
+    "identity": "6423b1851efc2f16cfcb8039701cd9bb5f8b67823f9ad420af3cd0c098600137",
+    "masks_sha256": "4c56868fc7e3731e58b9daa179a265a02683f1b8b1b36c5e543a234b69998e94",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "a hammerhead shark. a shark.",
+    "raw_labels": [
+      "a hammerhead shark a shark",
+      "a hammerhead shark a shark"
+    ],
+    "sam_predicted_ious": [
+      1.0066144466400146,
+      0.9912430644035339,
+      0.8868975639343262
+    ],
+    "sam_stability_scores": [
+      0.9868117570877075,
+      0.9843610525131226,
+      0.6853865385055542
+    ],
+    "segmentation_seconds": 2.0509590420006134,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01494475/n01494475_10099.JPEG",
+    "source_sha256": "1b0d29071d6e75753248a28a83660c8c450352cbed19f6df7a70f5da8172d614",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.0898918918918919,
+    "class_id": "n01494475",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 43974,
+        "soft_boundary_pixels": 3169,
+        "unchanged_foreground_pixels": 3033
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 43974,
+        "soft_boundary_pixels": 3169,
+        "unchanged_foreground_pixels": 3033
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 43974,
+        "soft_boundary_pixels": 3169,
+        "unchanged_foreground_pixels": 3033
+      }
+    },
+    "detection_seconds": 2.2745468339999206,
+    "detections": [
+      {
+        "box_xyxy": [
+          79.2544937133789,
+          101.46575164794922,
+          391.6846618652344,
+          284.72772216796875
+        ],
+        "raw_index": 0,
+        "score": 0.4419354200363159
+      }
+    ],
+    "flags": [],
+    "identity": "01d1ba83bae6fbb2eee60680e79d3ce3b2d52bf8d8dd6d374a3ae8257f4d329b",
+    "masks_sha256": "75413bca9cd558c3176e2c3778cde7f3e3116595159bd08bf54286ad587cc1e6",
+    "original_size": [
+      500,
+      333
+    ],
+    "prompt": "a hammerhead shark. a shark.",
+    "raw_labels": [
+      "a hammerhead shark a shark",
+      "a hammerhead shark shark"
+    ],
+    "sam_predicted_ious": [
+      0.9745070934295654,
+      0.9859667420387268,
+      0.9593881368637085
+    ],
+    "sam_stability_scores": [
+      0.9608662128448486,
+      0.9558506011962891,
+      0.9437796473503113
+    ],
+    "segmentation_seconds": 2.021433416999571,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01494475/n01494475_10175.JPEG",
+    "source_sha256": "a9b260ae6a20669aa09dbba2b70bffd74b9d89ca2daade2170102e5fc88c6ccb",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.14414933333333332,
+    "class_id": "n01531178",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 40855,
+        "soft_boundary_pixels": 3958,
+        "unchanged_foreground_pixels": 5363
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 40855,
+        "soft_boundary_pixels": 3958,
+        "unchanged_foreground_pixels": 5363
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 40855,
+        "soft_boundary_pixels": 3958,
+        "unchanged_foreground_pixels": 5363
+      }
+    },
+    "detection_seconds": 2.1635188330001256,
+    "detections": [
+      {
+        "box_xyxy": [
+          7.563546180725098,
+          87.96452331542969,
+          413.2478942871094,
+          322.2861328125
+        ],
+        "raw_index": 0,
+        "score": 0.4099457263946533
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "33f11d70cd5564e9b654224e87ee976d1655248a3882a68b98b64e693b2b6bcd",
+    "masks_sha256": "bdefc8459749fc2b02bec64166fe120f0e2a8f4d5fb34abc3ffb8efb5708c98a",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "a goldfinch bird. a bird.",
+    "raw_labels": [
+      "a goldfinch bird a bird",
+      "a goldfinch bird",
+      "a goldfinch bird"
+    ],
+    "sam_predicted_ious": [
+      0.9595509171485901,
+      0.9645066857337952,
+      0.7896460294723511
+    ],
+    "sam_stability_scores": [
+      0.7600764632225037,
+      0.8936819434165955,
+      0.10012859106063843
+    ],
+    "segmentation_seconds": 2.0498416669997823,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01531178/n01531178_1006.JPEG",
+    "source_sha256": "85cf525a18a391452526e1379c7be18319a865f20d0e31283605d2daff0e16c5",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.0335036855036855,
+    "class_id": "n01531178",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 47825,
+        "soft_boundary_pixels": 1279,
+        "unchanged_foreground_pixels": 1072
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 47825,
+        "soft_boundary_pixels": 1279,
+        "unchanged_foreground_pixels": 1072
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 47825,
+        "soft_boundary_pixels": 1279,
+        "unchanged_foreground_pixels": 1072
+      }
+    },
+    "detection_seconds": 1.9458849170005124,
+    "detections": [
+      {
+        "box_xyxy": [
+          189.0142059326172,
+          117.74724578857422,
+          315.3905334472656,
+          263.4237976074219
+        ],
+        "raw_index": 0,
+        "score": 0.5356348752975464
+      },
+      {
+        "box_xyxy": [
+          156.70370483398438,
+          92.83809661865234,
+          352.5782165527344,
+          295.4373779296875
+        ],
+        "raw_index": 2,
+        "score": 0.2721572518348694
+      }
+    ],
+    "flags": [
+      "multiple_distinct_detections_review_target_coverage"
+    ],
+    "identity": "eeb851b000c15d9d1c50846fee8fad7cf757add9c3cd93e1907a7b07e8e57dff",
+    "masks_sha256": "ddc5045a8313a1b5fabae91c4b8d52c5cf6d76304555a93b6d33ce5cb9f034d3",
+    "original_size": [
+      500,
+      407
+    ],
+    "prompt": "a goldfinch bird. a bird.",
+    "raw_labels": [
+      "a goldfinch bird a bird",
+      "a goldfinch bird a bird",
+      "a goldfinch bird a bird",
+      "a bird"
+    ],
+    "sam_predicted_ious": [
+      0.9869110584259033,
+      0.9881642460823059,
+      0.935945987701416
+    ],
+    "sam_stability_scores": [
+      0.9695388674736023,
+      0.9650995135307312,
+      0.9027634263038635
+    ],
+    "segmentation_seconds": 2.0120657079987723,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01531178/n01531178_10090.JPEG",
+    "source_sha256": "295857e6c47b5296b16a0727b80a418533721ba4d088dd4b3001803ebe8df17f",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.16567623878974544,
+    "class_id": "n01531178",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 40408,
+        "soft_boundary_pixels": 2744,
+        "unchanged_foreground_pixels": 7024
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 40408,
+        "soft_boundary_pixels": 2744,
+        "unchanged_foreground_pixels": 7024
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 40408,
+        "soft_boundary_pixels": 2744,
+        "unchanged_foreground_pixels": 7024
+      }
+    },
+    "detection_seconds": 1.6660395420003624,
+    "detections": [
+      {
+        "box_xyxy": [
+          175.81570434570312,
+          62.867469787597656,
+          510.721923828125,
+          463.57012939453125
+        ],
+        "raw_index": 0,
+        "score": 0.40781041979789734
+      }
+    ],
+    "flags": [],
+    "identity": "74130b1cdd2a66857c3bbc56e572d71ac36e7d12f225b74ea38caa1daca29da5",
+    "masks_sha256": "22834bb3329485fb7a6ae1558d34d1789450c88807fba04b475df3a8572ef0e4",
+    "original_size": [
+      581,
+      570
+    ],
+    "prompt": "a goldfinch bird. a bird.",
+    "raw_labels": [
+      "a goldfinch bird a bird",
+      "a goldfinch bird",
+      "a bird"
+    ],
+    "sam_predicted_ious": [
+      0.9759740829467773,
+      0.973338782787323,
+      0.856855034828186
+    ],
+    "sam_stability_scores": [
+      0.9654151797294617,
+      0.895073652267456,
+      0.28129178285598755
+    ],
+    "segmentation_seconds": 2.017706000000544,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01531178/n01531178_1012.JPEG",
+    "source_sha256": "96f777b22e04130312c5ba82773d2a9cc8d811fceda83f51881d6bc8877af716",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.47400952233623816,
+    "class_id": "n01632777",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 21972,
+        "soft_boundary_pixels": 7937,
+        "unchanged_foreground_pixels": 20267
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 21972,
+        "soft_boundary_pixels": 7937,
+        "unchanged_foreground_pixels": 20267
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 21972,
+        "soft_boundary_pixels": 7937,
+        "unchanged_foreground_pixels": 20267
+      }
+    },
+    "detection_seconds": 2.2097437499996886,
+    "detections": [
+      {
+        "box_xyxy": [
+          3.6520631313323975,
+          50.5333251953125,
+          565.30908203125,
+          373.7999572753906
+        ],
+        "raw_index": 0,
+        "score": 0.4658421576023102
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "8137c9c6f8923d8e545354efd494aa7b5e99dfd8c073e57a8c8b59c8bb82e9fa",
+    "masks_sha256": "2c5108a33110eae6875407aa5183b8937c4ab43a65692714afac02e262d7147a",
+    "original_size": [
+      645,
+      451
+    ],
+    "prompt": "an axolotl. a salamander.",
+    "raw_labels": [
+      "an axolotl a salamander",
+      "an axolotl salamander",
+      "an axolotl"
+    ],
+    "sam_predicted_ious": [
+      0.9580621719360352,
+      0.9284786581993103,
+      0.803500771522522
+    ],
+    "sam_stability_scores": [
+      0.6828675270080566,
+      0.8455720543861389,
+      0.5146975517272949
+    ],
+    "segmentation_seconds": 2.0609455839985458,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01632777/n01632777_1000.JPEG",
+    "source_sha256": "4867cc17a62315096526cacebb2f3ce675c1b0c5020e517c9126ccef066362d4",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.124375,
+    "class_id": "n01632777",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 42314,
+        "soft_boundary_pixels": 3153,
+        "unchanged_foreground_pixels": 4709
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 42314,
+        "soft_boundary_pixels": 3153,
+        "unchanged_foreground_pixels": 4709
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 42314,
+        "soft_boundary_pixels": 3153,
+        "unchanged_foreground_pixels": 4709
+      }
+    },
+    "detection_seconds": 2.125859624999066,
+    "detections": [
+      {
+        "box_xyxy": [
+          190.20652770996094,
+          123.475341796875,
+          543.283935546875,
+          356.9408874511719
+        ],
+        "raw_index": 0,
+        "score": 0.4157320559024811
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "72fb7ebd0038b1994a4f9fd6beb57b5f8076c6422d7c0c78819e82ca6e33487e",
+    "masks_sha256": "c65ebb9613c69c10b584e19d677393253c960427a1d18c26c3889986f8aed1d9",
+    "original_size": [
+      640,
+      480
+    ],
+    "prompt": "an axolotl. a salamander.",
+    "raw_labels": [
+      "an axolotl a salamander",
+      "an axolotl a salamander",
+      "an axolotl",
+      "an axolotl a salamander"
+    ],
+    "sam_predicted_ious": [
+      0.9697095155715942,
+      0.9783614277839661,
+      0.9005907773971558
+    ],
+    "sam_stability_scores": [
+      0.9227298498153687,
+      0.9168342351913452,
+      0.862248957157135
+    ],
+    "segmentation_seconds": 2.028174458999274,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01632777/n01632777_10015.JPEG",
+    "source_sha256": "7a09818ff33c6a5d614e5aa373f3ebf11a45f2d8b31e4d22757b98f83a2bbefe",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.14267733333333332,
+    "class_id": "n01632777",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 41384,
+        "soft_boundary_pixels": 3221,
+        "unchanged_foreground_pixels": 5571
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 41384,
+        "soft_boundary_pixels": 3221,
+        "unchanged_foreground_pixels": 5571
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 41384,
+        "soft_boundary_pixels": 3221,
+        "unchanged_foreground_pixels": 5571
+      }
+    },
+    "detection_seconds": 2.1225638750001963,
+    "detections": [
+      {
+        "box_xyxy": [
+          93.64493560791016,
+          97.80193328857422,
+          358.26312255859375,
+          310.473876953125
+        ],
+        "raw_index": 0,
+        "score": 0.45556652545928955
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "f1b24b04883b5f10b79b2058b2713d1df85a63a4a50156759103c48d9401b617",
+    "masks_sha256": "0ebdfc15caa9b703959d4526c60200247b1af9b0b4665fc045803cbc99ca1f28",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "an axolotl. a salamander.",
+    "raw_labels": [
+      "an axolotl a salamander"
+    ],
+    "sam_predicted_ious": [
+      0.9841684103012085,
+      0.9015172123908997,
+      0.8195809125900269
+    ],
+    "sam_stability_scores": [
+      0.9499197602272034,
+      0.777466356754303,
+      0.6395977735519409
+    ],
+    "segmentation_seconds": 2.0221187919996737,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01632777/n01632777_10021.JPEG",
+    "source_sha256": "00acf44945b4922abfc86e51214494f151905b5266f073e660666dda0b045056",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.23781140645345053,
+    "class_id": "n01665541",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 35902,
+        "soft_boundary_pixels": 4507,
+        "unchanged_foreground_pixels": 9767
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 35902,
+        "soft_boundary_pixels": 4507,
+        "unchanged_foreground_pixels": 9767
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 35902,
+        "soft_boundary_pixels": 4507,
+        "unchanged_foreground_pixels": 9767
+      }
+    },
+    "detection_seconds": 2.146242541999527,
+    "detections": [
+      {
+        "box_xyxy": [
+          286.68865966796875,
+          151.06210327148438,
+          1976.884033203125,
+          1324.028076171875
+        ],
+        "raw_index": 0,
+        "score": 0.6066958904266357
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "6c5fa3d08c158d79b88c8acc736907126d5644142cd3f1d68814b1f0ce845b79",
+    "masks_sha256": "d80e57215083da7ae9f67df481092c48616cb9068e9536ea6e8845f24f6e7861",
+    "original_size": [
+      2048,
+      1536
+    ],
+    "prompt": "a leatherback sea turtle. a turtle.",
+    "raw_labels": [
+      "a leatherback sea turtle"
+    ],
+    "sam_predicted_ious": [
+      0.9654456377029419,
+      0.9649112820625305,
+      0.9355829954147339
+    ],
+    "sam_stability_scores": [
+      0.8872362971305847,
+      0.9496934413909912,
+      0.6906578540802002
+    ],
+    "segmentation_seconds": 2.1182942080013163,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01665541/n01665541_10021.JPEG",
+    "source_sha256": "0bf5d450d23d703ed443ec30d53de86f705d78406ef350b9584cdc9e35f3da6c",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.20820266666666667,
+    "class_id": "n01665541",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 38449,
+        "soft_boundary_pixels": 2551,
+        "unchanged_foreground_pixels": 9176
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 38449,
+        "soft_boundary_pixels": 2551,
+        "unchanged_foreground_pixels": 9176
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 38449,
+        "soft_boundary_pixels": 2551,
+        "unchanged_foreground_pixels": 9176
+      }
+    },
+    "detection_seconds": 2.4233818749999045,
+    "detections": [
+      {
+        "box_xyxy": [
+          1.2767016887664795,
+          91.89429473876953,
+          334.85205078125,
+          264.600830078125
+        ],
+        "raw_index": 0,
+        "score": 0.5219163298606873
+      }
+    ],
+    "flags": [],
+    "identity": "03ec3bcd7556ecf416cd0ecd3fd0fea3a8b0a8414cf7d645eed8620ecb45af65",
+    "masks_sha256": "469de9bbcbd1e3f7fb65be7b5214b0af0a76bf3de3faddf49817dd21931da211",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "a leatherback sea turtle. a turtle.",
+    "raw_labels": [
+      "a leatherback sea turtle a turtle",
+      "a leatherback sea turtle a turtle"
+    ],
+    "sam_predicted_ious": [
+      1.0006428956985474,
+      0.9932364821434021,
+      0.8850952386856079
+    ],
+    "sam_stability_scores": [
+      0.985741913318634,
+      0.9705190658569336,
+      0.07108204811811447
+    ],
+    "segmentation_seconds": 2.069391834000271,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01665541/n01665541_10037.JPEG",
+    "source_sha256": "da7da4089b0bc3a68823daabbd7e25f3e136d356eb3f2b9c04399916ab6d1867",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.16144,
+    "class_id": "n01665541",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 39936,
+        "soft_boundary_pixels": 4221,
+        "unchanged_foreground_pixels": 6019
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 39936,
+        "soft_boundary_pixels": 4221,
+        "unchanged_foreground_pixels": 6019
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 39936,
+        "soft_boundary_pixels": 4221,
+        "unchanged_foreground_pixels": 6019
+      }
+    },
+    "detection_seconds": 2.1624751660001493,
+    "detections": [
+      {
+        "box_xyxy": [
+          7.280934810638428,
+          133.4697723388672,
+          342.7447509765625,
+          423.3236999511719
+        ],
+        "raw_index": 0,
+        "score": 0.5330855250358582
+      }
+    ],
+    "flags": [],
+    "identity": "67d7f43603d22d757e1cfa69805f1e12d1d65198e916b9f395ce891c0ee971e9",
+    "masks_sha256": "d1311ad8c6cc2b52727a4cbca244ccee9b609040bb13d560dfc9ae988d2503e2",
+    "original_size": [
+      375,
+      500
+    ],
+    "prompt": "a leatherback sea turtle. a turtle.",
+    "raw_labels": [
+      "a leatherback sea turtle",
+      "a turtle",
+      "a leatherback sea turtle",
+      "a turtle"
+    ],
+    "sam_predicted_ious": [
+      0.9801692962646484,
+      0.9862751364707947,
+      0.884453535079956
+    ],
+    "sam_stability_scores": [
+      0.8970010876655579,
+      0.9562062621116638,
+      0.7133462429046631
+    ],
+    "segmentation_seconds": 2.019364667001355,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01665541/n01665541_1006.JPEG",
+    "source_sha256": "038b8fb85e2ba1a2201dd6465ead55619893adeb73cc4b9e1ab8b693a198fc33",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.07745945945945946,
+    "class_id": "n01687978",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44178,
+        "soft_boundary_pixels": 3989,
+        "unchanged_foreground_pixels": 2009
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44178,
+        "soft_boundary_pixels": 3989,
+        "unchanged_foreground_pixels": 2009
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44178,
+        "soft_boundary_pixels": 3989,
+        "unchanged_foreground_pixels": 2009
+      }
+    },
+    "detection_seconds": 2.43090491699877,
+    "detections": [
+      {
+        "box_xyxy": [
+          140.83514404296875,
+          93.0509033203125,
+          461.5472412109375,
+          326.2506103515625
+        ],
+        "raw_index": 0,
+        "score": 0.3866960406303406
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "a84926e0ad0f43dd81840a0f95e5c0f79a3911bbc1146e7e9953ebc73e1dfdd3",
+    "masks_sha256": "970243f87e6bf0ad9a7e39dac540903bb7f352ca020ccc831c2ce3ff85227668",
+    "original_size": [
+      500,
+      333
+    ],
+    "prompt": "an agama lizard. a lizard.",
+    "raw_labels": [
+      "an agama lizard a lizard",
+      "an agama lizard a lizard",
+      "an agama lizard a lizard"
+    ],
+    "sam_predicted_ious": [
+      0.9491540193557739,
+      0.9502620100975037,
+      0.9502531290054321
+    ],
+    "sam_stability_scores": [
+      0.6494194865226746,
+      0.889235258102417,
+      0.9020378589630127
+    ],
+    "segmentation_seconds": 2.178593250000631,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01687978/n01687978_10013.JPEG",
+    "source_sha256": "f4c1846374aecb5e9aad94880a3757760f737a409e3866fcfcaa00490e990bde",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.07542933333333333,
+    "class_id": "n01687978",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44621,
+        "soft_boundary_pixels": 3428,
+        "unchanged_foreground_pixels": 2127
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44621,
+        "soft_boundary_pixels": 3428,
+        "unchanged_foreground_pixels": 2127
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44621,
+        "soft_boundary_pixels": 3428,
+        "unchanged_foreground_pixels": 2127
+      }
+    },
+    "detection_seconds": 2.24494041700018,
+    "detections": [
+      {
+        "box_xyxy": [
+          2.758145332336426,
+          97.42788696289062,
+          375.8643493652344,
+          269.6636047363281
+        ],
+        "raw_index": 0,
+        "score": 0.3893183469772339
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "d278db1b59144da1f7e41b6d0e0b8e0cae75ba69a126cea6fb51dc29dcee8d1c",
+    "masks_sha256": "3b36fbc0054a1c542e218b99b74b1f288aa59b0045f16cb966e3d3e6dac6d125",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "an agama lizard. a lizard.",
+    "raw_labels": [
+      "an agama lizard a lizard",
+      "an agama lizard a lizard"
+    ],
+    "sam_predicted_ious": [
+      0.9527214169502258,
+      0.9573248028755188,
+      0.9372473955154419
+    ],
+    "sam_stability_scores": [
+      0.8475261926651001,
+      0.9313920736312866,
+      0.8883105516433716
+    ],
+    "segmentation_seconds": 2.235275916998944,
+    "selected_candidate": 1,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01687978/n01687978_1006.JPEG",
+    "source_sha256": "2c8e85decea85d42202ee32f3fd939bbc6ec5be980fda2a976cfdda47c427771",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.38995795795795796,
+    "class_id": "n01687978",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 28300,
+        "soft_boundary_pixels": 4661,
+        "unchanged_foreground_pixels": 17215
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 28300,
+        "soft_boundary_pixels": 4661,
+        "unchanged_foreground_pixels": 17215
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 28300,
+        "soft_boundary_pixels": 4661,
+        "unchanged_foreground_pixels": 17215
+      }
+    },
+    "detection_seconds": 2.404607208998641,
+    "detections": [
+      {
+        "box_xyxy": [
+          17.030656814575195,
+          14.976391792297363,
+          496.8258056640625,
+          287.51300048828125
+        ],
+        "raw_index": 0,
+        "score": 0.43322646617889404
+      }
+    ],
+    "flags": [],
+    "identity": "7498ae5051744e0970568bf4a731ca91a0a1af0921ae0cd969326e45ab24f7a0",
+    "masks_sha256": "1fd8d9fbff52a839d14fa96ccbf7bcb60cba53f1a39fffd393c345e5df33a578",
+    "original_size": [
+      500,
+      333
+    ],
+    "prompt": "an agama lizard. a lizard.",
+    "raw_labels": [
+      "an agama lizard a lizard",
+      "an agama lizard a lizard"
+    ],
+    "sam_predicted_ious": [
+      1.0046985149383545,
+      0.9456459879875183,
+      0.7417898178100586
+    ],
+    "sam_stability_scores": [
+      0.9502584338188171,
+      0.8872865438461304,
+      0.15800677239894867
+    ],
+    "segmentation_seconds": 2.02848508399984,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01687978/n01687978_10071.JPEG",
+    "source_sha256": "1d19190ebe7870deaa0a931418731140054a2214d7b8b67d9281f3a9f4ff8dff",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.05125333333333333,
+    "class_id": "n01695060",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 46794,
+        "soft_boundary_pixels": 1585,
+        "unchanged_foreground_pixels": 1797
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 46794,
+        "soft_boundary_pixels": 1585,
+        "unchanged_foreground_pixels": 1797
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 46794,
+        "soft_boundary_pixels": 1585,
+        "unchanged_foreground_pixels": 1797
+      }
+    },
+    "detection_seconds": 2.1783366670006217,
+    "detections": [
+      {
+        "box_xyxy": [
+          183.46583557128906,
+          134.47305297851562,
+          364.09539794921875,
+          238.1467742919922
+        ],
+        "raw_index": 0,
+        "score": 0.44592639803886414
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "9cfdb3722104cd597c44a844a1632537a20fb92fd5334a01c80d52e1565022a4",
+    "masks_sha256": "30437990c3c06d72287c90458a5a4437f6956d5e7d80cac7a028e7a20a50f1ce",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "a komodo dragon. a lizard.",
+    "raw_labels": [
+      "a komodo dragon a lizard",
+      "a komodo dragon a lizard"
+    ],
+    "sam_predicted_ious": [
+      0.9697158336639404,
+      0.9500842690467834,
+      0.8178468942642212
+    ],
+    "sam_stability_scores": [
+      0.9332864284515381,
+      0.899919867515564,
+      0.776907742023468
+    ],
+    "segmentation_seconds": 2.020229957999618,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01695060/n01695060_10009.JPEG",
+    "source_sha256": "3491ad08a90419ef41ac6bab32d69deeb6a5b66e75a0b504f91c73cd00d6efb0",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.2381921921921922,
+    "class_id": "n01695060",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 35690,
+        "soft_boundary_pixels": 5196,
+        "unchanged_foreground_pixels": 9290
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 35690,
+        "soft_boundary_pixels": 5196,
+        "unchanged_foreground_pixels": 9290
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 35690,
+        "soft_boundary_pixels": 5196,
+        "unchanged_foreground_pixels": 9290
+      }
+    },
+    "detection_seconds": 2.4949851660003333,
+    "detections": [
+      {
+        "box_xyxy": [
+          2.073094367980957,
+          3.4437973499298096,
+          428.3966369628906,
+          311.1754455566406
+        ],
+        "raw_index": 1,
+        "score": 0.40561407804489136
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "4007699623fb041c8d0508bc8dea8bc4132266da2002ddf008f841d07a2937c5",
+    "masks_sha256": "e7ffb7c4d4f8b6af8fc8272ebf405e8395dadb6201273517ec00c5b153ea0907",
+    "original_size": [
+      500,
+      333
+    ],
+    "prompt": "a komodo dragon. a lizard.",
+    "raw_labels": [
+      "a komodo dragon a lizard",
+      "a komodo dragon lizard",
+      "a lizard",
+      "a komodo dragon"
+    ],
+    "sam_predicted_ious": [
+      0.9832491278648376,
+      0.9713613986968994,
+      0.6659820079803467
+    ],
+    "sam_stability_scores": [
+      0.7555317282676697,
+      0.8966976404190063,
+      0.0
+    ],
+    "segmentation_seconds": 2.314337666000938,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01695060/n01695060_10022.JPEG",
+    "source_sha256": "4864d4046853722f35a30d6652bc45362432e0090cd89d8ac2b4900b2f5e3c31",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.48736438356164385,
+    "class_id": "n01695060",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 21575,
+        "soft_boundary_pixels": 8429,
+        "unchanged_foreground_pixels": 20172
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 21575,
+        "soft_boundary_pixels": 8429,
+        "unchanged_foreground_pixels": 20172
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 21575,
+        "soft_boundary_pixels": 8429,
+        "unchanged_foreground_pixels": 20172
+      }
+    },
+    "detection_seconds": 2.23109604199999,
+    "detections": [
+      {
+        "box_xyxy": [
+          73.15021514892578,
+          29.3253173828125,
+          496.7943420410156,
+          357.69061279296875
+        ],
+        "raw_index": 0,
+        "score": 0.3626890778541565
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "42e3aed5b8bdf52d81783824bb8e736dc93f69757259ccd0b8debb414d8e5eb7",
+    "masks_sha256": "1e0699e56c7dc0405f1394233d1861534c4585eab02c4be897a1610add227a1f",
+    "original_size": [
+      500,
+      365
+    ],
+    "prompt": "a komodo dragon. a lizard.",
+    "raw_labels": [
+      "a komodo dragon a lizard",
+      "a lizard",
+      "a komodo dragon"
+    ],
+    "sam_predicted_ious": [
+      0.9621975421905518,
+      0.9488620162010193,
+      0.898877739906311
+    ],
+    "sam_stability_scores": [
+      0.6985183358192444,
+      0.7795608639717102,
+      0.8387491106987
+    ],
+    "segmentation_seconds": 2.4767002079988742,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01695060/n01695060_10028.JPEG",
+    "source_sha256": "eda93b76cec14a9cb0fec81d3d73258aff7dab2469a67197eb03678ddba1c199",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.06683132530120482,
+    "class_id": "n01749939",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45758,
+        "soft_boundary_pixels": 2086,
+        "unchanged_foreground_pixels": 2332
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45758,
+        "soft_boundary_pixels": 2086,
+        "unchanged_foreground_pixels": 2332
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45758,
+        "soft_boundary_pixels": 2086,
+        "unchanged_foreground_pixels": 2332
+      }
+    },
+    "detection_seconds": 2.5468058330006897,
+    "detections": [
+      {
+        "box_xyxy": [
+          198.63287353515625,
+          126.23573303222656,
+          498.0328674316406,
+          251.1707305908203
+        ],
+        "raw_index": 0,
+        "score": 0.5428887009620667
+      }
+    ],
+    "flags": [],
+    "identity": "933ac2bab209131788b012c225a87f0628484e998f3fd6faacd8bb49c6701fab",
+    "masks_sha256": "515241392ee173aa6e0323db4e7517134a90700eeb3bc7a61ec837db95bcf1cb",
+    "original_size": [
+      500,
+      332
+    ],
+    "prompt": "a green mamba snake. a snake.",
+    "raw_labels": [
+      "a green mamba snake a snake",
+      "a green mamba snake a snake"
+    ],
+    "sam_predicted_ious": [
+      0.9913555383682251,
+      0.9843421578407288,
+      0.9206081628799438
+    ],
+    "sam_stability_scores": [
+      0.9721604585647583,
+      0.970217764377594,
+      0.8331531286239624
+    ],
+    "segmentation_seconds": 2.2210308329995314,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01749939/n01749939_10048.JPEG",
+    "source_sha256": "f1b762019ccf22ea91ae798897a59f5ceccd91c9da1baa8de771a03771e3f634",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.35341222426470587,
+    "class_id": "n01749939",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 30387,
+        "soft_boundary_pixels": 4334,
+        "unchanged_foreground_pixels": 15455
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 30387,
+        "soft_boundary_pixels": 4334,
+        "unchanged_foreground_pixels": 15455
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 30387,
+        "soft_boundary_pixels": 4334,
+        "unchanged_foreground_pixels": 15455
+      }
+    },
+    "detection_seconds": 2.4321789999994508,
+    "detections": [
+      {
+        "box_xyxy": [
+          1.96563720703125,
+          1.3332319259643555,
+          428.09619140625,
+          290.5000915527344
+        ],
+        "raw_index": 0,
+        "score": 0.44217798113822937
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "00fe463e534acae884bf06303944386acfa1df3cb7310a03ff9c9a34f6c116a5",
+    "masks_sha256": "4ce795ab3a37ab20fed366efe149fa5100b6b18e61fde46621dc6a8ca244f952",
+    "original_size": [
+      512,
+      340
+    ],
+    "prompt": "a green mamba snake. a snake.",
+    "raw_labels": [
+      "a green mamba snake a snake",
+      "a green mamba snake a snake"
+    ],
+    "sam_predicted_ious": [
+      0.9983311891555786,
+      0.9796085357666016,
+      0.6646068096160889
+    ],
+    "sam_stability_scores": [
+      0.9449698328971863,
+      0.9321632385253906,
+      0.005269678775221109
+    ],
+    "segmentation_seconds": 2.026968084001055,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01749939/n01749939_10066.JPEG",
+    "source_sha256": "94e9f5db56a1bb11ad81b57e50c60ce7b1b56ad7a61b5949a1d5c153b20b6391",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.063671875,
+    "class_id": "n01749939",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45502,
+        "soft_boundary_pixels": 2843,
+        "unchanged_foreground_pixels": 1831
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45502,
+        "soft_boundary_pixels": 2843,
+        "unchanged_foreground_pixels": 1831
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45502,
+        "soft_boundary_pixels": 2843,
+        "unchanged_foreground_pixels": 1831
+      }
+    },
+    "detection_seconds": 2.516230999999607,
+    "detections": [
+      {
+        "box_xyxy": [
+          23.109054565429688,
+          34.002174377441406,
+          172.2291717529297,
+          96.96746063232422
+        ],
+        "raw_index": 0,
+        "score": 0.538792073726654
+      }
+    ],
+    "flags": [],
+    "identity": "e856db6071cd1bafe890bcaf569139640bb9329c5e64f43ba158fd193c155d4e",
+    "masks_sha256": "e9d7f5210926006b34f3d21a32f664e101e156d76425689aecb8d60c4954d5df",
+    "original_size": [
+      240,
+      160
+    ],
+    "prompt": "a green mamba snake. a snake.",
+    "raw_labels": [
+      "a green mamba snake a snake",
+      "a green mamba snake a snake"
+    ],
+    "sam_predicted_ious": [
+      0.9766886234283447,
+      0.9737505912780762,
+      0.9394888877868652
+    ],
+    "sam_stability_scores": [
+      0.9590361714363098,
+      0.9126172065734863,
+      0.7055000066757202
+    ],
+    "segmentation_seconds": 1.9869536250007513,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01749939/n01749939_10126.JPEG",
+    "source_sha256": "8acba956ea6d53c57b99559bf289c0072a052726cceec63a09383ae7dbcbbe84",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.2167,
+    "class_id": "n01775062",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 37319,
+        "soft_boundary_pixels": 3911,
+        "unchanged_foreground_pixels": 8946
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 37319,
+        "soft_boundary_pixels": 3911,
+        "unchanged_foreground_pixels": 8946
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 37319,
+        "soft_boundary_pixels": 3911,
+        "unchanged_foreground_pixels": 8946
+      }
+    },
+    "detection_seconds": 2.5700851250003325,
+    "detections": [
+      {
+        "box_xyxy": [
+          3.4061074256896973,
+          115.0003433227539,
+          347.5912780761719,
+          311.3513488769531
+        ],
+        "raw_index": 0,
+        "score": 0.3435819149017334
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "9578a636e2a9b886b563263af80706bf76c88e1aa8474a421ee4c3d3a77696a8",
+    "masks_sha256": "3765ac3a87a433b526b75dd388f97d6b245d107ca31947506cc9f29dfeca9e7b",
+    "original_size": [
+      500,
+      340
+    ],
+    "prompt": "a wolf spider. a spider.",
+    "raw_labels": [
+      "a wolf spider a spider",
+      "a wolf spider a spider",
+      "a wolf spider a spider"
+    ],
+    "sam_predicted_ious": [
+      0.9550396203994751,
+      0.9248532652854919,
+      0.8451849222183228
+    ],
+    "sam_stability_scores": [
+      0.8355039358139038,
+      0.8407267928123474,
+      0.7028472423553467
+    ],
+    "segmentation_seconds": 2.0296966249989055,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01775062/n01775062_10090.JPEG",
+    "source_sha256": "264c9eaea82d2f8152e663410bb4e127cb8062b104313329cfb9ec1191364e95",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.076304,
+    "class_id": "n01775062",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44190,
+        "soft_boundary_pixels": 4363,
+        "unchanged_foreground_pixels": 1623
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44190,
+        "soft_boundary_pixels": 4363,
+        "unchanged_foreground_pixels": 1623
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 44190,
+        "soft_boundary_pixels": 4363,
+        "unchanged_foreground_pixels": 1623
+      }
+    },
+    "detection_seconds": 2.32894133300033,
+    "detections": [
+      {
+        "box_xyxy": [
+          49.037723541259766,
+          140.59974670410156,
+          356.3898010253906,
+          302.6065979003906
+        ],
+        "raw_index": 0,
+        "score": 0.4660058617591858
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "a16c5da18a6714b6a03c3fb1a447670715d6dd14c2245f04ab33cd45e87e05ef",
+    "masks_sha256": "b3883e0d93f2b99292d9f197588933c0744c1587d55eb300baea4c3d627df674",
+    "original_size": [
+      500,
+      375
+    ],
+    "prompt": "a wolf spider. a spider.",
+    "raw_labels": [
+      "a wolf spider a spider",
+      "a wolf spider a spider"
+    ],
+    "sam_predicted_ious": [
+      0.9507965445518494,
+      0.8599110245704651,
+      0.8465430736541748
+    ],
+    "sam_stability_scores": [
+      0.8122495412826538,
+      0.7960900664329529,
+      0.8426382541656494
+    ],
+    "segmentation_seconds": 2.338146083000538,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01775062/n01775062_1011.JPEG",
+    "source_sha256": "1842daa2fff007cd57e9a12b54407a078d429bfcf08b7b587fd6c985ca931e48",
+    "split": "train"
+  },
+  {
+    "area_fraction": 0.268685,
+    "class_id": "n01775062",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 33279,
+        "soft_boundary_pixels": 6966,
+        "unchanged_foreground_pixels": 9931
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 33279,
+        "soft_boundary_pixels": 6966,
+        "unchanged_foreground_pixels": 9931
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 33279,
+        "soft_boundary_pixels": 6966,
+        "unchanged_foreground_pixels": 9931
+      }
+    },
+    "detection_seconds": 2.174411209000027,
+    "detections": [
+      {
+        "box_xyxy": [
+          61.519535064697266,
+          12.826037406921387,
+          435.5710754394531,
+          396.10626220703125
+        ],
+        "raw_index": 0,
+        "score": 0.3365965187549591
+      }
+    ],
+    "flags": [
+      "low_sam_stability"
+    ],
+    "identity": "636faaaee668b8fc7c7344a35a9a753c0651b07f2951267ba911b8288f0db665",
+    "masks_sha256": "ab538d4276881743544aeb82b4995f14da1a547af43dfff4ef46e0e68344ee22",
+    "original_size": [
+      500,
+      400
+    ],
+    "prompt": "a wolf spider. a spider.",
+    "raw_labels": [
+      "a wolf spider a spider",
+      "a wolf spider a spider"
+    ],
+    "sam_predicted_ious": [
+      0.9150980710983276,
+      0.8702906966209412,
+      0.6469289064407349
+    ],
+    "sam_stability_scores": [
+      0.792926549911499,
+      0.7674919366836548,
+      0.36528053879737854
+    ],
+    "segmentation_seconds": 2.1860672080001677,
+    "selected_candidate": 0,
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01775062/n01775062_10129.JPEG",
+    "source_sha256": "ea3a5345a2972fdcfe251de0f3c7421c41ca34c574323990e3a54c55321cf50e",
+    "split": "train"
+  }
+]

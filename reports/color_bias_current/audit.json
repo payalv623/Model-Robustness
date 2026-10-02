@@ -1,0 +1,1924 @@
+{
+  "audited_utc": "2026-09-30T08:16:13.958605+00:00",
+  "checks": [
+    "Frozen class IDs, indices, groups and source counts",
+    "Source SHA256, exact duplicate split leakage and original split preservation",
+    "Complete expected PNG file set; no extras",
+    "Full PNG verification and decoding; 224x224 RGB",
+    "Every pixel compared with independently computed transformation",
+    "Every manifest row checked against frozen source, label, condition, assignment and output hash",
+    "Per-class and per-split condition ratios and output pairing"
+  ],
+  "config": {
+    "assignment": "Per-class per-split SHA256 ordering; floor(n * ratio); reversed swaps each correlated assignment",
+    "classes_metadata_sha256": "fe5d493b66c78f52a1c478c19b4962c72afbcf732d042832a2ad720cbb9f5466",
+    "correlation": "9/10",
+    "image_size": [
+      224,
+      224
+    ],
+    "mode_definitions": {
+      "all_blue": "Every source blue, paired with the identical all_red source",
+      "all_red": "Every source red, paired with the identical all_blue source",
+      "correlated": "Group A majority red; Group B majority blue",
+      "counterfactual": "Every image receives the group-opposite tint; 0% aligned",
+      "grayscale": "Grayscale from untinted original; removes natural color too; RGB channels retained",
+      "original": "Untinted RGB, standardized exactly like tinted images",
+      "randomized": "Randomized assignment with exact half aligned within each class/split when n is even",
+      "reversed": "Swap red and blue for each correlated source; 10% aligned at ratio 90%"
+    },
+    "modes": [
+      "original",
+      "correlated",
+      "randomized",
+      "reversed",
+      "counterfactual",
+      "grayscale",
+      "all_red",
+      "all_blue"
+    ],
+    "numpy_version": "2.4.6",
+    "original_weight": 0.7,
+    "pillow_version": "12.3.0",
+    "resize": "Pillow BICUBIC direct resize; no crop",
+    "schema_version": 1,
+    "seed": 42,
+    "split_manifest_sha256": "61591c06294ed7659446e90cd970088cf8a0cff834feed4e8816bc842454f6e8",
+    "storage_variants": [
+      "original",
+      "red",
+      "blue",
+      "grayscale"
+    ],
+    "template": "color",
+    "tint_weight": 0.3
+  },
+  "distributions": {
+    "test/all_blue": {
+      "n01440764": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01484850": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01494475": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01531178": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01632777": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01665541": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01687978": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01695060": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01749939": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01775062": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      }
+    },
+    "test/all_red": {
+      "n01440764": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01484850": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01494475": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01531178": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01632777": {
+        "aligned": 50,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01665541": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01687978": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01695060": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01749939": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01775062": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      }
+    },
+    "test/correlated": {
+      "n01440764": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      },
+      "n01484850": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      },
+      "n01494475": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      },
+      "n01531178": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      },
+      "n01632777": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      },
+      "n01665541": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      },
+      "n01687978": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      },
+      "n01695060": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      },
+      "n01749939": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      },
+      "n01775062": {
+        "aligned": 45,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      }
+    },
+    "test/counterfactual": {
+      "n01440764": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01484850": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01494475": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01531178": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01632777": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "blue": 50
+        }
+      },
+      "n01665541": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01687978": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01695060": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01749939": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      },
+      "n01775062": {
+        "aligned": 0,
+        "total": 50,
+        "variants": {
+          "red": 50
+        }
+      }
+    },
+    "test/grayscale": {
+      "n01440764": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      },
+      "n01484850": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      },
+      "n01494475": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      },
+      "n01531178": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      },
+      "n01632777": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      },
+      "n01665541": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      },
+      "n01687978": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      },
+      "n01695060": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      },
+      "n01749939": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      },
+      "n01775062": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "grayscale": 50
+        }
+      }
+    },
+    "test/original": {
+      "n01440764": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      },
+      "n01484850": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      },
+      "n01494475": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      },
+      "n01531178": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      },
+      "n01632777": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      },
+      "n01665541": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      },
+      "n01687978": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      },
+      "n01695060": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      },
+      "n01749939": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      },
+      "n01775062": {
+        "aligned": null,
+        "total": 50,
+        "variants": {
+          "original": 50
+        }
+      }
+    },
+    "test/randomized": {
+      "n01440764": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      },
+      "n01484850": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      },
+      "n01494475": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      },
+      "n01531178": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      },
+      "n01632777": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      },
+      "n01665541": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      },
+      "n01687978": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      },
+      "n01695060": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      },
+      "n01749939": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      },
+      "n01775062": {
+        "aligned": 25,
+        "total": 50,
+        "variants": {
+          "blue": 25,
+          "red": 25
+        }
+      }
+    },
+    "test/reversed": {
+      "n01440764": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      },
+      "n01484850": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      },
+      "n01494475": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      },
+      "n01531178": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      },
+      "n01632777": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 45,
+          "red": 5
+        }
+      },
+      "n01665541": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      },
+      "n01687978": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      },
+      "n01695060": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      },
+      "n01749939": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      },
+      "n01775062": {
+        "aligned": 5,
+        "total": 50,
+        "variants": {
+          "blue": 5,
+          "red": 45
+        }
+      }
+    },
+    "train/all_blue": {
+      "n01440764": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01484850": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01494475": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01531178": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01632777": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01665541": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01687978": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01695060": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01749939": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01775062": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      }
+    },
+    "train/all_red": {
+      "n01440764": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01484850": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01494475": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01531178": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01632777": {
+        "aligned": 1040,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01665541": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01687978": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01695060": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01749939": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01775062": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      }
+    },
+    "train/correlated": {
+      "n01440764": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      },
+      "n01484850": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      },
+      "n01494475": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      },
+      "n01531178": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      },
+      "n01632777": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      },
+      "n01665541": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      },
+      "n01687978": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      },
+      "n01695060": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      },
+      "n01749939": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      },
+      "n01775062": {
+        "aligned": 936,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      }
+    },
+    "train/counterfactual": {
+      "n01440764": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01484850": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01494475": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01531178": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01632777": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "blue": 1040
+        }
+      },
+      "n01665541": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01687978": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01695060": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01749939": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      },
+      "n01775062": {
+        "aligned": 0,
+        "total": 1040,
+        "variants": {
+          "red": 1040
+        }
+      }
+    },
+    "train/grayscale": {
+      "n01440764": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      },
+      "n01484850": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      },
+      "n01494475": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      },
+      "n01531178": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      },
+      "n01632777": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      },
+      "n01665541": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      },
+      "n01687978": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      },
+      "n01695060": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      },
+      "n01749939": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      },
+      "n01775062": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "grayscale": 1040
+        }
+      }
+    },
+    "train/original": {
+      "n01440764": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      },
+      "n01484850": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      },
+      "n01494475": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      },
+      "n01531178": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      },
+      "n01632777": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      },
+      "n01665541": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      },
+      "n01687978": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      },
+      "n01695060": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      },
+      "n01749939": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      },
+      "n01775062": {
+        "aligned": null,
+        "total": 1040,
+        "variants": {
+          "original": 1040
+        }
+      }
+    },
+    "train/randomized": {
+      "n01440764": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      },
+      "n01484850": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      },
+      "n01494475": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      },
+      "n01531178": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      },
+      "n01632777": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      },
+      "n01665541": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      },
+      "n01687978": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      },
+      "n01695060": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      },
+      "n01749939": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      },
+      "n01775062": {
+        "aligned": 520,
+        "total": 1040,
+        "variants": {
+          "blue": 520,
+          "red": 520
+        }
+      }
+    },
+    "train/reversed": {
+      "n01440764": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      },
+      "n01484850": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      },
+      "n01494475": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      },
+      "n01531178": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      },
+      "n01632777": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 936,
+          "red": 104
+        }
+      },
+      "n01665541": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      },
+      "n01687978": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      },
+      "n01695060": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      },
+      "n01749939": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      },
+      "n01775062": {
+        "aligned": 104,
+        "total": 1040,
+        "variants": {
+          "blue": 104,
+          "red": 936
+        }
+      }
+    },
+    "validation/all_blue": {
+      "n01440764": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01484850": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01494475": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01531178": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01632777": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01665541": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01687978": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01695060": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01749939": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01775062": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      }
+    },
+    "validation/all_red": {
+      "n01440764": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01484850": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01494475": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01531178": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01632777": {
+        "aligned": 260,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01665541": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01687978": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01695060": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01749939": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01775062": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      }
+    },
+    "validation/correlated": {
+      "n01440764": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      },
+      "n01484850": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      },
+      "n01494475": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      },
+      "n01531178": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      },
+      "n01632777": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      },
+      "n01665541": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      },
+      "n01687978": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      },
+      "n01695060": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      },
+      "n01749939": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      },
+      "n01775062": {
+        "aligned": 234,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      }
+    },
+    "validation/counterfactual": {
+      "n01440764": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01484850": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01494475": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01531178": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01632777": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "blue": 260
+        }
+      },
+      "n01665541": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01687978": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01695060": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01749939": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      },
+      "n01775062": {
+        "aligned": 0,
+        "total": 260,
+        "variants": {
+          "red": 260
+        }
+      }
+    },
+    "validation/grayscale": {
+      "n01440764": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      },
+      "n01484850": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      },
+      "n01494475": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      },
+      "n01531178": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      },
+      "n01632777": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      },
+      "n01665541": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      },
+      "n01687978": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      },
+      "n01695060": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      },
+      "n01749939": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      },
+      "n01775062": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "grayscale": 260
+        }
+      }
+    },
+    "validation/original": {
+      "n01440764": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      },
+      "n01484850": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      },
+      "n01494475": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      },
+      "n01531178": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      },
+      "n01632777": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      },
+      "n01665541": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      },
+      "n01687978": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      },
+      "n01695060": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      },
+      "n01749939": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      },
+      "n01775062": {
+        "aligned": null,
+        "total": 260,
+        "variants": {
+          "original": 260
+        }
+      }
+    },
+    "validation/randomized": {
+      "n01440764": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      },
+      "n01484850": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      },
+      "n01494475": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      },
+      "n01531178": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      },
+      "n01632777": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      },
+      "n01665541": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      },
+      "n01687978": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      },
+      "n01695060": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      },
+      "n01749939": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      },
+      "n01775062": {
+        "aligned": 130,
+        "total": 260,
+        "variants": {
+          "blue": 130,
+          "red": 130
+        }
+      }
+    },
+    "validation/reversed": {
+      "n01440764": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      },
+      "n01484850": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      },
+      "n01494475": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      },
+      "n01531178": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      },
+      "n01632777": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 234,
+          "red": 26
+        }
+      },
+      "n01665541": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      },
+      "n01687978": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      },
+      "n01695060": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      },
+      "n01749939": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      },
+      "n01775062": {
+        "aligned": 26,
+        "total": 260,
+        "variants": {
+          "blue": 26,
+          "red": 234
+        }
+      }
+    }
+  },
+  "expected_unique_pngs": 54000,
+  "issues": [],
+  "issues_count": 0,
+  "limitations": [
+    "No near-duplicate or exhaustive manual label audit",
+    "Pretrained model overlap with ImageNet is unknown",
+    "Direct square resizing can distort aspect ratio, equally in all conditions",
+    "Grayscale removes natural color as well as the artificial cue",
+    "Cue predicts a five-class group, not an individual class",
+    "Dataset verification does not establish model robustness; model experiments are pending"
+  ],
+  "manifest_files": 24,
+  "manifest_hashes": {
+    "manifests/test/all_blue.csv": "8a7c19ac47f183031791cf1c8a815501cbc2d82292d50289e905dc62f71f003f",
+    "manifests/test/all_red.csv": "97f25c93d325f12a85456390d2c24b4914af953211980d328d94d4c080d847b9",
+    "manifests/test/correlated.csv": "f1726aa3fedd7c535cbed34a429e780bbe01a0bad3ec2a455ae34d047c15f4d9",
+    "manifests/test/counterfactual.csv": "baf7b76b8afde21d01a168653fa4c439f463951f4188dd21b78171c8bbe48a4f",
+    "manifests/test/grayscale.csv": "9d14388f78b3816bc9076e651c51cc1ac2b28c910572bb94a0098f442696def2",
+    "manifests/test/original.csv": "87290850b1ba48bc0da378259ed722a892f732aa25a572f259ef1c9d33412aaf",
+    "manifests/test/randomized.csv": "bdf4a55ceb742203ca5812773046c03f8c28dec2551606948914638360b0c2a6",
+    "manifests/test/reversed.csv": "4ede86a7c9b5fc0362844cef6941338b45a08aeb5122b0db3e972e786be0b57d",
+    "manifests/train/all_blue.csv": "c0a54d36d861ed66dae64a1225bedf6e5d62adf717dbd83666c45950c6b494e0",
+    "manifests/train/all_red.csv": "5655711ec70e81b1b191c4c57aef7fe2388428cabf9bf5ae558e00439827468c",
+    "manifests/train/correlated.csv": "8257b42eace8c68faff3981be81b8894503707f8d5bf4f815c721cfd5d5baffb",
+    "manifests/train/counterfactual.csv": "812b937a356c81ebf5947788b4648d6fe5ee47b5cf19f71596c5ecdea36c5cf3",
+    "manifests/train/grayscale.csv": "8a9ed9880f0eb19891ee910abe95d878fe6b98483a1ca7fc6bd927952cd752f0",
+    "manifests/train/original.csv": "f98f8bd03670ae41518ec80df60366b2be019c02672968ed45424277d38345fe",
+    "manifests/train/randomized.csv": "58c876b981963bda562009b58844967ccf9083502bb824f4dd029bb20b6352b1",
+    "manifests/train/reversed.csv": "bad6ff479912cc2bfa598853fb28b7307d696684c0e6ff85203a2a4e8ee51b59",
+    "manifests/validation/all_blue.csv": "ddf9a0976ead4bf09ec95f33a31fd523c07d2ba88adf0940b8d770659d7db518",
+    "manifests/validation/all_red.csv": "aa036da13c84415fccb8bee9193d0b9d6d2daa91123488b60aeee8feb2436019",
+    "manifests/validation/correlated.csv": "5b07060303340939a5c2202b438f4b0cd122f8a7be4021bca7562de5179772a9",
+    "manifests/validation/counterfactual.csv": "4c4e3c49497d0baf2386f1c921f4c1793255c31cc9175ff5e17a6eff9813d0db",
+    "manifests/validation/grayscale.csv": "f9805a8150b563d157677104388fe2b81ee8363570f2cfa951f95e8acc39ce53",
+    "manifests/validation/original.csv": "f0d5736da218d7de66c37c0a0dc425ad31eebfffb088043b86c897687a7ecfe6",
+    "manifests/validation/randomized.csv": "769cee40ad6dec3f673f877cc60b872a3d98235afad2b1cde1847de4e95753f7",
+    "manifests/validation/reversed.csv": "c75b73de7b2177c2b00d0ea3697f67005f9d100b540d5640444a2350cc5d279f"
+  },
+  "manifest_rows": 108000,
+  "pixel_verified_pngs": 54000,
+  "source_images": 13500,
+  "source_split_counts": {
+    "test": 500,
+    "train": 10400,
+    "validation": 2600
+  },
+  "source_split_manifest_sha256": "61591c06294ed7659446e90cd970088cf8a0cff834feed4e8816bc842454f6e8",
+  "status": "passed"
+}

@@ -1,0 +1,7 @@
+{
+  "supervisor_pid": 24831,
+  "started_epoch": 1790790854.845643,
+  "authorized_scope": "1102 remaining/retry sources only",
+  "idle_sleep_inhibited": true,
+  "log": "/Volumes/development/5-template-project-AkshayA/colab_transfer/mac_remainder/reports/background_bias_current/production_v3_mac_remainder/generation.log"
+}

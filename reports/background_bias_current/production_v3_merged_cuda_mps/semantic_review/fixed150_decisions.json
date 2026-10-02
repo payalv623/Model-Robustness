@@ -1,0 +1,902 @@
+[
+  {
+    "decision": "reject",
+    "index": 0,
+    "reason": "Visible tail/fin region is removed; isolated background fragment remains.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 1,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 2,
+    "reason": "Fish is retained together with a large unrelated net/mat region.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 3,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 4,
+    "reason": "Head and body boundary are visibly damaged near the holding hand.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 5,
+    "reason": "Large water and splash region retained around shark.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 6,
+    "reason": "Water occlusion makes visible shark boundary uncertain; inspect full resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 7,
+    "reason": "Water texture overlaps submerged shark; boundary needs detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 8,
+    "reason": "Net/rope and surrounding material retained with shark.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 9,
+    "reason": "Large water region retained around shark.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 10,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 11,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 12,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 13,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 14,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 15,
+    "reason": "Feet at plant contact may be omitted; inspect full resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 16,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 17,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 18,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 19,
+    "reason": "Two of the four clearly visible birds are omitted.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 20,
+    "reason": "Faded tail and fine limb boundaries need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 21,
+    "reason": "Rock and gravel occupy a large part of foreground mask.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 22,
+    "reason": "Plant/background region retained around axolotl.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 23,
+    "reason": "Small blurred tail/limb extent needs detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 24,
+    "reason": "Substantial lower body/limb region is truncated.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 25,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 26,
+    "reason": "Dark turtle flipper/head boundaries need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 27,
+    "reason": "Only one of several visible turtles is retained.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 28,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 29,
+    "reason": "Sand/background retained around turtle shell.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 30,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 31,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 32,
+    "reason": "Large rock region retained around lizard.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 33,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 34,
+    "reason": "Rock/branch material retained and animal boundary is unreliable.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 35,
+    "reason": "Unrelated branch to the right of the animal is retained.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 36,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 37,
+    "reason": "Long board/ground strip retained below animal.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 38,
+    "reason": "Large rock retained inside and beside animal silhouette.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 39,
+    "reason": "Most of the surrounding stone background is retained.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 40,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 41,
+    "reason": "Snake head and forward body near the leaves are omitted.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 42,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 43,
+    "reason": "Animal body is fragmented and branches remain.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 44,
+    "reason": "Tree trunk and foliage are retained with snake.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 45,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 46,
+    "reason": "Large dirt region retained around spider.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 47,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 48,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 49,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 50,
+    "reason": "Dorsal-fin region appears omitted; hand occlusion needs detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 51,
+    "reason": "Secondary fish and visible fins of main fish are omitted.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 52,
+    "reason": "Holding fingers remain in foreground.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 53,
+    "reason": "Fin/barbel boundaries near hand need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 54,
+    "reason": "Holding fingers remain in foreground.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 55,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 56,
+    "reason": "Thin harpoon/line remains; inspect target boundary before approval.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 57,
+    "reason": "Other clearly visible shark-shaped animals are omitted.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 58,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 59,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 60,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 61,
+    "reason": "Several visible sharks are omitted from a multi-animal image.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 62,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 63,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 64,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 65,
+    "reason": "Partly hidden second bird/feet at feeder need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 66,
+    "reason": "Feet and body-to-tail boundary at branch need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 67,
+    "reason": "Visible feet at flower appear omitted; inspect full resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 68,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 69,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 70,
+    "reason": "Bright water/reflection line is retained between limbs.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 71,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 72,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 73,
+    "reason": "Fine gills and feet near plants need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 74,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 75,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 76,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 77,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 78,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 79,
+    "reason": "Net/rope and surrounding water retained around turtle.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 80,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 81,
+    "reason": "Grass fragments and partly occluded limbs need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 82,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 83,
+    "reason": "Rock/shadow region retained next to lizard.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 84,
+    "reason": "Fine toes and tail boundary need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 85,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 86,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 87,
+    "reason": "Legs and tail tip appear incomplete in dark image.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 88,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 89,
+    "reason": "Large bark support retained next to animal head.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 90,
+    "reason": "Large branch retained with snake.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 91,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 92,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 93,
+    "reason": "Branch and background fragments retained between snake coils.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 94,
+    "reason": "Complex snake boundary near trunk and grass needs detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 95,
+    "reason": "Mask largely selects background and removes spider body.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 96,
+    "reason": "Small leg tips and wall-contact boundary need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 97,
+    "reason": "Container/reflection/background remains around spider.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 98,
+    "reason": "Gravel/background fragments remain around spider legs.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 99,
+    "reason": "Large visible spider legs are omitted; selected region is incomplete.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 100,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 101,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 102,
+    "reason": "Detached small background fragments above tail need correction/review.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 103,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 104,
+    "reason": "Animal too small on sheet for confident boundary approval.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 105,
+    "reason": "Bait material remains at mouth; precise foreground boundary uncertain.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 106,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 107,
+    "reason": "Book-cover water rectangle and other background retained.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 108,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 109,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 110,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 111,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 112,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 113,
+    "reason": "Possible second overlapping shark requires full-resolution inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 114,
+    "reason": "Distant multi-animal scene requires target-instance inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 115,
+    "reason": "Feet on branch appear omitted; inspect full resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 116,
+    "reason": "Two of three clearly visible birds are omitted.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 117,
+    "reason": "Visible legs/feet at post are omitted or incomplete.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 118,
+    "reason": "Possible overlap/occlusion and feet need detailed inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 119,
+    "reason": "Feet on rim appear omitted; inspect full resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 120,
+    "reason": "Possible second animal/reflection below main animal needs inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 121,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 122,
+    "reason": "Reflection beneath axolotl head is retained as foreground.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 123,
+    "reason": "Detached gravel fragment retained below axolotl.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 124,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 125,
+    "reason": "Third visible turtle at lower right is omitted.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 126,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 127,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 128,
+    "reason": "Only one of many visible turtles is retained.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 129,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 130,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 131,
+    "reason": "Tree trunk is retained with lizard.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 132,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 133,
+    "reason": "Legs at rock contact appear omitted; inspect full resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 134,
+    "reason": "Large rock region retained under lizard.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 135,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 136,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 137,
+    "reason": "Animal head is omitted; only the foot is retained.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 138,
+    "reason": "Lower edge may include ground; inspect full resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 139,
+    "reason": "Visible thin tongue appears omitted; inspect full resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 140,
+    "reason": "Visible coil of snake body in the background is omitted.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 141,
+    "reason": "Only head retained; concealed body extent needs inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 142,
+    "reason": "Visible vertical snake body at left is omitted.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 143,
+    "reason": "Leaf retained beside head and visible coiled body omitted.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "uncertain",
+    "index": 144,
+    "reason": "Only head retained; leaf-occluded body extent needs inspection.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 145,
+    "reason": "Mask selects substantial background while removing spider body.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 146,
+    "reason": "Large background and vegetation regions retained around spider.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 147,
+    "reason": "Mask is substantially inverted: spider body is removed.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "reject",
+    "index": 148,
+    "reason": "Most of the surrounding fabric is retained.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  },
+  {
+    "decision": "approve",
+    "index": 149,
+    "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+    "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth"
+  }
+]

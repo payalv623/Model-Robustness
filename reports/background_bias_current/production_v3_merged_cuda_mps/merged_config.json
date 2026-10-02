@@ -1,0 +1,74 @@
+{
+  "correlation": "9/10",
+  "detector_provenance_sha256": "fda4b3ad09740bfb61e5bd03dbafa102133434652c7596eea738b5a64ab72873",
+  "foreground_code_sha256": "caabdd014bfddd537214a3926c8b1b9cab3250adee23b85582ea22c0e9273114",
+  "full": true,
+  "generator_code_sha256": "270fb9891da1b2c08d20809be44b0672b1db20f8b7aed31a740106f75adfd032",
+  "merge_code_sha256": "8f66888810f911e94d7521a356e361ab6bfb3bf2e790551d33f1d046f9b5d3e6",
+  "merge_inputs": {
+    "cuda": {
+      "annotations": "provenance/cuda/annotations.json",
+      "annotations_sha256": "f7a92dfacccac91e1c14d104f2fd3f91667a8572a7d4ce5d3057e8536df67475",
+      "config": "provenance/cuda/config.json",
+      "config_sha256": "7de0cea2cd84be8291fc22a7b30a5bd168a4243d448e783bf46cfdf99a379946",
+      "support_files": {
+        "provenance/cuda/background_dataset.py": "270fb9891da1b2c08d20809be44b0672b1db20f8b7aed31a740106f75adfd032",
+        "provenance/cuda/background_foreground.py": "caabdd014bfddd537214a3926c8b1b9cab3250adee23b85582ea22c0e9273114",
+        "provenance/cuda/background_scenes.py": "d960d9194c3f84f689cf49bdb9b36cad02a71e109cf0677ddb16e66cdf219a38",
+        "provenance/cuda/color_dataset.py": "137455cabb53410be6659a19f4ef3c866c4be63bdfa2725d15ed0d9059473807",
+        "provenance/cuda/engine_config.json": "f95f5affc163e68703b567f0f5bee380545c52bdfa58aabd08baaadcd620ace7"
+      }
+    },
+    "mps": {
+      "annotations": "provenance/mps/annotations.json",
+      "annotations_sha256": "1b31729810706eba384424ed343c2c8d890daadd668051725ff58aa0923d6d9a",
+      "config": "provenance/mps/config.json",
+      "config_sha256": "7d8748f5ecdf731db556a0aa42596d6aacc4b8f924fe0a98e44045962aadecb6",
+      "support_files": {
+        "provenance/mps/background_dataset.py": "684bca92fd1e9708cb80db172cf6ae394a1a21d16dd454fa9dfffeaba618b02c",
+        "provenance/mps/background_foreground.py": "6a906778ae5b2a16c74dadf13d6bfba7e84ba97e9e86ef654a199eff62b4b587",
+        "provenance/mps/background_scenes.py": "d960d9194c3f84f689cf49bdb9b36cad02a71e109cf0677ddb16e66cdf219a38",
+        "provenance/mps/color_dataset.py": "137455cabb53410be6659a19f4ef3c866c4be63bdfa2725d15ed0d9059473807",
+        "provenance/mps/engine_config.json": "f5d794a80092e268def9f2ac5294305e3ec7afa7e32bb76deb369c4ec4ee0c7c",
+        "provenance/mps/repair_missing.py": "8f7212124da52eb8cc35557cea240daa465b4ae288af13d3d01322a8d0b226f1",
+        "provenance/mps/run_mac_remainder.py": "766f432aedbbb14fca60974f19bb79c5872c7ab7685f79de1bed248ead8f18b8"
+      }
+    }
+  },
+  "policy": {
+    "anchor": "highest predicted IoU mask from highest-score original detector box",
+    "annotation_point_validation": "minimize violations first; flag any selected mask that violates a recorded positive or negative point",
+    "box_expansions": [
+      0.0,
+      0.15
+    ],
+    "box_threshold": 0.25,
+    "candidate_selection": "prefer candidates passing both gates, then maximize 0.75*predicted_iou+0.25*stability",
+    "detector_device": "per_record",
+    "mask_blur_at_224": 1.2,
+    "multiple_instances": "union strong nonduplicate instances; withhold weak secondary boxes pending explicit review; flag all multi-instance images",
+    "overlap_merge_intersection_over_smaller_box": 0.5,
+    "precision": "float32",
+    "sam_device": "per_record",
+    "sam_predicted_iou_min": 0.88,
+    "sam_stability_min": 0.95,
+    "semantic_quality": "scores never establish correct target identity; flagged masks require review",
+    "source_input": "original RGB resolution",
+    "target_consistency": "candidate must retain at least 80% of anchor foreground with mask IoU >= 0.5",
+    "text_threshold": 0.2,
+    "version": "3_merged_cuda_mps",
+    "weak_detection_score": 0.35
+  },
+  "provenance_verifier_sha256": "02afd047318125eccdc67474bf50c7c3bd5ea4c970b15417c80222c3ee494748",
+  "sam_checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "schema": 2,
+  "seed": 42,
+  "source_selection_sha256": "7d4e21f2e4a54bee9f213b0e14754b07274bdeb5a042a87411382ddfe3a103fd",
+  "source_split_sha256": "61591c06294ed7659446e90cd970088cf8a0cff834feed4e8816bc842454f6e8",
+  "variants": [
+    "original",
+    "nature",
+    "urban_indoor",
+    "neutral"
+  ]
+}

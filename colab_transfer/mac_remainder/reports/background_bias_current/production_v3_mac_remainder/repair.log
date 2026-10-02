@@ -1,0 +1,27 @@
+Loading class detector on CPU and SAM on MPS (fallback disabled)
+[1/1102] n01484850_20518.JPEG: generated; flagged=1; elapsed=7s
+[2/1102] n01775062_8018.JPEG: generated; flagged=2; elapsed=12s
+{
+  "status": "partial_recovery_generated_pending_review",
+  "generated_sources": 1102,
+  "failed_sources": 0,
+  "flagged_sources": 792,
+  "total_sources": 1102,
+  "training_ready": false,
+  "full_dataset_verified": false,
+  "sam_device": "mps",
+  "elapsed_seconds": 13.328175041999202,
+  "updated_utc": "2026-09-30T19:41:41.452129+00:00"
+}
+{
+  "status": "numeric_audit_passed",
+  "source_images_verified": 1102,
+  "pixel_verified_pngs": 4408,
+  "manifest_rows": 0,
+  "quality_review_unresolved": 792,
+  "required_visual_sample_pending": 67,
+  "full_dataset_verified": false,
+  "training_ready": false,
+  "sam_device": "mps"
+}
+Remainder archive ready: /Volumes/development/5-template-project-AkshayA/colab_transfer/template2_mac_remainder.zip

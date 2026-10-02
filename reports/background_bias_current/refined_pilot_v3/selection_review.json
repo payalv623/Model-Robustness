@@ -1,0 +1,10 @@
+{
+  "background_inversion_regression": "Not observed in v3 overview; v2 inversion failure is preserved as rejected experimental evidence.",
+  "correction_to_earlier_review": "The prominent brown structures in spider n01775062_10129 are legs, not plant stems; do not remove them as background.",
+  "full_generation_stage": "Candidate generation only; flagged masks are not approved by this review.",
+  "improvement": "Expanded boxes recover more spider legs; anchor consistency retains the animal.",
+  "numeric_flagged_sources": 19,
+  "remaining": "Low-stability boundaries and retained water/grass/substrate require review; multi-instance and weak detections stay flagged.",
+  "scope": "All 30 saved overview rows visually inspected; original-resolution difficult images checked separately.",
+  "training_ready": false
+}

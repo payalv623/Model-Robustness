@@ -1,0 +1,65 @@
+/Volumes/development/5-template-project-AkshayA/background_grounded_pilot.py:120: FutureWarning: `box_threshold` is deprecated and will be removed in version 4.51.0 for `GroundingDinoProcessor.post_process_grounded_object_detection`. Use `threshold` instead.
+  result = processor.post_process_grounded_object_detection(
+/Volumes/development/5-template-project-AkshayA/.venv/lib/python3.11/site-packages/transformers/models/grounding_dino/processing_grounding_dino.py:95: FutureWarning: The key `labels` is will return integer ids in `GroundingDinoProcessor.post_process_grounded_object_detection` output since v4.51.0. Use `text_labels` instead to retrieve string object names.
+  warnings.warn(self.message, FutureWarning)
+Detection [1/30] n01440764: 2 boxes
+Detection [2/30] n01440764: 1 boxes
+Detection [3/30] n01440764: 1 boxes
+Detection [4/30] n01484850: 1 boxes
+Detection [5/30] n01484850: 2 boxes
+Detection [6/30] n01484850: 1 boxes
+Detection [7/30] n01494475: 1 boxes
+Detection [8/30] n01494475: 1 boxes
+Detection [9/30] n01494475: 1 boxes
+Detection [10/30] n01531178: 1 boxes
+Detection [11/30] n01531178: 2 boxes
+Detection [12/30] n01531178: 1 boxes
+Detection [13/30] n01632777: 1 boxes
+Detection [14/30] n01632777: 1 boxes
+Detection [15/30] n01632777: 1 boxes
+Detection [16/30] n01665541: 1 boxes
+Detection [17/30] n01665541: 1 boxes
+Detection [18/30] n01665541: 1 boxes
+Detection [19/30] n01687978: 1 boxes
+Detection [20/30] n01687978: 1 boxes
+Detection [21/30] n01687978: 1 boxes
+Detection [22/30] n01695060: 1 boxes
+Detection [23/30] n01695060: 1 boxes
+Detection [24/30] n01695060: 1 boxes
+Detection [25/30] n01749939: 1 boxes
+Detection [26/30] n01749939: 1 boxes
+Detection [27/30] n01749939: 1 boxes
+Detection [28/30] n01775062: 1 boxes
+Detection [29/30] n01775062: 1 boxes
+Detection [30/30] n01775062: 1 boxes
+SAM [1/30] n01440764: candidate 0, flags=['multiple_distinct_detections_review_target_coverage', 'low_sam_stability']
+SAM [2/30] n01440764: candidate 1, flags=['low_sam_stability']
+SAM [3/30] n01440764: candidate 1, flags=['low_sam_stability']
+SAM [4/30] n01484850: candidate 0, flags=['low_sam_predicted_iou', 'low_sam_stability']
+SAM [5/30] n01484850: candidate 1, flags=['multiple_distinct_detections_review_target_coverage', 'low_sam_stability']
+SAM [6/30] n01484850: candidate 1, flags=[]
+SAM [7/30] n01494475: candidate 1, flags=['low_sam_stability']
+SAM [8/30] n01494475: candidate 0, flags=[]
+SAM [9/30] n01494475: candidate 1, flags=[]
+SAM [10/30] n01531178: candidate 1, flags=['low_sam_stability']
+SAM [11/30] n01531178: candidate 1, flags=['multiple_distinct_detections_review_target_coverage']
+SAM [12/30] n01531178: candidate 0, flags=[]
+SAM [13/30] n01632777: candidate 0, flags=['low_sam_stability']
+SAM [14/30] n01632777: candidate 1, flags=['low_sam_stability']
+SAM [15/30] n01632777: candidate 0, flags=['low_sam_stability']
+SAM [16/30] n01665541: candidate 0, flags=['low_sam_stability']
+SAM [17/30] n01665541: candidate 0, flags=[]
+SAM [18/30] n01665541: candidate 1, flags=[]
+SAM [19/30] n01687978: candidate 1, flags=['low_sam_stability']
+SAM [20/30] n01687978: candidate 1, flags=['low_sam_stability']
+SAM [21/30] n01687978: candidate 0, flags=[]
+SAM [22/30] n01695060: candidate 0, flags=['low_sam_stability']
+SAM [23/30] n01695060: candidate 0, flags=['low_sam_stability']
+SAM [24/30] n01695060: candidate 0, flags=['low_sam_stability']
+SAM [25/30] n01749939: candidate 0, flags=[]
+SAM [26/30] n01749939: candidate 0, flags=['low_sam_stability']
+SAM [27/30] n01749939: candidate 0, flags=[]
+SAM [28/30] n01775062: candidate 0, flags=['low_sam_stability']
+SAM [29/30] n01775062: candidate 0, flags=['low_sam_stability']
+SAM [30/30] n01775062: candidate 0, flags=['low_sam_stability']
+Pilot saved to /Volumes/development/5-template-project-AkshayA/reports/background_bias_current/grounded_pilot

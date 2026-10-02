@@ -1,0 +1,27 @@
+{
+  "status": "guided_pilot_reviewed_refinement_required",
+  "images": 30,
+  "class_counts": {
+    "n01440764": 3,
+    "n01484850": 3,
+    "n01494475": 3,
+    "n01531178": 3,
+    "n01632777": 3,
+    "n01665541": 3,
+    "n01687978": 3,
+    "n01695060": 3,
+    "n01749939": 3,
+    "n01775062": 3
+  },
+  "verified_composites": 90,
+  "visual_decisions": {
+    "needs_refinement": 11,
+    "visually_plausible": 14,
+    "reject": 5
+  },
+  "images_with_automatic_flags": 21,
+  "quality_gate_passed": false,
+  "full_generation_started": false,
+  "full_dataset_complete": false,
+  "report": "index.html"
+}

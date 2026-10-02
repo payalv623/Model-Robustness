@@ -1,0 +1,366 @@
+{
+  "config_sha256": "ac91b607bd2362117e5fc62170ca6ac0aebe4c7c38d0b896bd8983acd5ff9a7c",
+  "images": {
+    "archive/train.X1/n01440764/n01440764_26320.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "3179c1811afadc77cacd4297a51fa3142cfed08961a439d2b33844585de59ff0",
+      "variant_hashes": {
+        "circle": "e79ab15476c0b421d85e99ec6baadd2b2f934c85e9a202281e284692df320a79",
+        "cue_removed": "3fd31bcf1a3c6c4bb3683f2938c937afa7ed0f6df43b6f37b37def2d0a7a8301",
+        "original": "134c1300138d16fa010120dcbd5f24199f3cb1b7096dc85916712e45a46d2849",
+        "triangle": "05a4f606503cd1b4347d2f2553058a73c90b84e603b494aa51110bab9862935c"
+      }
+    },
+    "archive/train.X1/n01440764/n01440764_5687.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "08f172377c4a92a38ff00d6555fd7e14818314826416dd3af28987a081616de4",
+      "variant_hashes": {
+        "circle": "6627b05d21ac5051db9c583dfcf0604b00a29b04c3d30f134395ce85e7d5669c",
+        "cue_removed": "248b0d270cdfc45d7ce8a0a323b1fed2a718ff0a980b22b79354095884589072",
+        "original": "6fcf17cf88c3cbf14eecb76d6daec28ebd40d56b44ec2c0afa0e3f44bb7e7cc2",
+        "triangle": "7b429345500e1074e13f9a09a07575b2ee603770ee72783931ed9a5c0a9bfda4"
+      }
+    },
+    "archive/train.X1/n01484850/n01484850_20658.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "e1b16d2be47dbb7914129c46821ea690cf0c88e81ddcb3e8aa7e009d126329fc",
+      "variant_hashes": {
+        "circle": "19c9b2698f8b4649bbc2da3b4c166a8af3c028ea732e32bcc7afabc820bea51f",
+        "cue_removed": "2f9927161b510ca1a97dfa238b3fecfdda9d24e69d3c735616f069e7a34d657a",
+        "original": "e2f1911d45580bba33f4627524abd4835cfa5f8841c97d77f50bec1e2aebfd07",
+        "triangle": "8cd2d741a48784d3931849af8bc4cb6ea46778621b837157c79b3cb26f012880"
+      }
+    },
+    "archive/train.X1/n01484850/n01484850_24809.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "c7352d230cf3f76bfd6441a76cccea6e11e7b82aa7e025aa059e79a44fd998fc",
+      "variant_hashes": {
+        "circle": "1a8327c9a3275e03d0547872c7c09444cf9bebad43211508ba8373207366f40a",
+        "cue_removed": "e781b024c3d5dadae79e5512c70aa811661953511463bcfb0927f215f7a186cb",
+        "original": "32bb07c7d161212c2b959e80590bd17fad0ad9c154f103eaf85bbaf056b61aa3",
+        "triangle": "f69fe78bad31c23155e6f185a0aea2ddedda0193c010e8990fadee9df05b1933"
+      }
+    },
+    "archive/train.X1/n01494475/n01494475_4088.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "b4ef4e0e794a1dd3ab8a88b2361a340fc4b986f762dfedf59df97c9b3a9b249a",
+      "variant_hashes": {
+        "circle": "0a3aa015abb436a9ea95e67f48be79dc99649ade799030010d36011a237cd304",
+        "cue_removed": "b9f809de34a413745b511f99d6da64e974c5e1ba6521ae9172a99c3f82c3e602",
+        "original": "6eda6f19b7e2ee3404a3ccd954205448774f6e046884c4672a5f83389ee6c9b3",
+        "triangle": "1412287ad942bdab2a8760c32fb091216a85ea9e5e6436651aa7258c07742b8d"
+      }
+    },
+    "archive/train.X1/n01494475/n01494475_7011.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "c13558a4ac88000bfa9e37da80f34aad50e2171ea60a12f1c191de843abfe9a3",
+      "variant_hashes": {
+        "circle": "ccbdd76aed83d67936d0fd445b186b7e4e3b9a3a7dd4ef9ed30a8200aeba3609",
+        "cue_removed": "77259b91cf5121e9c7c994e2eecc225ad57bb9addc4e6fa3a742ca1b7aef48e2",
+        "original": "708e87d879cc41545380972a8a613e5cf4ab3ed7d30bc861e3bea975858e312d",
+        "triangle": "ab43f3057811b70d575cac2fee5e92f52f3ed9e76ee82bf109de24c878f2abf2"
+      }
+    },
+    "archive/train.X1/n01531178/n01531178_12734.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "55c6a963bfb03bca13ed48dd3241a3827fd6bb07cc4900973e4a6f2a75854d4e",
+      "variant_hashes": {
+        "circle": "69e1ef0a13a27729b19d6810fc37a4a763bfbb56c68b1ee862d9ca9788f5442c",
+        "cue_removed": "b030f337b747273294e22d3103d79aaa26b1e653031ad3f849e82d64542cf026",
+        "original": "8293fe2e5df737e5855bc5ff7db47c33c7d6223734890c5c1e0e773869931ff1",
+        "triangle": "449af70f11b4785c38e0ed9eca5bee4f5c02176a5c48b36ab5d5c424de31515e"
+      }
+    },
+    "archive/train.X1/n01531178/n01531178_17241.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "67b82acf53cf8656fa54c2382f8aa05876e020495206c61412735ff3995739a2",
+      "variant_hashes": {
+        "circle": "fe0fd89b22819fc3311798e828219b693c981a2631f7923919018e27f73ae2e8",
+        "cue_removed": "610fc76e88316c2934026de7bc43d6a56c9571e733e8b77f4361c0af59655f02",
+        "original": "6a6908be8e98df3e1e8ba4edac9c155f5f4ad702ad4f0b659d8a1e83ebbb9871",
+        "triangle": "b90839cda2a9cb8cb7ff942f12899d817f36c19a26fdda497fec37db0cca7832"
+      }
+    },
+    "archive/train.X1/n01632777/n01632777_13737.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "9a841301c45a7824714d531e9a0865c1cfa7c3ab8440d1e932057aae313af760",
+      "variant_hashes": {
+        "circle": "5964323071a0da73ec24c90563b25b6a007418602a30789b290bfeffd943f56d",
+        "cue_removed": "65cf4e0c22e8e059945872835172fcc94d49995bcb0f064a3c3a1571d0abedc8",
+        "original": "6112abfbbb933d613d4cb513b302581066b7dc1927683bf55b1fdc639d53816a",
+        "triangle": "8d80e14a7579ab33c0a73115111c0e9e41aa33761979b50f492dbb9c723cefaa"
+      }
+    },
+    "archive/train.X1/n01632777/n01632777_2291.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "a5fa7a40f81e46c1111f38f9b5d92bca6d5848a6c143ee0710574152c4730d02",
+      "variant_hashes": {
+        "circle": "81cac06363be03efd8e83c7394bf33e6f4b156a2c321f4915f248b24d870e208",
+        "cue_removed": "b25e423a024268a4199623f3774822c6fb5ac35ba4036f3bc138f9e302124d06",
+        "original": "95c637001b100f8277a5ed295480bdfb85585e30061516704a08c3dd524264a6",
+        "triangle": "a8df4222f7a3f82de6d0ac22bc66d52df6aa45f0ce0ad7202521cff00041910c"
+      }
+    },
+    "archive/train.X1/n01665541/n01665541_1266.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "db79d0a7d9c149f46e07bb113596640d86b04afa134e21bd8d4867fda4f4e5d8",
+      "variant_hashes": {
+        "circle": "be0deb7c13eb86506e22eaf412b4c79f3954858ac11227b118a8e78c40ca3e74",
+        "cue_removed": "df045b961a166a2918a5fa4aceed6ca0c2d6ba20ae093ec5bd74bd9681bd17bc",
+        "original": "f720bffa2b77d0ab1adade4ff208d5386bf7b16de8f273ce071e2dd7bca878e9",
+        "triangle": "e0e57fbdacb9747dfccb9e487a72fc115603a03247b74e1c2b9035371749259c"
+      }
+    },
+    "archive/train.X1/n01665541/n01665541_13188.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "ffd507f8b93c2d573d95c61d5acbfd6a230934dbe3391f5f0b31c4769e398323",
+      "variant_hashes": {
+        "circle": "eae19c1b90a5b60feb75e3896d4954300635596e561cc3db5fe7d825a27b3245",
+        "cue_removed": "ec3653c6c87e23889800a3b516919dba906a8c419d30b2001ff4955f5bfe9dea",
+        "original": "5c8046ebb8cd35f2981820cafb89977179088196945135c0117a6ef632339fbe",
+        "triangle": "34474e3490e418b27f159ac016fec51f5c8caf00a0595299237f0bd19b27c8f0"
+      }
+    },
+    "archive/train.X1/n01687978/n01687978_165.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "f487c329be4f514d9b015aea9d52a85a56168f3b04ca0b97806d53668f5fd349",
+      "variant_hashes": {
+        "circle": "9516f84c5e7d8e44da8ee04ee08ff5267d1c77cbea0ce2d62ce5ca54f31396df",
+        "cue_removed": "8b23f3fa9bf4f3b806dbcff18f02eaa2a8eef8ca615201587260ee0ab0ce09ff",
+        "original": "f6f79570da161fa8406b09d12b62e422806ac725ae794572e16560a7e1096972",
+        "triangle": "15c19701a75e1eb56e401bccf0ee1e862e1dff4032898d947c57bda2184a7be7"
+      }
+    },
+    "archive/train.X1/n01687978/n01687978_6534.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "b7b0e686154a76c03c29adaef95276c154c02d9a1d75278acb4620fdf213320e",
+      "variant_hashes": {
+        "circle": "897ed3161a259e58b58d9c526a123299513b363c16bcdb3b8f29c3b3a80226e4",
+        "cue_removed": "4e70635cf1bfb292e9568445e4eb15646b17ac933300d084e1b04a98e08c73ad",
+        "original": "45cb32b86333b21da114c3a3bc1647fdf86372449ffb786ada868ee506ff375e",
+        "triangle": "b87c65184f5edf3222cac1f7f47405236fafea6eb6bc874cbafeba4c42f95581"
+      }
+    },
+    "archive/train.X1/n01695060/n01695060_15335.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "7ff89fe5cf6ad6077bb309ef30c845775bb02a298d844168b232ec42ed338bb7",
+      "variant_hashes": {
+        "circle": "4c9d6ba3fcac0a08da4edcd8b38c2fa5c574a3350cbd377bbbc206f6529c3357",
+        "cue_removed": "809d0fd08b574fcc003c2998a7382ec4dd3417fb6bf78d9b5b2f05dcf50052f3",
+        "original": "6d8f9038816c967bf9bb79a244a859ed4a85e0cbe2465780346a877c595dee4a",
+        "triangle": "831845d7c48e507f4d4f5d23cf1bd4d221ef2109836f82e2886093aa128f3c5f"
+      }
+    },
+    "archive/train.X1/n01695060/n01695060_30475.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "bf4603c40d10c370bd84517d2c5b7d5b44721e9e2787acfa6f6f94c9aaeec2aa",
+      "variant_hashes": {
+        "circle": "8f460894742f4f34f7fcf11cea828412e72a0e8ce1572e68f8fc2191eeee7d74",
+        "cue_removed": "ce34b80b3ed627379bb49e23610ecd36429f5602154bfdabfb9ec305254f97b7",
+        "original": "c6de5ad9ae34bf62619d34ed24130973339408b5a4843e5f4624ca2e7a6c2e1c",
+        "triangle": "21032d7c2ca1c22fd872ded206a6baf53d12d7df836dc7998ba4af7c9ad559eb"
+      }
+    },
+    "archive/train.X1/n01749939/n01749939_2326.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "3a57df3c0225d6a045f39d6dcb3f952366d4976c0c12b9ff59acfa405c769ef3",
+      "variant_hashes": {
+        "circle": "18b67b740b71868686b752994f90eae47f07abd594855461416c93713c455d44",
+        "cue_removed": "2ad77abd926d06ba4f0a38a33fb2142c18c5fe75a10b51583b12c93df2079aa3",
+        "original": "955fd92961c4fbb58f7fa9bf11c64de70be2348ddf835b02d57c5285871f0f3b",
+        "triangle": "2b96afcfacf292c89b2b7b86f59ca496940cae7055497b2e85baead54b894f91"
+      }
+    },
+    "archive/train.X1/n01749939/n01749939_2748.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "1628e31f84f3b52ef7f6b16c6ec448940ab03e4433224b3b4e35052bd2589ec2",
+      "variant_hashes": {
+        "circle": "11bc7c635d9546c7fee3a35c9897a137859dd808bec1cc8bac853a7b1db037fc",
+        "cue_removed": "ffa3787106499658d040d552aee051d0cfdfd48d528cc89cef51be9f9793f7fd",
+        "original": "e1d2187b9b2cc1a61539438249df72acaebeb770014f0b4b78ffa99613294ad8",
+        "triangle": "fabefcfac6db16ef826d95dcffbaf5550f98ef32f15a0e120e3c8c7fd50f0b53"
+      }
+    },
+    "archive/train.X1/n01775062/n01775062_4051.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_1.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "ee9221e3b7fddea10d28ec11232ece6df0c5b161a95534e448225923aa0e401f",
+      "variant_hashes": {
+        "circle": "f6d34374c7ca140d1b199fd0b45ff556db0d85063cc04abd44a1d3b09180a116",
+        "cue_removed": "9ae6a1221a03f5c57364b41906ef8d7dc8481d83d7594a2d8826943922c91963",
+        "original": "a8215ca81842c17e807ad2df4c5a5b05738882c2d2c6ba40ef65712a6d2e6f3e",
+        "triangle": "24ce833807748e335a8f449fb29b8259bc481603512620c3a8aaad5ef36c8757"
+      }
+    },
+    "archive/train.X1/n01775062/n01775062_6688.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_0.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "82fd2419952d0ca0d6e02c255e0b1669bd82f27524a0887b0a3576e07cdef8ec",
+      "variant_hashes": {
+        "circle": "881a63732cf782d339c7e4421396d99bf0c384b83c5c79513472662a8a5b627c",
+        "cue_removed": "9f03a30933b9ff28939237031b9d65d0f6d2786b0fa5274da57b42155107c272",
+        "original": "0f83346d57ad151bfb873b22cac9108b11cab6af067ff7cf8719c2dda0a15f05",
+        "triangle": "f1443345022b342a57977343f9535f2be4fa776b7a08e278337128ddeb188abe"
+      }
+    },
+    "archive/val.X/n01440764/ILSVRC2012_val_00009191.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "d32318c34da626c35d5916a3526dd1488862accc345f892be27f1dabf3bc926a",
+      "variant_hashes": {
+        "circle": "00031258b5cd89877cde4d7488d39af2343e1d1643f31185d94b76e10fa05e10",
+        "cue_removed": "3d83d1681376c6b56e7a5168b6b1344c09d1fd140a11e49c2b615bd4d2d89e5f",
+        "original": "a157ba51d29bf5c52afb73070bc4dbe38ddb954bfe492a4e78dc4313fc3b0fb1",
+        "triangle": "01d84d7038922ac0dd48fe40a7b282e442068fbde62ae4078f2276762aee94e7"
+      }
+    },
+    "archive/val.X/n01484850/ILSVRC2012_val_00039445.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "2610b17f0c103f9ad79e420c8fd8e46ccdb0b65b4314755bd9919e8a2de0825f",
+      "variant_hashes": {
+        "circle": "87751786a98fa98bafc801d671f0cc4480084b3675f5a89327aa41122f454e36",
+        "cue_removed": "abae53d82289833d680d43262852338ce4d78e19ff77095a79f938faf4a434da",
+        "original": "071f42cb5f22e47698538849d61c7fa396e3a3bf0b7edf5a2d7ff427e7e7de84",
+        "triangle": "dace1d5e7321ea66e84504afca96e94bccec862a01971c2d49f66b412354d91e"
+      }
+    },
+    "archive/val.X/n01494475/ILSVRC2012_val_00040843.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "19cc2c4ffce6ce5e2ffa7b3d610bc291f61c2d92ae9f494ad14895a390042f47",
+      "variant_hashes": {
+        "circle": "7f4e5075e1518623770f1760f269843c9499a58a3a34e2c838073c917915d622",
+        "cue_removed": "2ba49c394364a37e8b95924f1ed589101a7d62bab146236095e7840c11960e74",
+        "original": "aaedde1daa2f0fc6da95d5550502309d6f4af31d5648fc7a561a4ce22a50edd2",
+        "triangle": "7eaa7c030dd7348b30e26888ac25876eb819eb8befde33731bf0dd39a9f7daae"
+      }
+    },
+    "archive/val.X/n01531178/ILSVRC2012_val_00015903.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "7c9f039d8c0213a629b84410af69af26b996e6033ddabf3e85a660d8154fd18c",
+      "variant_hashes": {
+        "circle": "68831fbd58951a836c41cb14f25a2b55db2207dd9b7343420bb4f4b26c337488",
+        "cue_removed": "7289d0fcfcb0904b2ecff8998a1b17d8bdd742bc8a96c63291f315509112c9a2",
+        "original": "70f3e248234e86e03de9ad57417ef69e8f1ece52d1015a17b10c960a07fd9d4f",
+        "triangle": "306730254930b428025492d1115614a0a4fe1274301b956d48fd384a61a998ef"
+      }
+    },
+    "archive/val.X/n01632777/ILSVRC2012_val_00044893.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "45b2ea9be66b2b4ab2be445ee7c67b9e969eccce06ab8fdec7e0d3dbec695ced",
+      "variant_hashes": {
+        "circle": "cda97491b1f95dffe7ea0a3f4266cdb03636ad3c6723cf617457f99573fb5393",
+        "cue_removed": "243a4085e9a1e820a8ab84ddecfe63abc39a5fa01fdd6a4848f27ea84983ff72",
+        "original": "0115f25f595060a80ee46f4d9da7e0aa2881b8190fb73890d67cc37ccacfe830",
+        "triangle": "dba44613aeb61a3c1b51e91460b1fa739a2c16facf87e22475719703651cb9b4"
+      }
+    },
+    "archive/val.X/n01665541/ILSVRC2012_val_00000938.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "378fd2e0b152ed098819e205ad5afb65f5b5b3056001dea5d871dfa9a86f3b43",
+      "variant_hashes": {
+        "circle": "2087be21e0f5d608b403ccc226e3bb4cfa777b619bf8f20fc96cafb79a4b0793",
+        "cue_removed": "67ab6f4ebf5568cfdc55683be34c80fe636dc5017a13153470fd4cedcdcf2199",
+        "original": "dff129ebdab39ee1acccf796d9b1c74e8265dd83a6e993023972474048a9e312",
+        "triangle": "eaf0ce6df42334fe0c147a8eae24966c5c63240cb96feb3bbba2160144eee77d"
+      }
+    },
+    "archive/val.X/n01687978/ILSVRC2012_val_00012365.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "8da92342eace1f7b281c98bd6dc7c08200be829d68d52e3eae88804382c2cd31",
+      "variant_hashes": {
+        "circle": "e692bea495c46a3f00b45fd46f363ad2ae2de04f47a6a40c532e168f1448c9f8",
+        "cue_removed": "83962c28ab970d20edfefeb6320d3dae25338cd9ee190e80e960455481c9b002",
+        "original": "96a7f449e6004d5892573d36fef829775f01681227a5f578e946be158d92ec4a",
+        "triangle": "2fc9455b2d94e61eb0c61993288286dce77247e41d552135b78bec7fcc501cf2"
+      }
+    },
+    "archive/val.X/n01695060/ILSVRC2012_val_00008095.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "ac30071e6dc113350c4bb57951716b97e5ae61759dd4b0db2a22303c43484456",
+      "variant_hashes": {
+        "circle": "2909971c63a6eec57571b31e6a353177cc93353fe54c39d1dd4cc37b473581df",
+        "cue_removed": "fce40a76d92c254ea9575722f93457a7fb399a399f72cac9d4150cef920727fc",
+        "original": "597c841958c3d6f6f577983259db7ad47b3d1f614bee82409e48bdb60b4a91e4",
+        "triangle": "67063e1e47013666159e68eacfaa4b2b3fe386477fbad3146a6c7002c1705969"
+      }
+    },
+    "archive/val.X/n01749939/ILSVRC2012_val_00046847.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "d2d7015287640fecff9df8532210852acebc32ea18a7cf26d83a548c02a3fe4a",
+      "variant_hashes": {
+        "circle": "bf0fa5c244eacc287c9490261e0915d9faa23162036271ef6d506b37bf3db3a8",
+        "cue_removed": "c0c12d0c9b48f70e1e8e2446399d9b9c6322c6a0d61b1437b09474c36030d9df",
+        "original": "3ac9fd83ecb46030fb58558a2f72155e1ebde77133f47503ea357159e14cc3f2",
+        "triangle": "37c03bd0d7800581284b64fcaf95960a3dac7f3f5156ef9aa5a03cd674b141d8"
+      }
+    },
+    "archive/val.X/n01775062/ILSVRC2012_val_00031053.JPEG": {
+      "decision": "approve",
+      "evidence": "sample_2.jpg",
+      "reason": "Inspected original, framed cue-removed, circle and triangle variants. The same full photo is retained in all cue conditions; gray markers are distinct, consistently positioned, and outside the photo. This is approval of the synthetic transformation, not species-label adjudication.",
+      "source_sha256": "ca0c1da490e8fd3b2f4acb87025db12387c7a6cb4812179f9bb22c35bf6d38ca",
+      "variant_hashes": {
+        "circle": "d059f43bb6c9cefb8a1b2542f25a5f62ba64f3db4b4943cb146d0fb3374dcd05",
+        "cue_removed": "97085f49faa082b69ee28388b0e9e69f34687f49515617c58600e029be0823c2",
+        "original": "1d6c86f8f955a0fc1bad632a03c688b0e68ab7ff099e30d3fbb343cb1df955e4",
+        "triangle": "bc28f946079b67f687680d937bf271be6f605b2021b6916a5bfea46b94797e07"
+      }
+    }
+  },
+  "reviewer": "Codex visual inspection, 2026-10-01"
+}

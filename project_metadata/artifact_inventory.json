@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "inventoried_utc": "2026-10-02T05:43:59.002668+00:00",
+  "github": "https://github.com/payalv623/Model-Robustness",
+  "storage_migration_complete": false,
+  "requested_supabase_project": "https://poxcywpjiivokukekvok.supabase.co",
+  "supabase_status": "Free plan 1 GB is insufficient; no artifacts uploaded",
+  "provider_selection": "terabox",
+  "artifacts": [
+    {
+      "id": "sources",
+      "local_path": "archive",
+      "files": 13501,
+      "bytes": 1629067017,
+      "description": "Frozen ten-class sources; 13,500 originals",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "models",
+      "local_path": "checkpoints",
+      "files": 9,
+      "bytes": 1065347928,
+      "description": "SAM ViT-B and pinned Grounding DINO Tiny",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "color",
+      "local_path": "color_bias_dataset",
+      "files": 54027,
+      "bytes": 4277519592,
+      "description": "Complete verified Template 1",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "shape",
+      "local_path": "shape_bias_dataset",
+      "files": 54051,
+      "bytes": 4132210724,
+      "description": "Complete verified Template 3",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "background_local",
+      "local_path": "background_bias_dataset",
+      "files": 14158,
+      "bytes": 465943526,
+      "description": "Earlier Mac run, pilots and both correction revisions; not the full merged dataset",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "reports",
+      "local_path": "reports",
+      "files": 1074,
+      "bytes": 585770046,
+      "description": "Numerical audits, semantic decisions and visual review panels",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "background_mask_review",
+      "local_path": "colab_transfer/mask_review",
+      "files": 27604,
+      "bytes": 191707249,
+      "description": "All merged masks/records and the 150-image sample; not all merged image variants",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "mac_remainder",
+      "local_path": "colab_transfer/mac_remainder",
+      "files": 7743,
+      "bytes": 256879557,
+      "description": "Completed 1,102-source Mac remainder",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "transfer_archives",
+      "local_path": "colab_transfer",
+      "files": 6,
+      "bytes": 1902787247,
+      "description": "Existing transfer ZIP archives only",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "original_download",
+      "local_path": "archive (1).zip",
+      "files": 1,
+      "bytes": 17293937662,
+      "description": "Original 100-class download; optional archival copy, not needed for the ten-class project",
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": null
+    },
+    {
+      "id": "background_merged",
+      "local_path": "background_bias_dataset/production_v3_merged_cuda_mps",
+      "description": "Complete original 13,500-source merged checkpoint. Latest semantic review and correction layers are separate. Not training-ready.",
+      "files": null,
+      "bytes": null,
+      "new_storage_status": "awaiting_terabox_upload",
+      "remote": {
+        "provider": "google_drive",
+        "folder_url": "https://drive.google.com/drive/folders/1_net-2l_JI-PXmEwz21WXy9Y__QUJFT1",
+        "path": "Template2-Colab/merged_checkpoints/production_v3_merged_cuda_mps/chunk-000001.zip",
+        "sha256_sidecar": "chunk-000001.zip.sha256",
+        "backup_previously_verified": true
+      }
+    }
+  ],
+  "restore_notes": [
+    "Paths are relative to the repository root.",
+    "Verify frozen sources against project_metadata/source_splits.csv.",
+    "Verify model files against project_metadata/sam_checkpoint.json and grounding_dino_checkpoint.json.",
+    "The latest Template 2 semantic decisions are also backed up at Template2-Colab/semantic_review_v1.",
+    "Do not overwrite original Template 2 records with correction layers; integration and full audit are pending.",
+    "Original Kaggle archive contains other classes; active templates use only the frozen ten."
+  ],
+  "new_storage_status": "awaiting_login_and_upload"
+}

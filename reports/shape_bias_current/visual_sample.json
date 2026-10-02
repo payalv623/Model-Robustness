@@ -1,0 +1,155 @@
+{
+  "config_sha256": "ac91b607bd2362117e5fc62170ca6ac0aebe4c7c38d0b896bd8983acd5ff9a7c",
+  "sources": [
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01440764/n01440764_5687.JPEG",
+      "source_sha256": "08f172377c4a92a38ff00d6555fd7e14818314826416dd3af28987a081616de4"
+    },
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01484850/n01484850_24809.JPEG",
+      "source_sha256": "c7352d230cf3f76bfd6441a76cccea6e11e7b82aa7e025aa059e79a44fd998fc"
+    },
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01494475/n01494475_7011.JPEG",
+      "source_sha256": "c13558a4ac88000bfa9e37da80f34aad50e2171ea60a12f1c191de843abfe9a3"
+    },
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01531178/n01531178_17241.JPEG",
+      "source_sha256": "67b82acf53cf8656fa54c2382f8aa05876e020495206c61412735ff3995739a2"
+    },
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01632777/n01632777_13737.JPEG",
+      "source_sha256": "9a841301c45a7824714d531e9a0865c1cfa7c3ab8440d1e932057aae313af760"
+    },
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01665541/n01665541_13188.JPEG",
+      "source_sha256": "ffd507f8b93c2d573d95c61d5acbfd6a230934dbe3391f5f0b31c4769e398323"
+    },
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01687978/n01687978_165.JPEG",
+      "source_sha256": "f487c329be4f514d9b015aea9d52a85a56168f3b04ca0b97806d53668f5fd349"
+    },
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01695060/n01695060_15335.JPEG",
+      "source_sha256": "7ff89fe5cf6ad6077bb309ef30c845775bb02a298d844168b232ec42ed338bb7"
+    },
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01749939/n01749939_2326.JPEG",
+      "source_sha256": "3a57df3c0225d6a045f39d6dcb3f952366d4976c0c12b9ff59acfa405c769ef3"
+    },
+    {
+      "page": 0,
+      "source": "archive/train.X1/n01775062/n01775062_6688.JPEG",
+      "source_sha256": "82fd2419952d0ca0d6e02c255e0b1669bd82f27524a0887b0a3576e07cdef8ec"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01440764/n01440764_26320.JPEG",
+      "source_sha256": "3179c1811afadc77cacd4297a51fa3142cfed08961a439d2b33844585de59ff0"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01484850/n01484850_20658.JPEG",
+      "source_sha256": "e1b16d2be47dbb7914129c46821ea690cf0c88e81ddcb3e8aa7e009d126329fc"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01494475/n01494475_4088.JPEG",
+      "source_sha256": "b4ef4e0e794a1dd3ab8a88b2361a340fc4b986f762dfedf59df97c9b3a9b249a"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01531178/n01531178_12734.JPEG",
+      "source_sha256": "55c6a963bfb03bca13ed48dd3241a3827fd6bb07cc4900973e4a6f2a75854d4e"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01632777/n01632777_2291.JPEG",
+      "source_sha256": "a5fa7a40f81e46c1111f38f9b5d92bca6d5848a6c143ee0710574152c4730d02"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01665541/n01665541_1266.JPEG",
+      "source_sha256": "db79d0a7d9c149f46e07bb113596640d86b04afa134e21bd8d4867fda4f4e5d8"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01687978/n01687978_6534.JPEG",
+      "source_sha256": "b7b0e686154a76c03c29adaef95276c154c02d9a1d75278acb4620fdf213320e"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01695060/n01695060_30475.JPEG",
+      "source_sha256": "bf4603c40d10c370bd84517d2c5b7d5b44721e9e2787acfa6f6f94c9aaeec2aa"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01749939/n01749939_2748.JPEG",
+      "source_sha256": "1628e31f84f3b52ef7f6b16c6ec448940ab03e4433224b3b4e35052bd2589ec2"
+    },
+    {
+      "page": 1,
+      "source": "archive/train.X1/n01775062/n01775062_4051.JPEG",
+      "source_sha256": "ee9221e3b7fddea10d28ec11232ece6df0c5b161a95534e448225923aa0e401f"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01440764/ILSVRC2012_val_00009191.JPEG",
+      "source_sha256": "d32318c34da626c35d5916a3526dd1488862accc345f892be27f1dabf3bc926a"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01484850/ILSVRC2012_val_00039445.JPEG",
+      "source_sha256": "2610b17f0c103f9ad79e420c8fd8e46ccdb0b65b4314755bd9919e8a2de0825f"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01494475/ILSVRC2012_val_00040843.JPEG",
+      "source_sha256": "19cc2c4ffce6ce5e2ffa7b3d610bc291f61c2d92ae9f494ad14895a390042f47"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01531178/ILSVRC2012_val_00015903.JPEG",
+      "source_sha256": "7c9f039d8c0213a629b84410af69af26b996e6033ddabf3e85a660d8154fd18c"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01632777/ILSVRC2012_val_00044893.JPEG",
+      "source_sha256": "45b2ea9be66b2b4ab2be445ee7c67b9e969eccce06ab8fdec7e0d3dbec695ced"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01665541/ILSVRC2012_val_00000938.JPEG",
+      "source_sha256": "378fd2e0b152ed098819e205ad5afb65f5b5b3056001dea5d871dfa9a86f3b43"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01687978/ILSVRC2012_val_00012365.JPEG",
+      "source_sha256": "8da92342eace1f7b281c98bd6dc7c08200be829d68d52e3eae88804382c2cd31"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01695060/ILSVRC2012_val_00008095.JPEG",
+      "source_sha256": "ac30071e6dc113350c4bb57951716b97e5ae61759dd4b0db2a22303c43484456"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01749939/ILSVRC2012_val_00046847.JPEG",
+      "source_sha256": "d2d7015287640fecff9df8532210852acebc32ea18a7cf26d83a548c02a3fe4a"
+    },
+    {
+      "page": 2,
+      "source": "archive/val.X/n01775062/ILSVRC2012_val_00031053.JPEG",
+      "source_sha256": "ca0c1da490e8fd3b2f4acb87025db12387c7a6cb4812179f9bb22c35bf6d38ca"
+    }
+  ]
+}

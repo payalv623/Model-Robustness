@@ -1,0 +1,276 @@
+{
+  "reviewer": "assistant visual inspection",
+  "reviewed_utc": "2026-09-30T10:07:24.589079+00:00",
+  "scope": "All 30 selected-mask overviews, plus full candidate panels for difficult examples; not pixel-accurate ground truth.",
+  "decision_counts": {
+    "needs_refinement": 11,
+    "visually_plausible": 14,
+    "reject": 5
+  },
+  "summary": "30 images reviewed: {'needs_refinement': 11, 'visually_plausible': 14, 'reject': 5}. Plausible at preview scale does not override numeric flags or approve production.",
+  "quality_gate_passed": false,
+  "full_generation_started": false,
+  "images": [
+    {
+      "source": "archive/train.X1/n01440764/n01440764_10026.JPEG",
+      "source_sha256": "1278bc934896315c902cc4b9972ee43797840e98aecb724a10c01646c3ae416d",
+      "decision": "needs_refinement",
+      "reason": "Fish retained, but hand/fin boundary and competing lower detection need checking; stability below gate.",
+      "automatic_flags": [
+        "multiple_distinct_detections_review_target_coverage",
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01440764/n01440764_10027.JPEG",
+      "source_sha256": "3e02b55b641dc1d3d95767951b95fb2f572d8011fd19ce27c2fcba1a44802e38",
+      "decision": "needs_refinement",
+      "reason": "Fish retained; contact with the holder hands and lower boundary needs refinement.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01440764/n01440764_10029.JPEG",
+      "source_sha256": "4b699c715c1ce7f7901f2cdb18736c1dd55ae5c0c9fa204b2085faf5af8c95ec",
+      "decision": "visually_plausible",
+      "reason": "Visible fish body and fins retained; selected mask still fails numeric stability gate.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01484850/n01484850_10016.JPEG",
+      "source_sha256": "c006a3d47a880ae183cbc2836dcc53ba98e350e97c9652c05840da7c4859776b",
+      "decision": "reject",
+      "reason": "Mask includes splashing water and railing fragments around the shark.",
+      "automatic_flags": [
+        "low_sam_predicted_iou",
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01484850/n01484850_10036.JPEG",
+      "source_sha256": "903f9b7d398bdfbba3abe530e9c37ebee94a9e9c18389765d7d64249a206c580",
+      "decision": "needs_refinement",
+      "reason": "Visible shark retained, but underwater outline and competing boxes remain uncertain.",
+      "automatic_flags": [
+        "multiple_distinct_detections_review_target_coverage",
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01484850/n01484850_10073.JPEG",
+      "source_sha256": "644a63c54b16a22ef8c86b1738e5721c05941b42a0295768c06767a9d6a6be12",
+      "decision": "visually_plausible",
+      "reason": "Visible shark and fins retained with surrounding water replaced.",
+      "automatic_flags": []
+    },
+    {
+      "source": "archive/train.X1/n01494475/n01494475_10008.JPEG",
+      "source_sha256": "f40d6fda52403820963638ca2aa79d3a8703478846fc43e092ad2e25e9c7520c",
+      "decision": "visually_plausible",
+      "reason": "Hammerhead body, head and tail retained; low stability requires boundary review.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01494475/n01494475_10099.JPEG",
+      "source_sha256": "1b0d29071d6e75753248a28a83660c8c450352cbed19f6df7a70f5da8172d614",
+      "decision": "visually_plausible",
+      "reason": "Visible portion of the shark retained; original image already truncates the animal at the left edge.",
+      "automatic_flags": []
+    },
+    {
+      "source": "archive/train.X1/n01494475/n01494475_10175.JPEG",
+      "source_sha256": "a9b260ae6a20669aa09dbba2b70bffd74b9d89ca2daade2170102e5fc88c6ccb",
+      "decision": "visually_plausible",
+      "reason": "Visible hammerhead body and fins retained; no obvious large background region remains.",
+      "automatic_flags": []
+    },
+    {
+      "source": "archive/train.X1/n01531178/n01531178_1006.JPEG",
+      "source_sha256": "85cf525a18a391452526e1379c7be18319a865f20d0e31283605d2daff0e16c5",
+      "decision": "needs_refinement",
+      "reason": "Bird recovered and most cage bar removed; occlusion boundary and small bar remnants need refinement.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01531178/n01531178_10090.JPEG",
+      "source_sha256": "295857e6c47b5296b16a0727b80a418533721ba4d088dd4b3001803ebe8df17f",
+      "decision": "visually_plausible",
+      "reason": "Bird retained and branch/background removed; additional detector box requires review.",
+      "automatic_flags": [
+        "multiple_distinct_detections_review_target_coverage"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01531178/n01531178_1012.JPEG",
+      "source_sha256": "96f777b22e04130312c5ba82773d2a9cc8d811fceda83f51881d6bc8877af716",
+      "decision": "visually_plausible",
+      "reason": "Visible bird retained with surrounding vegetation removed at preview resolution.",
+      "automatic_flags": []
+    },
+    {
+      "source": "archive/train.X1/n01632777/n01632777_1000.JPEG",
+      "source_sha256": "4867cc17a62315096526cacebb2f3ce675c1b0c5020e517c9126ccef066362d4",
+      "decision": "reject",
+      "reason": "Substantial granular substrate remains attached around the axolotl.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01632777/n01632777_10015.JPEG",
+      "source_sha256": "7a09818ff33c6a5d614e5aa373f3ebf11a45f2d8b31e4d22757b98f83a2bbefe",
+      "decision": "visually_plausible",
+      "reason": "Visible axolotl retained; translucent extremities and low stability still require boundary review.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01632777/n01632777_10021.JPEG",
+      "source_sha256": "00acf44945b4922abfc86e51214494f151905b5266f073e660666dda0b045056",
+      "decision": "needs_refinement",
+      "reason": "Animal retained, but fine limbs/gills and the borderline stability require closer checking.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01665541/n01665541_10021.JPEG",
+      "source_sha256": "0bf5d450d23d703ed443ec30d53de86f705d78406ef350b9584cdc9e35f3da6c",
+      "decision": "needs_refinement",
+      "reason": "Turtle body and flippers now retained; detached ground fragment remains near the head.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01665541/n01665541_10037.JPEG",
+      "source_sha256": "da7da4089b0bc3a68823daabbd7e25f3e136d356eb3f2b9c04399916ab6d1867",
+      "decision": "needs_refinement",
+      "reason": "Main turtle retained; other partially visible turtles are omitted. A multiple-instance policy must be settled.",
+      "automatic_flags": []
+    },
+    {
+      "source": "archive/train.X1/n01665541/n01665541_1006.JPEG",
+      "source_sha256": "038b8fb85e2ba1a2201dd6465ead55619893adeb73cc4b9e1ab8b693a198fc33",
+      "decision": "visually_plausible",
+      "reason": "Visible turtle and flippers retained with sand removed.",
+      "automatic_flags": []
+    },
+    {
+      "source": "archive/train.X1/n01687978/n01687978_10013.JPEG",
+      "source_sha256": "f4c1846374aecb5e9aad94880a3757760f737a409e3866fcfcaa00490e990bde",
+      "decision": "needs_refinement",
+      "reason": "Lizard body/limbs/tail recovered; small detached ground speck and thin extremities need repair.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01687978/n01687978_1006.JPEG",
+      "source_sha256": "2c8e85decea85d42202ee32f3fd939bbc6ec5be980fda2a976cfdda47c427771",
+      "decision": "visually_plausible",
+      "reason": "Visible lizard body and tail retained; low stability still requires boundary review.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01687978/n01687978_10071.JPEG",
+      "source_sha256": "1d19190ebe7870deaa0a931418731140054a2214d7b8b67d9281f3a9f4ff8dff",
+      "decision": "visually_plausible",
+      "reason": "Close-up visible lizard retained with background replaced; source already crops body.",
+      "automatic_flags": []
+    },
+    {
+      "source": "archive/train.X1/n01695060/n01695060_10009.JPEG",
+      "source_sha256": "3491ad08a90419ef41ac6bab32d69deeb6a5b66e75a0b504f91c73cd00d6efb0",
+      "decision": "needs_refinement",
+      "reason": "Small target near enclosure glass recovered, but occlusion, reflection and surrounding material make coverage uncertain.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01695060/n01695060_10022.JPEG",
+      "source_sha256": "4864d4046853722f35a30d6652bc45362432e0090cd89d8ac2b4900b2f5e3c31",
+      "decision": "needs_refinement",
+      "reason": "Lizard recovered; extra material above the back and limb boundaries need checking.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01695060/n01695060_10028.JPEG",
+      "source_sha256": "eda93b76cec14a9cb0fec81d3d73258aff7dab2469a67197eb03678ddba1c199",
+      "decision": "reject",
+      "reason": "Large grass/substrate region remains attached below the Komodo dragon.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01749939/n01749939_10048.JPEG",
+      "source_sha256": "f1b762019ccf22ea91ae798897a59f5ceccd91c9da1baa8de771a03771e3f634",
+      "decision": "visually_plausible",
+      "reason": "Visible snake retained and dark support/background removed.",
+      "automatic_flags": []
+    },
+    {
+      "source": "archive/train.X1/n01749939/n01749939_10066.JPEG",
+      "source_sha256": "94e9f5db56a1bb11ad81b57e50c60ce7b1b56ad7a61b5949a1d5c153b20b6391",
+      "decision": "visually_plausible",
+      "reason": "Snake head and visible coils retained; low stability requires finer boundary review.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01749939/n01749939_10126.JPEG",
+      "source_sha256": "8acba956ea6d53c57b99559bf289c0072a052726cceec63a09383ae7dbcbbe84",
+      "decision": "visually_plausible",
+      "reason": "Both visible snake sections retained; intervening support/background removed.",
+      "automatic_flags": []
+    },
+    {
+      "source": "archive/train.X1/n01775062/n01775062_10090.JPEG",
+      "source_sha256": "264c9eaea82d2f8152e663410bb4e127cb8062b104313329cfb9ec1191364e95",
+      "decision": "reject",
+      "reason": "Spider body retained but several visible long legs are missing.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01775062/n01775062_1011.JPEG",
+      "source_sha256": "1842daa2fff007cd57e9a12b54407a078d429bfcf08b7b587fd6c985ca931e48",
+      "decision": "needs_refinement",
+      "reason": "Spider body recovered; thin legs and container reflections remain uncertain.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    },
+    {
+      "source": "archive/train.X1/n01775062/n01775062_10129.JPEG",
+      "source_sha256": "ea3a5345a2972fdcfe251de0f3c7421c41ca34c574323990e3a54c55321cf50e",
+      "decision": "reject",
+      "reason": "Large plant stems remain merged with the spider foreground.",
+      "automatic_flags": [
+        "low_sam_stability"
+      ]
+    }
+  ],
+  "next_actions": [
+    "Refine occluded/low-stability boundaries with recorded positive and negative point prompts.",
+    "Handle multiple visible animals consistently; do not silently discard flagged sources or alter frozen splits.",
+    "Validate the revised selection rule on a broader training-only sample before production."
+  ],
+  "results_sha256": "c883891d0a0d483d53e32e2a5d8a9880ef27db963ecc799eb46942efd5f4d516"
+}

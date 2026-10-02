@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Template 2 — guided segmentation review</title>
+    <style>body{font:16px/1.6 system-ui;max-width:1200px;margin:32px auto;padding:0 20px;color:#21303c}
+    img{max-width:100%;height:auto}article{border-top:1px solid #ccd4dd;padding:20px 0}
+    .status{background:#fff1d9;padding:20px}table{border-collapse:collapse}td,th{padding:8px;border:1px solid #ccd4dd}</style>
+    <h1>Template 2: Class-guided background pilot</h1>
+    <p class="status">Pilot evidence only. Full dataset generation has not started.
+    Model scores and correct pixel blending do not establish semantic mask quality.</p>
+    <p>Grounding DINO Tiny locates the named animal. SAM ViT-B receives its highest-scoring box,
+    generates three masks, and selects the highest predicted IoU. The predictor uses box prompts,
+    not the automatic grid. Multiple detections and weak masks are flagged, not discarded.</p>
+    <p>Images are the first three frozen training rows per class. This small, deterministic sample
+    is a development diagnostic, not a random estimate of full-dataset quality. Validation and test
+    images have not been used to tune the method. Nature and urban backgrounds differ in both
+    palette and structure; neutral controls help reveal segmentation artifacts.</p>
+<p><b>Runtime:</b> SAM device mps; detector device cpu; MPS operation CPU fallback: False</p>
+<p><a href="cpu_comparison.json">CPU/MPS mask and pilot timing comparison</a> · <a href="numeric_audit.json">Pixel, provenance and device audit</a> · <a href="../grounded_pilot/index.html">Earlier CPU visual review and known mask defects</a></p>
+<h2>Sample 1 across all classes</h2><img src="overview_0.png" alt="Original, selected mask and three composites">
+<h2>Sample 2 across all classes</h2><img src="overview_1.png" alt="Original, selected mask and three composites">
+<h2>Sample 3 across all classes</h2><img src="overview_2.png" alt="Original, selected mask and three composites">
+<h2>Per-image evidence</h2><p>Open the candidate preview to inspect all three masks. Predicted IoU is a model estimate, not measured ground-truth IoU.</p>
+<article><b>n01440764_10026.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: multiple_distinct_detections_review_target_coverage, low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01440764/n01440764_10026/candidates.png">View all candidate masks</a></article>
+<article><b>n01440764_10027.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01440764/n01440764_10027/candidates.png">View all candidate masks</a></article>
+<article><b>n01440764_10029.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01440764/n01440764_10029/candidates.png">View all candidate masks</a></article>
+<article><b>n01484850_10016.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_predicted_iou, low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01484850/n01484850_10016/candidates.png">View all candidate masks</a></article>
+<article><b>n01484850_10036.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: multiple_distinct_detections_review_target_coverage, low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01484850/n01484850_10036/candidates.png">View all candidate masks</a></article>
+<article><b>n01484850_10073.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: none</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01484850/n01484850_10073/candidates.png">View all candidate masks</a></article>
+<article><b>n01494475_10008.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01494475/n01494475_10008/candidates.png">View all candidate masks</a></article>
+<article><b>n01494475_10099.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: none</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01494475/n01494475_10099/candidates.png">View all candidate masks</a></article>
+<article><b>n01494475_10175.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: none</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01494475/n01494475_10175/candidates.png">View all candidate masks</a></article>
+<article><b>n01531178_1006.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01531178/n01531178_1006/candidates.png">View all candidate masks</a></article>
+<article><b>n01531178_10090.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: multiple_distinct_detections_review_target_coverage</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01531178/n01531178_10090/candidates.png">View all candidate masks</a></article>
+<article><b>n01531178_1012.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: none</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01531178/n01531178_1012/candidates.png">View all candidate masks</a></article>
+<article><b>n01632777_1000.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01632777/n01632777_1000/candidates.png">View all candidate masks</a></article>
+<article><b>n01632777_10015.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01632777/n01632777_10015/candidates.png">View all candidate masks</a></article>
+<article><b>n01632777_10021.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01632777/n01632777_10021/candidates.png">View all candidate masks</a></article>
+<article><b>n01665541_10021.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01665541/n01665541_10021/candidates.png">View all candidate masks</a></article>
+<article><b>n01665541_10037.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: none</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01665541/n01665541_10037/candidates.png">View all candidate masks</a></article>
+<article><b>n01665541_1006.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: none</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01665541/n01665541_1006/candidates.png">View all candidate masks</a></article>
+<article><b>n01687978_10013.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01687978/n01687978_10013/candidates.png">View all candidate masks</a></article>
+<article><b>n01687978_1006.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01687978/n01687978_1006/candidates.png">View all candidate masks</a></article>
+<article><b>n01687978_10071.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: none</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01687978/n01687978_10071/candidates.png">View all candidate masks</a></article>
+<article><b>n01695060_10009.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01695060/n01695060_10009/candidates.png">View all candidate masks</a></article>
+<article><b>n01695060_10022.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01695060/n01695060_10022/candidates.png">View all candidate masks</a></article>
+<article><b>n01695060_10028.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01695060/n01695060_10028/candidates.png">View all candidate masks</a></article>
+<article><b>n01749939_10048.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: none</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01749939/n01749939_10048/candidates.png">View all candidate masks</a></article>
+<article><b>n01749939_10066.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01749939/n01749939_10066/candidates.png">View all candidate masks</a></article>
+<article><b>n01749939_10126.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: none</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01749939/n01749939_10126/candidates.png">View all candidate masks</a></article>
+<article><b>n01775062_10090.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01775062/n01775062_10090/candidates.png">View all candidate masks</a></article>
+<article><b>n01775062_1011.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01775062/n01775062_1011/candidates.png">View all candidate masks</a></article>
+<article><b>n01775062_10129.JPEG</b><p>pending: Not yet reviewed</p><p>Automatic flags: low_sam_stability</p><a href="../../../background_bias_dataset/pilot_grounded_mps_reference/n01775062/n01775062_10129/candidates.png">View all candidate masks</a></article>
+<p><a href="results.json">Saved results</a> · <a href="config.json">Frozen pilot configuration</a> · <a href="visual_review.json">Visual review</a> · <a href="../index.html">Earlier automatic pilot</a></p></html>

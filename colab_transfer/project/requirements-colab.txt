@@ -1,0 +1,7 @@
+numpy==2.4.6
+pillow==12.3.0
+transformers==4.49.0
+safetensors==0.5.3
+huggingface-hub==0.29.3
+opencv-python-headless==4.13.0.92
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git@dca509fe793f601edb92606367a655c15ac00fdf

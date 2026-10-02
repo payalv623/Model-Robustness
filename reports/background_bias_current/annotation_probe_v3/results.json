@@ -1,0 +1,1245 @@
+[
+  {
+    "mask_sha256": "4c5c2cbc5c2b416614e60db1ea81fdf9a960e7485ae4b2da9a3f3cbd305b9925",
+    "review": "pending",
+    "segmentation": {
+      "annotation": {
+        "boxes_normalized": [
+          [
+            0.34657208251953125,
+            0.658428955078125,
+            0.8195220336914063,
+            0.850549072265625
+          ]
+        ],
+        "point_labels": [],
+        "points_normalized": [],
+        "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+        "reason": "Use the visible held fish box; exclude the false lower bag detection.",
+        "source_sha256": "1278bc934896315c902cc4b9972ee43797840e98aecb724a10c01646c3ae416d"
+      },
+      "area_fraction": 0.050128,
+      "detection_seconds": 1.6605253749985422,
+      "detections": [
+        {
+          "box_xyxy": [
+            86.64302062988281,
+            164.60723876953125,
+            204.88050842285156,
+            212.63726806640625
+          ],
+          "raw_index": 0,
+          "score": 0.46670520305633545
+        },
+        {
+          "box_xyxy": [
+            66.46722412109375,
+            222.32249450683594,
+            195.44195556640625,
+            250.0
+          ],
+          "raw_index": 0,
+          "score": 0.27494537830352783
+        }
+      ],
+      "flags": [
+        "low_sam_stability"
+      ],
+      "instances": [
+        {
+          "candidates": [
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.050128,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                86.64302062988281,
+                164.60723876953125,
+                204.88050842285156,
+                212.63726806640625
+              ],
+              "predicted_iou": 0.9567484855651855,
+              "prompt_kind": "anchor",
+              "stability": 0.9010113477706909,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8822215129269071,
+              "anchor_mask_iou": 0.8822215129269071,
+              "area_fraction": 0.044224,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                86.64302062988281,
+                164.60723876953125,
+                204.88050842285156,
+                212.63726806640625
+              ],
+              "predicted_iou": 0.954001247882843,
+              "prompt_kind": "anchor",
+              "stability": 0.9047134518623352,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8458346632620491,
+              "anchor_mask_iou": 0.8458346632620491,
+              "area_fraction": 0.0424,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                86.64302062988281,
+                164.60723876953125,
+                204.88050842285156,
+                212.63726806640625
+              ],
+              "predicted_iou": 0.9450461864471436,
+              "prompt_kind": "anchor",
+              "stability": 0.9212055206298828,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.050128,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                86.64302062988281,
+                164.60723876953125,
+                204.88050842285156,
+                212.63726806640625
+              ],
+              "predicted_iou": 0.9567484855651855,
+              "prompt_kind": "merged",
+              "stability": 0.9010113477706909,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8822215129269071,
+              "anchor_mask_iou": 0.8822215129269071,
+              "area_fraction": 0.044224,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                86.64302062988281,
+                164.60723876953125,
+                204.88050842285156,
+                212.63726806640625
+              ],
+              "predicted_iou": 0.954001247882843,
+              "prompt_kind": "merged",
+              "stability": 0.9047134518623352,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8458346632620491,
+              "anchor_mask_iou": 0.8458346632620491,
+              "area_fraction": 0.0424,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                86.64302062988281,
+                164.60723876953125,
+                204.88050842285156,
+                212.63726806640625
+              ],
+              "predicted_iou": 0.9450461864471436,
+              "prompt_kind": "merged",
+              "stability": 0.9212055206298828,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.9604213214171721,
+              "anchor_mask_iou": 0.796031746031746,
+              "area_fraction": 0.058496,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                68.90739440917969,
+                157.40274047851562,
+                222.6161346435547,
+                219.84176635742188
+              ],
+              "predicted_iou": 0.9245706796646118,
+              "prompt_kind": "expanded",
+              "stability": 0.6217637658119202,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.9323332269390361,
+              "anchor_mask_iou": 0.9179761156505343,
+              "area_fraction": 0.04752,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                68.90739440917969,
+                157.40274047851562,
+                222.6161346435547,
+                219.84176635742188
+              ],
+              "predicted_iou": 0.9397963285446167,
+              "prompt_kind": "expanded",
+              "stability": 0.8295211791992188,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8563676986913501,
+              "anchor_mask_iou": 0.8560944479897894,
+              "area_fraction": 0.042944,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                68.90739440917969,
+                157.40274047851562,
+                222.6161346435547,
+                219.84176635742188
+              ],
+              "predicted_iou": 0.9312855005264282,
+              "prompt_kind": "expanded",
+              "stability": 0.8804423213005066,
+              "target_consistent": true
+            }
+          ],
+          "detector_group": {
+            "box_xyxy": [
+              86.64302062988281,
+              164.60723876953125,
+              204.88050842285156,
+              212.63726806640625
+            ],
+            "members": [],
+            "score": null
+          },
+          "mask_offset": 0,
+          "selected_candidate": 0
+        }
+      ],
+      "mps_allocated_bytes": 389998592,
+      "sam_embedding_device": "mps:0",
+      "sam_parameter_device": "mps:0",
+      "sam_seconds": 1.7683683340001153
+    },
+    "source": "archive/train.X1/n01440764/n01440764_10026.JPEG",
+    "source_sha256": "1278bc934896315c902cc4b9972ee43797840e98aecb724a10c01646c3ae416d"
+  },
+  {
+    "mask_sha256": "ea70defd2d6e2ccf235c49bba45c4bf50b25ed56d6fb6c69cdf7185e4881444c",
+    "review": "pending",
+    "segmentation": {
+      "annotation": {
+        "boxes_normalized": [
+          [
+            0.11409577941894532,
+            0.24972930908203125,
+            0.99323095703125,
+            0.870717529296875
+          ]
+        ],
+        "point_labels": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "points_normalized": [
+          [
+            0.38,
+            0.54
+          ],
+          [
+            0.59,
+            0.6
+          ],
+          [
+            0.958,
+            0.312
+          ],
+          [
+            0.82,
+            0.17
+          ],
+          [
+            0.95,
+            0.53
+          ],
+          [
+            0.97,
+            0.83
+          ],
+          [
+            0.4,
+            0.675
+          ],
+          [
+            0.59,
+            0.736
+          ]
+        ],
+        "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+        "reason": "Retain visible shark and fin; negative prompts mark water/spray and occluding boat rails.",
+        "source_sha256": "c006a3d47a880ae183cbc2836dcc53ba98e350e97c9652c05840da7c4859776b"
+      },
+      "area_fraction": 0.289392,
+      "detection_seconds": 2.362274167000578,
+      "detections": [
+        {
+          "box_xyxy": [
+            57.047889709472656,
+            93.64849090576172,
+            496.615478515625,
+            326.5190734863281
+          ],
+          "raw_index": 0,
+          "score": 0.40721580386161804
+        },
+        {
+          "box_xyxy": [
+            42.70158767700195,
+            77.42588806152344,
+            496.58770751953125,
+            355.87518310546875
+          ],
+          "raw_index": 0,
+          "score": 0.3572794497013092
+        }
+      ],
+      "flags": [
+        "low_sam_stability"
+      ],
+      "instances": [
+        {
+          "candidates": [
+            {
+              "anchor_coverage": 0.9925723586970757,
+              "anchor_mask_iou": 0.9706172929854733,
+              "area_fraction": 0.289392,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                57.047889709472656,
+                93.64849090576172,
+                496.615478515625,
+                326.5190734863281
+              ],
+              "predicted_iou": 0.9433200359344482,
+              "prompt_kind": "anchor",
+              "stability": 0.7827515602111816,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.28506133333333333,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                57.047889709472656,
+                93.64849090576172,
+                496.615478515625,
+                326.5190734863281
+              ],
+              "predicted_iou": 0.9510422945022583,
+              "prompt_kind": "anchor",
+              "stability": 0.7434030771255493,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.5645194484461823,
+              "anchor_mask_iou": 0.5636231180184555,
+              "area_fraction": 0.161376,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                57.047889709472656,
+                93.64849090576172,
+                496.615478515625,
+                326.5190734863281
+              ],
+              "predicted_iou": 0.9487224817276001,
+              "prompt_kind": "anchor",
+              "stability": 0.8927549123764038,
+              "target_consistent": false
+            },
+            {
+              "anchor_coverage": 0.9925723586970757,
+              "anchor_mask_iou": 0.9706172929854733,
+              "area_fraction": 0.289392,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                57.047889709472656,
+                93.64849090576172,
+                496.615478515625,
+                326.5190734863281
+              ],
+              "predicted_iou": 0.9433200359344482,
+              "prompt_kind": "merged",
+              "stability": 0.7827515602111816,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.28506133333333333,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                57.047889709472656,
+                93.64849090576172,
+                496.615478515625,
+                326.5190734863281
+              ],
+              "predicted_iou": 0.9510422945022583,
+              "prompt_kind": "merged",
+              "stability": 0.7434030771255493,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.5645194484461823,
+              "anchor_mask_iou": 0.5636231180184555,
+              "area_fraction": 0.161376,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                57.047889709472656,
+                93.64849090576172,
+                496.615478515625,
+                326.5190734863281
+              ],
+              "predicted_iou": 0.9487224817276001,
+              "prompt_kind": "merged",
+              "stability": 0.8927549123764038,
+              "target_consistent": false
+            },
+            {
+              "anchor_coverage": 0.999420007857958,
+              "anchor_mask_iou": 0.8490368109860766,
+              "area_fraction": 0.33538666666666667,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                0.0,
+                58.71790313720703,
+                500.0,
+                361.44964599609375
+              ],
+              "predicted_iou": 0.9543846845626831,
+              "prompt_kind": "expanded",
+              "stability": 0.6718502640724182,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.9844711781324254,
+              "anchor_mask_iou": 0.8991934105745241,
+              "area_fraction": 0.30766933333333335,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                0.0,
+                58.71790313720703,
+                500.0,
+                361.44964599609375
+              ],
+              "predicted_iou": 0.9413148760795593,
+              "prompt_kind": "expanded",
+              "stability": 0.6831467151641846,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.5640330034238246,
+              "anchor_mask_iou": 0.563337382042418,
+              "area_fraction": 0.161136,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                0.0,
+                58.71790313720703,
+                500.0,
+                361.44964599609375
+              ],
+              "predicted_iou": 0.8904973268508911,
+              "prompt_kind": "expanded",
+              "stability": 0.8225777745246887,
+              "target_consistent": false
+            }
+          ],
+          "detector_group": {
+            "box_xyxy": [
+              57.047889709472656,
+              93.64849090576172,
+              496.615478515625,
+              326.5190734863281
+            ],
+            "members": [],
+            "score": null
+          },
+          "mask_offset": 0,
+          "selected_candidate": 0
+        }
+      ],
+      "mps_allocated_bytes": 387528704,
+      "sam_embedding_device": "mps:0",
+      "sam_parameter_device": "mps:0",
+      "sam_seconds": 2.006101208999098
+    },
+    "source": "archive/train.X1/n01484850/n01484850_10016.JPEG",
+    "source_sha256": "c006a3d47a880ae183cbc2836dcc53ba98e350e97c9652c05840da7c4859776b"
+  },
+  {
+    "mask_sha256": "a7a3f7af4e4bfb3f3a79ac7a3ae0232a04042071f2acb61b8dc09c08011a71de",
+    "review": "pending",
+    "segmentation": {
+      "annotation": {
+        "boxes_normalized": [
+          [
+            0.0,
+            0.25,
+            0.87,
+            0.8
+          ]
+        ],
+        "point_labels": [
+          1,
+          1,
+          0
+        ],
+        "points_normalized": [
+          [
+            0.62,
+            0.56
+          ],
+          [
+            0.25,
+            0.4
+          ],
+          [
+            0.41,
+            0.32
+          ]
+        ],
+        "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+        "reason": "Reuse the earlier visually located bird box and cage-bar negative prompt, adding a visible wing point.",
+        "source_sha256": "85cf525a18a391452526e1379c7be18319a865f20d0e31283605d2daff0e16c5"
+      },
+      "area_fraction": 0.14462933333333333,
+      "detection_seconds": 2.093352458001391,
+      "detections": [
+        {
+          "box_xyxy": [
+            7.563546180725098,
+            87.96452331542969,
+            413.2478942871094,
+            322.2861328125
+          ],
+          "raw_index": 0,
+          "score": 0.4099457263946533
+        },
+        {
+          "box_xyxy": [
+            5.7444868087768555,
+            53.67020797729492,
+            446.8391418457031,
+            343.9581298828125
+          ],
+          "raw_index": 0,
+          "score": 0.3150787949562073
+        },
+        {
+          "box_xyxy": [
+            7.316231727600098,
+            43.545841217041016,
+            468.205810546875,
+            356.8465881347656
+          ],
+          "raw_index": 0,
+          "score": 0.25332775712013245
+        }
+      ],
+      "flags": [
+        "low_sam_stability"
+      ],
+      "instances": [
+        {
+          "candidates": [
+            {
+              "anchor_coverage": 0.9977136957002729,
+              "anchor_mask_iou": 0.9537507050197406,
+              "area_fraction": 0.15096533333333334,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                0.0,
+                93.75,
+                435.0,
+                300.0
+              ],
+              "predicted_iou": 0.9524825811386108,
+              "prompt_kind": "anchor",
+              "stability": 0.8853240609169006,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.14462933333333333,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                0.0,
+                93.75,
+                435.0,
+                300.0
+              ],
+              "predicted_iou": 0.9625547528266907,
+              "prompt_kind": "anchor",
+              "stability": 0.9495247602462769,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8359392285566782,
+              "anchor_mask_iou": 0.8348002209537838,
+              "area_fraction": 0.12109866666666666,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                0.0,
+                93.75,
+                435.0,
+                300.0
+              ],
+              "predicted_iou": 0.9564105272293091,
+              "prompt_kind": "anchor",
+              "stability": 0.9333248138427734,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.9977136957002729,
+              "anchor_mask_iou": 0.9537507050197406,
+              "area_fraction": 0.15096533333333334,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                0.0,
+                93.75,
+                435.0,
+                300.0
+              ],
+              "predicted_iou": 0.9524825811386108,
+              "prompt_kind": "merged",
+              "stability": 0.8853240609169006,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.14462933333333333,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                0.0,
+                93.75,
+                435.0,
+                300.0
+              ],
+              "predicted_iou": 0.9625547528266907,
+              "prompt_kind": "merged",
+              "stability": 0.9495247602462769,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8359392285566782,
+              "anchor_mask_iou": 0.8348002209537838,
+              "area_fraction": 0.12109866666666666,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                0.0,
+                93.75,
+                435.0,
+                300.0
+              ],
+              "predicted_iou": 0.9564105272293091,
+              "prompt_kind": "merged",
+              "stability": 0.9333248138427734,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.9984512132163139,
+              "anchor_mask_iou": 0.9084381815131689,
+              "area_fraction": 0.158736,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                0.0,
+                62.8125,
+                500.0,
+                330.9375
+              ],
+              "predicted_iou": 0.92698734998703,
+              "prompt_kind": "expanded",
+              "stability": 0.671287477016449,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.9964230400472012,
+              "anchor_mask_iou": 0.992033188927234,
+              "area_fraction": 0.144752,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                0.0,
+                62.8125,
+                500.0,
+                330.9375
+              ],
+              "predicted_iou": 0.944318950176239,
+              "prompt_kind": "expanded",
+              "stability": 0.9350495934486389,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8482926469503651,
+              "anchor_mask_iou": 0.8473552379549139,
+              "area_fraction": 0.122848,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                0.0,
+                62.8125,
+                500.0,
+                330.9375
+              ],
+              "predicted_iou": 0.9563571214675903,
+              "prompt_kind": "expanded",
+              "stability": 0.9229333400726318,
+              "target_consistent": true
+            }
+          ],
+          "detector_group": {
+            "box_xyxy": [
+              0.0,
+              93.75,
+              435.0,
+              300.0
+            ],
+            "members": [],
+            "score": null
+          },
+          "mask_offset": 0,
+          "selected_candidate": 1
+        }
+      ],
+      "mps_allocated_bytes": 387528704,
+      "sam_embedding_device": "mps:0",
+      "sam_parameter_device": "mps:0",
+      "sam_seconds": 1.5187617909996334
+    },
+    "source": "archive/train.X1/n01531178/n01531178_1006.JPEG",
+    "source_sha256": "85cf525a18a391452526e1379c7be18319a865f20d0e31283605d2daff0e16c5"
+  },
+  {
+    "mask_sha256": "2bd9a71515ac5361ce90d6e85011db0bfed9ddeb73245d1ca243b8eb71068e0b",
+    "review": "pending",
+    "segmentation": {
+      "annotation": {
+        "boxes_normalized": [
+          [
+            0.005662113381910694,
+            0.11204728424681264,
+            0.8764481891957364,
+            0.828824738969824
+          ]
+        ],
+        "point_labels": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "points_normalized": [
+          [
+            0.35,
+            0.4
+          ],
+          [
+            0.65,
+            0.66
+          ],
+          [
+            0.77,
+            0.72
+          ],
+          [
+            0.85,
+            0.2
+          ],
+          [
+            0.96,
+            0.62
+          ],
+          [
+            0.85,
+            0.95
+          ],
+          [
+            0.14,
+            0.89
+          ]
+        ],
+        "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+        "reason": "Retain animal body and eye; negative points mark surrounding substrate.",
+        "source_sha256": "4867cc17a62315096526cacebb2f3ce675c1b0c5020e517c9126ccef066362d4"
+      },
+      "area_fraction": 0.41211433678818815,
+      "detection_seconds": 2.6594860420009354,
+      "detections": [
+        {
+          "box_xyxy": [
+            3.6520631313323975,
+            50.5333251953125,
+            565.30908203125,
+            373.7999572753906
+          ],
+          "raw_index": 0,
+          "score": 0.4658421576023102
+        },
+        {
+          "box_xyxy": [
+            4.956252098083496,
+            32.3868522644043,
+            594.2357177734375,
+            410.8213195800781
+          ],
+          "raw_index": 0,
+          "score": 0.28882718086242676
+        },
+        {
+          "box_xyxy": [
+            5.99247932434082,
+            19.171890258789062,
+            618.5769653320312,
+            433.6545715332031
+          ],
+          "raw_index": 0,
+          "score": 0.25569748878479004
+        }
+      ],
+      "flags": [
+        "low_sam_stability"
+      ],
+      "instances": [
+        {
+          "candidates": [
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.4751370769521649,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                3.6520631313323975,
+                50.5333251953125,
+                565.30908203125,
+                373.7999572753906
+              ],
+              "predicted_iou": 0.9604860544204712,
+              "prompt_kind": "anchor",
+              "stability": 0.6773822903633118,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8666208443367218,
+              "anchor_mask_iou": 0.8659817665218303,
+              "area_fraction": 0.41211433678818815,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                3.6520631313323975,
+                50.5333251953125,
+                565.30908203125,
+                373.7999572753906
+              ],
+              "predicted_iou": 0.9523487687110901,
+              "prompt_kind": "anchor",
+              "stability": 0.8240692019462585,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8092392287378359,
+              "anchor_mask_iou": 0.8092333738496267,
+              "area_fraction": 0.3845029993640317,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                3.6520631313323975,
+                50.5333251953125,
+                565.30908203125,
+                373.7999572753906
+              ],
+              "predicted_iou": 0.8844419717788696,
+              "prompt_kind": "anchor",
+              "stability": 0.7985367774963379,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.4751370769521649,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                3.6520631313323975,
+                50.5333251953125,
+                565.30908203125,
+                373.7999572753906
+              ],
+              "predicted_iou": 0.9604860544204712,
+              "prompt_kind": "merged",
+              "stability": 0.6773822903633118,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8666208443367218,
+              "anchor_mask_iou": 0.8659817665218303,
+              "area_fraction": 0.41211433678818815,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                3.6520631313323975,
+                50.5333251953125,
+                565.30908203125,
+                373.7999572753906
+              ],
+              "predicted_iou": 0.9523487687110901,
+              "prompt_kind": "merged",
+              "stability": 0.8240692019462585,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.8092392287378359,
+              "anchor_mask_iou": 0.8092333738496267,
+              "area_fraction": 0.3845029993640317,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                3.6520631313323975,
+                50.5333251953125,
+                565.30908203125,
+                373.7999572753906
+              ],
+              "predicted_iou": 0.8844419717788696,
+              "prompt_kind": "merged",
+              "stability": 0.7985367774963379,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.999848062800709,
+              "anchor_mask_iou": 0.5102214870906883,
+              "area_fraction": 0.9310232214372883,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                0.0,
+                2.043330430984497,
+                645.0,
+                422.2899475097656
+              ],
+              "predicted_iou": 0.962130069732666,
+              "prompt_kind": "expanded",
+              "stability": 0.7182583808898926,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.9725138371377926,
+              "anchor_mask_iou": 0.6261196845552238,
+              "area_fraction": 0.7249419893776105,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                0.0,
+                2.043330430984497,
+                645.0,
+                422.2899475097656
+              ],
+              "predicted_iou": 0.9366173148155212,
+              "prompt_kind": "expanded",
+              "stability": 0.628572404384613,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.7218319285171653,
+              "anchor_mask_iou": 0.5020834591460837,
+              "area_fraction": 0.5509238728750924,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                0.0,
+                2.043330430984497,
+                645.0,
+                422.2899475097656
+              ],
+              "predicted_iou": 0.822901725769043,
+              "prompt_kind": "expanded",
+              "stability": 0.19230733811855316,
+              "target_consistent": false
+            }
+          ],
+          "detector_group": {
+            "box_xyxy": [
+              3.6520631313323975,
+              50.5333251953125,
+              565.30908203125,
+              373.7999572753906
+            ],
+            "members": [],
+            "score": null
+          },
+          "mask_offset": 0,
+          "selected_candidate": 1
+        }
+      ],
+      "mps_allocated_bytes": 387528704,
+      "sam_embedding_device": "mps:0",
+      "sam_parameter_device": "mps:0",
+      "sam_seconds": 1.7224432499988325
+    },
+    "source": "archive/train.X1/n01632777/n01632777_1000.JPEG",
+    "source_sha256": "4867cc17a62315096526cacebb2f3ce675c1b0c5020e517c9126ccef066362d4"
+  },
+  {
+    "mask_sha256": "77e14348ff589790d1513b1fbd63c0b57862b4c9d153b1e0decf324466743e80",
+    "review": "pending",
+    "segmentation": {
+      "annotation": {
+        "boxes_normalized": [
+          [
+            0.14630043029785156,
+            0.08034333529537671,
+            0.9935886840820313,
+            0.9799742816245719
+          ]
+        ],
+        "point_labels": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "points_normalized": [
+          [
+            0.35,
+            0.4
+          ],
+          [
+            0.83,
+            0.72
+          ],
+          [
+            0.66,
+            0.91
+          ],
+          [
+            0.42,
+            0.77
+          ],
+          [
+            0.57,
+            0.81
+          ],
+          [
+            0.18,
+            0.87
+          ],
+          [
+            0.2,
+            0.2
+          ]
+        ],
+        "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+        "reason": "Retain head and forelimb; remove grass below the chin and between head and limb.",
+        "source_sha256": "eda93b76cec14a9cb0fec81d3d73258aff7dab2469a67197eb03678ddba1c199"
+      },
+      "area_fraction": 0.4021479452054795,
+      "detection_seconds": 2.2216321249998146,
+      "detections": [
+        {
+          "box_xyxy": [
+            73.15021514892578,
+            29.3253173828125,
+            496.7943420410156,
+            357.69061279296875
+          ],
+          "raw_index": 0,
+          "score": 0.3626890778541565
+        },
+        {
+          "box_xyxy": [
+            91.37114715576172,
+            37.974796295166016,
+            487.7695617675781,
+            259.1964416503906
+          ],
+          "raw_index": 0,
+          "score": 0.2577969431877136
+        },
+        {
+          "box_xyxy": [
+            35.25090026855469,
+            15.553581237792969,
+            494.0177307128906,
+            357.6285705566406
+          ],
+          "raw_index": 0,
+          "score": 0.30213847756385803
+        }
+      ],
+      "flags": [
+        "low_sam_stability"
+      ],
+      "instances": [
+        {
+          "candidates": [
+            {
+              "anchor_coverage": 0.9999046217571398,
+              "anchor_mask_iou": 0.9010264469709992,
+              "area_fraction": 0.44624109589041094,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                73.15021514892578,
+                29.3253173828125,
+                496.7943420410156,
+                357.69061279296875
+              ],
+              "predicted_iou": 0.9519137144088745,
+              "prompt_kind": "anchor",
+              "stability": 0.6989997029304504,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.4021479452054795,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                73.15021514892578,
+                29.3253173828125,
+                496.7943420410156,
+                357.69061279296875
+              ],
+              "predicted_iou": 0.9600471258163452,
+              "prompt_kind": "anchor",
+              "stability": 0.8966880440711975,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.968089165031611,
+              "anchor_mask_iou": 0.9670613855995644,
+              "area_fraction": 0.38974246575342464,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                73.15021514892578,
+                29.3253173828125,
+                496.7943420410156,
+                357.69061279296875
+              ],
+              "predicted_iou": 0.9468469619750977,
+              "prompt_kind": "anchor",
+              "stability": 0.8964344263076782,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.9999046217571398,
+              "anchor_mask_iou": 0.9010264469709992,
+              "area_fraction": 0.44624109589041094,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                73.15021514892578,
+                29.3253173828125,
+                496.7943420410156,
+                357.69061279296875
+              ],
+              "predicted_iou": 0.9519137144088745,
+              "prompt_kind": "merged",
+              "stability": 0.6989997029304504,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 1.0,
+              "anchor_mask_iou": 1.0,
+              "area_fraction": 0.4021479452054795,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                73.15021514892578,
+                29.3253173828125,
+                496.7943420410156,
+                357.69061279296875
+              ],
+              "predicted_iou": 0.9600471258163452,
+              "prompt_kind": "merged",
+              "stability": 0.8966880440711975,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.968089165031611,
+              "anchor_mask_iou": 0.9670613855995644,
+              "area_fraction": 0.38974246575342464,
+              "box_expansion": 0.0,
+              "box_xyxy": [
+                73.15021514892578,
+                29.3253173828125,
+                496.7943420410156,
+                357.69061279296875
+              ],
+              "predicted_iou": 0.9468469619750977,
+              "prompt_kind": "merged",
+              "stability": 0.8964344263076782,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.999727490734685,
+              "anchor_mask_iou": 0.4900843614115007,
+              "area_fraction": 0.8202356164383562,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                9.603595733642578,
+                0.0,
+                500.0,
+                365.0
+              ],
+              "predicted_iou": 0.9273033142089844,
+              "prompt_kind": "expanded",
+              "stability": 0.38996902108192444,
+              "target_consistent": false
+            },
+            {
+              "anchor_coverage": 0.9985011990407674,
+              "anchor_mask_iou": 0.9722063759502235,
+              "area_fraction": 0.4124219178082192,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                9.603595733642578,
+                0.0,
+                500.0,
+                365.0
+              ],
+              "predicted_iou": 0.9128552079200745,
+              "prompt_kind": "expanded",
+              "stability": 0.7105116248130798,
+              "target_consistent": true
+            },
+            {
+              "anchor_coverage": 0.9483322432962721,
+              "anchor_mask_iou": 0.9470547413969057,
+              "area_fraction": 0.3819123287671233,
+              "box_expansion": 0.15,
+              "box_xyxy": [
+                9.603595733642578,
+                0.0,
+                500.0,
+                365.0
+              ],
+              "predicted_iou": 0.8993264436721802,
+              "prompt_kind": "expanded",
+              "stability": 0.821286678314209,
+              "target_consistent": true
+            }
+          ],
+          "detector_group": {
+            "box_xyxy": [
+              73.15021514892578,
+              29.3253173828125,
+              496.7943420410156,
+              357.69061279296875
+            ],
+            "members": [],
+            "score": null
+          },
+          "mask_offset": 0,
+          "selected_candidate": 1
+        }
+      ],
+      "mps_allocated_bytes": 387528704,
+      "sam_embedding_device": "mps:0",
+      "sam_parameter_device": "mps:0",
+      "sam_seconds": 1.2662457499991433
+    },
+    "source": "archive/train.X1/n01695060/n01695060_10028.JPEG",
+    "source_sha256": "eda93b76cec14a9cb0fec81d3d73258aff7dab2469a67197eb03678ddba1c199"
+  }
+]

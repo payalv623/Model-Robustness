@@ -1,0 +1,213 @@
+{
+  "images": {
+    "archive/train.X1/n01440764/n01440764_10026.JPEG": {
+      "boxes_normalized": [
+        [
+          0.34657208251953125,
+          0.658428955078125,
+          0.8195220336914063,
+          0.850549072265625
+        ]
+      ],
+      "point_labels": [],
+      "points_normalized": [],
+      "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+      "reason": "Use the visible held fish box; exclude the false lower bag detection.",
+      "source_sha256": "1278bc934896315c902cc4b9972ee43797840e98aecb724a10c01646c3ae416d"
+    },
+    "archive/train.X1/n01484850/n01484850_10016.JPEG": {
+      "boxes_normalized": [
+        [
+          0.11409577941894532,
+          0.24972930908203125,
+          0.99323095703125,
+          0.870717529296875
+        ]
+      ],
+      "point_labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "points_normalized": [
+        [
+          0.38,
+          0.54
+        ],
+        [
+          0.59,
+          0.6
+        ],
+        [
+          0.958,
+          0.312
+        ],
+        [
+          0.82,
+          0.17
+        ],
+        [
+          0.95,
+          0.53
+        ],
+        [
+          0.97,
+          0.83
+        ],
+        [
+          0.4,
+          0.675
+        ],
+        [
+          0.59,
+          0.736
+        ]
+      ],
+      "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+      "reason": "Retain visible shark and fin; negative prompts mark water/spray and occluding boat rails.",
+      "source_sha256": "c006a3d47a880ae183cbc2836dcc53ba98e350e97c9652c05840da7c4859776b"
+    },
+    "archive/train.X1/n01531178/n01531178_1006.JPEG": {
+      "boxes_normalized": [
+        [
+          0.0,
+          0.25,
+          0.87,
+          0.8
+        ]
+      ],
+      "point_labels": [
+        1,
+        1,
+        0
+      ],
+      "points_normalized": [
+        [
+          0.62,
+          0.56
+        ],
+        [
+          0.25,
+          0.4
+        ],
+        [
+          0.41,
+          0.32
+        ]
+      ],
+      "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+      "reason": "Reuse the earlier visually located bird box and cage-bar negative prompt, adding a visible wing point.",
+      "source_sha256": "85cf525a18a391452526e1379c7be18319a865f20d0e31283605d2daff0e16c5"
+    },
+    "archive/train.X1/n01632777/n01632777_1000.JPEG": {
+      "boxes_normalized": [
+        [
+          0.005662113381910694,
+          0.11204728424681264,
+          0.8764481891957364,
+          0.828824738969824
+        ]
+      ],
+      "point_labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "points_normalized": [
+        [
+          0.35,
+          0.4
+        ],
+        [
+          0.65,
+          0.66
+        ],
+        [
+          0.77,
+          0.72
+        ],
+        [
+          0.85,
+          0.2
+        ],
+        [
+          0.96,
+          0.62
+        ],
+        [
+          0.85,
+          0.95
+        ],
+        [
+          0.14,
+          0.89
+        ]
+      ],
+      "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+      "reason": "Retain animal body and eye; negative points mark surrounding substrate.",
+      "source_sha256": "4867cc17a62315096526cacebb2f3ce675c1b0c5020e517c9126ccef066362d4"
+    },
+    "archive/train.X1/n01695060/n01695060_10028.JPEG": {
+      "boxes_normalized": [
+        [
+          0.14630043029785156,
+          0.08034333529537671,
+          0.9935886840820313,
+          0.9799742816245719
+        ]
+      ],
+      "point_labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "points_normalized": [
+        [
+          0.35,
+          0.4
+        ],
+        [
+          0.83,
+          0.72
+        ],
+        [
+          0.66,
+          0.91
+        ],
+        [
+          0.42,
+          0.77
+        ],
+        [
+          0.57,
+          0.81
+        ],
+        [
+          0.18,
+          0.87
+        ],
+        [
+          0.2,
+          0.2
+        ]
+      ],
+      "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+      "reason": "Retain head and forelimb; remove grass below the chin and between head and limb.",
+      "source_sha256": "eda93b76cec14a9cb0fec81d3d73258aff7dab2469a67197eb03678ddba1c199"
+    }
+  },
+  "schema": 1
+}

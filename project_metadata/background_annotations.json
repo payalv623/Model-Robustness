@@ -1,0 +1,53 @@
+{
+  "images": {
+    "archive/train.X1/n01440764/n01440764_10026.JPEG": {
+      "boxes_normalized": [
+        [
+          0.34657208251953125,
+          0.658428955078125,
+          0.8195220336914063,
+          0.850549072265625
+        ]
+      ],
+      "point_labels": [],
+      "points_normalized": [],
+      "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+      "reason": "Use the visible held fish box; exclude the false lower bag detection.",
+      "source_sha256": "1278bc934896315c902cc4b9972ee43797840e98aecb724a10c01646c3ae416d"
+    },
+    "archive/train.X1/n01531178/n01531178_1006.JPEG": {
+      "boxes_normalized": [
+        [
+          0.0,
+          0.25,
+          0.87,
+          0.8
+        ]
+      ],
+      "point_labels": [
+        1,
+        1,
+        0
+      ],
+      "points_normalized": [
+        [
+          0.62,
+          0.56
+        ],
+        [
+          0.25,
+          0.4
+        ],
+        [
+          0.41,
+          0.32
+        ]
+      ],
+      "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+      "reason": "Reuse the earlier visually located bird box and cage-bar negative prompt, adding a visible wing point.",
+      "source_sha256": "85cf525a18a391452526e1379c7be18319a865f20d0e31283605d2daff0e16c5"
+    }
+  },
+  "note": "Only visually improved probes are active. Shark, axolotl and Komodo point probes did not reliably improve the masks and remain archived, not applied.",
+  "schema": 1
+}

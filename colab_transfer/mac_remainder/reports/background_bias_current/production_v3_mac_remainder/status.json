@@ -1,0 +1,12 @@
+{
+  "elapsed_seconds": 13.328175041999202,
+  "failed_sources": 0,
+  "flagged_sources": 792,
+  "full_dataset_verified": false,
+  "generated_sources": 1102,
+  "sam_device": "mps",
+  "status": "partial_recovery_generated_pending_review",
+  "total_sources": 1102,
+  "training_ready": false,
+  "updated_utc": "2026-09-30T19:41:41.452129+00:00"
+}

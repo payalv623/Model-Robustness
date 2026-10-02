@@ -1,0 +1,14 @@
+{
+  "candidate_manifest_rows": 108000,
+  "failed_or_missing_sources": [],
+  "full_dataset_verified": false,
+  "generated_sources": 13500,
+  "note": "Candidate manifests retain all sources; flags are never silently filtered.",
+  "quality_counts": {
+    "automatic_checks_passed": 4925,
+    "review_required": 8575
+  },
+  "status": "generated_pending_quality_review",
+  "total_sources": 13500,
+  "training_ready": false
+}

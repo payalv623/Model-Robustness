@@ -1,0 +1,17 @@
+{
+  "status": "numeric_audit_passed",
+  "source_images_verified": 13500,
+  "pixel_verified_pngs": 54000,
+  "manifest_rows": 108000,
+  "quality_review_unresolved": 8575,
+  "required_visual_sample_pending": 150,
+  "full_dataset_verified": false,
+  "training_ready": false,
+  "sam_device": "per_record_cuda_or_mps",
+  "backend_source_counts": {
+    "cuda": 12398,
+    "mps": 1102
+  },
+  "observed_utc": "2026-09-30T20:10:09.003390+00:00",
+  "evidence": "Verified from final merged audit output in the project Colab notebook; Drive backup in progress."
+}

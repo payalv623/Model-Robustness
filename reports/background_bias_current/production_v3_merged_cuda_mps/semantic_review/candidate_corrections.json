@@ -1,0 +1,18 @@
+[
+  {
+    "reason": "Original mask selected background. Visually inspected all nine saved candidate composites: chosen candidate retains spider body and visible legs while removing surrounding surface.",
+    "reviewer": "Codex visual inspection 2026-10-01; candidate sheet reports/background_bias_current/production_v3_merged_cuda_mps/semantic_review/candidates_95.jpg",
+    "selected_candidates": [
+      1
+    ],
+    "source": "archive/train.X1/n01775062/n01775062_7053.JPEG"
+  },
+  {
+    "reason": "Original mask selected background. Visually inspected all nine saved candidate composites: chosen candidate retains spider body and visible legs while removing surrounding surface.",
+    "reviewer": "Codex visual inspection 2026-10-01; candidate sheet reports/background_bias_current/production_v3_merged_cuda_mps/semantic_review/candidates_147.jpg",
+    "selected_candidates": [
+      5
+    ],
+    "source": "archive/val.X/n01775062/ILSVRC2012_val_00017986.JPEG"
+  }
+]

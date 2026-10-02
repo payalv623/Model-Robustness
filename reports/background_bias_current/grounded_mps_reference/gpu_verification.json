@@ -1,0 +1,17 @@
+{
+  "status": "verified",
+  "sam_device": "mps:0",
+  "detector_device": "cpu",
+  "images": 30,
+  "verified_composites": 90,
+  "cpu_fallback_enabled": false,
+  "tests_passed": 11,
+  "mask_quality": "known defects remain; full generation not started",
+  "verified_utc": "2026-09-30T10:11:43.534723+00:00",
+  "code_sha256": {
+    "background_grounded_pilot.py": "145319ba50b922f43c0900d5341b543dd3e90c48f5b4e22f5a2841e8e0a8ceb2",
+    "audit_background_grounded.py": "c4a522b2a536366e7e43ff83dae39ab4c29970ef678022802a58dc2d27a4b23b",
+    "compare_background_devices.py": "5bbdfaf0e0b75263069adffbb2c0acd3c24afc6ccadc65a8b5890d85cdb09e2a",
+    "background_bias_template2_complete.py": "75b013235661e68a42c079302aa848ecd6421543ccd62c59dadb4a65aca6ab9d"
+  }
+}

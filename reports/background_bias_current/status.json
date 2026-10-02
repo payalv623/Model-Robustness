@@ -1,0 +1,9 @@
+{
+  "active_run": "production_v3",
+  "full_dataset_complete": false,
+  "full_generation_started": true,
+  "report": "production_v3/index.html",
+  "status": "see_active_run_status",
+  "status_file": "production_v3/status.json",
+  "training_ready": false
+}

@@ -1,0 +1,11 @@
+{
+  "full_generation_started": false,
+  "images": 30,
+  "images_with_flags": 21,
+  "quality_gate_passed": false,
+  "status": "pilot_complete_pending_visual_review",
+  "sam_gpu_execution_verified": true,
+  "sam_device": "mps:0",
+  "cpu_fallback_enabled": false,
+  "verified_composites": 90
+}

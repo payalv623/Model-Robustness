@@ -1,0 +1,29 @@
+{
+  "background_assignment_audit": "reports/background_bias_current/assignment_plan_audit.json",
+  "background_generation_status": "reports/background_bias_current/production_v3/status.json",
+  "background_gpu_report": "reports/background_bias_current/grounded_mps_reference/index.html",
+  "background_gpu_verification": "reports/background_bias_current/grounded_mps_reference/gpu_verification.json",
+  "background_guided_pilot_images": 30,
+  "background_method": "class_guided_sam_v3",
+  "background_report": "reports/background_bias_current/production_v3/index.html",
+  "background_status_file": "reports/background_bias_current/status.json",
+  "background_verified_pilot_composites": 90,
+  "color_audit_file": "reports/color_bias_current/audit.json",
+  "color_default_correlation": 0.9,
+  "color_status_file": "color_bias_dataset/status.json",
+  "color_verified_manifest_rows": 108000,
+  "color_verified_unique_pngs": 54000,
+  "comparison_and_analysis": "not_started",
+  "dataset_foundation": "verified",
+  "model_experiments": "not_started",
+  "sam_device_policy": "mps_required_by_default",
+  "sam_gpu_verified_images": 30,
+  "templates": {
+    "background": "full_candidate_generation_running",
+    "color": "complete_verified",
+    "shape": "not_started",
+    "size": "not_started",
+    "text": "not_started"
+  },
+  "updated_utc": "2026-09-30T10:28:21.734456+00:00"
+}

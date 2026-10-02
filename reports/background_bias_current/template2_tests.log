@@ -1,0 +1,19 @@
+test_generate_resume_repair_manifest_and_quality_gates (test_background_dataset.BackgroundDatasetTest.test_generate_resume_repair_manifest_and_quality_gates) ... ok
+test_nested_alias_boxes_expand_coverage_and_keep_separate_animals (test_background_dataset.SelectionPolicyTest.test_nested_alias_boxes_expand_coverage_and_keep_separate_animals) ... ok
+test_quality_eligible_mask_beats_high_iou_unstable_mask (test_background_dataset.SelectionPolicyTest.test_quality_eligible_mask_beats_high_iou_unstable_mask) ... ok
+test_device_runs_are_isolated_and_paths_validated (test_background_grounded.GroundedPilotTest.test_device_runs_are_isolated_and_paths_validated) ... ok
+test_duplicate_aliases_removed_distinct_animals_retained (test_background_grounded.GroundedPilotTest.test_duplicate_aliases_removed_distinct_animals_retained) ... ok
+test_explicit_mps_never_silently_selects_cpu (test_background_grounded.GroundedPilotTest.test_explicit_mps_never_silently_selects_cpu) ... ok
+test_invalid_low_score_and_empty_detections (test_background_grounded.GroundedPilotTest.test_invalid_low_score_and_empty_detections) ... ok
+test_prompts_cover_exact_frozen_classes (test_background_grounded.GroundedPilotTest.test_prompts_cover_exact_frozen_classes) ... ok
+test_composite_and_background_pairing (test_background_pilot.BackgroundPilotTest.test_composite_and_background_pairing) ... ok
+test_empty_masks_rejected_and_scores_not_probabilities (test_background_pilot.BackgroundPilotTest.test_empty_masks_rejected_and_scores_not_probabilities) ... ok
+test_quality_settings_unchanged (test_background_pilot.BackgroundPilotTest.test_quality_settings_unchanged) ... ok
+test_01_assignment_is_exact_paired_and_order_independent (test_color_pipeline.ColorPipelineTest.test_01_assignment_is_exact_paired_and_order_independent) ... ok
+test_02_full_generation_audit_resume_and_failure_detection (test_color_pipeline.ColorPipelineTest.test_02_full_generation_audit_resume_and_failure_detection) ... ok
+test_03_split_and_label_tampering_rejected (test_color_pipeline.ColorPipelineTest.test_03_split_and_label_tampering_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 22.230s
+
+OK

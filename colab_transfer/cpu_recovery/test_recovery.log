@@ -1,0 +1,72 @@
+Imported 298 verified CUDA records; their image bytes are unchanged.
+Loading CPU continuation for unfinished images only
+[81/300] train_0.png: generated; flagged=81; elapsed=0s
+[252/300] test_1.png: generated; flagged=252; elapsed=0s
+{
+  "status": "generated_pending_quality_review",
+  "total_sources": 300,
+  "generated_sources": 300,
+  "quality_counts": {
+    "review_required": 300
+  },
+  "failed_or_missing_sources": [],
+  "candidate_manifest_rows": 2400,
+  "training_ready": false,
+  "full_dataset_verified": false,
+  "note": "Candidate manifests retain all sources; flags are never silently filtered.",
+  "sam_device": "mixed_cuda_cpu",
+  "elapsed_seconds": 0.18080587500298861,
+  "updated_utc": "2026-09-30T17:37:44.802089+00:00"
+}
+{
+  "status": "numeric_audit_passed",
+  "source_images_verified": 300,
+  "pixel_verified_pngs": 1200,
+  "manifest_rows": 2400,
+  "quality_review_unresolved": 300,
+  "required_visual_sample_pending": 150,
+  "full_dataset_verified": false,
+  "training_ready": false,
+  "sam_device": "mixed_cuda_cpu"
+}
+Imported 0 verified CUDA records; their image bytes are unchanged.
+{
+  "status": "generated_pending_quality_review",
+  "total_sources": 300,
+  "generated_sources": 300,
+  "quality_counts": {
+    "review_required": 300
+  },
+  "failed_or_missing_sources": [],
+  "candidate_manifest_rows": 2400,
+  "training_ready": false,
+  "full_dataset_verified": false,
+  "note": "Candidate manifests retain all sources; flags are never silently filtered.",
+  "sam_device": "mixed_cuda_cpu",
+  "elapsed_seconds": 0.14439224999659928,
+  "updated_utc": "2026-09-30T17:37:47.327012+00:00"
+}
+{
+  "status": "failed",
+  "source_images_verified": 299,
+  "pixel_verified_pngs": 1196,
+  "manifest_rows": 2400,
+  "quality_review_unresolved": 299,
+  "required_visual_sample_pending": 150,
+  "full_dataset_verified": false,
+  "training_ready": false,
+  "sam_device": "mixed_cuda_cpu"
+}
+archive/val.X/n01695060/test_4.png: CUDA provenance record changed
+/private/var/folders/ts/t0rj2n_57259ky_vx0xj7s3c0000gn/T/tmpdb7qhvss/template2_cpu_recovery/background_bias_dataset/production_v3_cpu_recovery/candidate_manifests/test/correlated.csv: 'archive/val.X/n01695060/test_4.png'
+/private/var/folders/ts/t0rj2n_57259ky_vx0xj7s3c0000gn/T/tmpdb7qhvss/template2_cpu_recovery/background_bias_dataset/production_v3_cpu_recovery/candidate_manifests/test/balanced.csv: 'archive/val.X/n01695060/test_4.png'
+/private/var/folders/ts/t0rj2n_57259ky_vx0xj7s3c0000gn/T/tmpdb7qhvss/template2_cpu_recovery/background_bias_dataset/production_v3_cpu_recovery/candidate_manifests/test/reversed.csv: 'archive/val.X/n01695060/test_4.png'
+/private/var/folders/ts/t0rj2n_57259ky_vx0xj7s3c0000gn/T/tmpdb7qhvss/template2_cpu_recovery/background_bias_dataset/production_v3_cpu_recovery/candidate_manifests/test/counterfactual.csv: 'archive/val.X/n01695060/test_4.png'
+/private/var/folders/ts/t0rj2n_57259ky_vx0xj7s3c0000gn/T/tmpdb7qhvss/template2_cpu_recovery/background_bias_dataset/production_v3_cpu_recovery/candidate_manifests/test/all_nature.csv: 'archive/val.X/n01695060/test_4.png'
+/private/var/folders/ts/t0rj2n_57259ky_vx0xj7s3c0000gn/T/tmpdb7qhvss/template2_cpu_recovery/background_bias_dataset/production_v3_cpu_recovery/candidate_manifests/test/all_urban.csv: 'archive/val.X/n01695060/test_4.png'
+/private/var/folders/ts/t0rj2n_57259ky_vx0xj7s3c0000gn/T/tmpdb7qhvss/template2_cpu_recovery/background_bias_dataset/production_v3_cpu_recovery/candidate_manifests/test/original.csv: 'archive/val.X/n01695060/test_4.png'
+/private/var/folders/ts/t0rj2n_57259ky_vx0xj7s3c0000gn/T/tmpdb7qhvss/template2_cpu_recovery/background_bias_dataset/production_v3_cpu_recovery/candidate_manifests/test/neutral.csv: 'archive/val.X/n01695060/test_4.png'
+Reversed assignment not paired: archive/val.X/n01775062/test_1.png
+Drive checkpoint: chunk-000001.zip (300 records)
+Saved CUDA checkpoints restored. Every source/output hash is rechecked on resume.
+PASS: 298 unchanged CUDA imports; 2 CPU repairs; resume; provenance tamper detection; 1200 pixel checks; 2400 manifest rows; checkpoint restore; training remains gated.

@@ -1,0 +1,60 @@
+{
+  "box_normalized_xyxy": [
+    0.0,
+    0.25,
+    0.87,
+    0.8
+  ],
+  "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "composite_audits": [
+    {
+      "pixel_blend_verified": true,
+      "replaced_background_pixels": 40519,
+      "soft_boundary_pixels": 3879,
+      "unchanged_foreground_pixels": 5778
+    },
+    {
+      "pixel_blend_verified": true,
+      "replaced_background_pixels": 40880,
+      "soft_boundary_pixels": 3823,
+      "unchanged_foreground_pixels": 5473
+    },
+    {
+      "pixel_blend_verified": true,
+      "replaced_background_pixels": 41954,
+      "soft_boundary_pixels": 4026,
+      "unchanged_foreground_pixels": 4196
+    }
+  ],
+  "device": "mps",
+  "elapsed_seconds": 3.037829375000001,
+  "full_dataset_generated": false,
+  "method_difference": "This supplementary probe uses explicit SAM point/box prompting; automatic pilot remains at the frozen 32-point grid settings.",
+  "point_labels": [
+    1,
+    0
+  ],
+  "points_normalized_xy": [
+    [
+      0.62,
+      0.56
+    ],
+    [
+      0.41,
+      0.32
+    ]
+  ],
+  "predicted_iou_scores": [
+    0.9642410278320312,
+    0.9725366830825806,
+    0.9661678075790405
+  ],
+  "prompt_provenance": "Assistant visual annotation of one training example; approximate diagnostic, not ground truth",
+  "sam_model": "vit_b",
+  "semantic_review": {
+    "status": "promising_not_production_approved",
+    "review": "Candidates 0 and 1 recover much of the visible bird rather than the cage bar. Candidate 2 loses part of the wing/body. Boundaries at the occluding bar still require care. One manually prompted training image does not establish generalization to the dataset."
+  },
+  "source": "archive/train.X1/n01531178/n01531178_1006.JPEG",
+  "source_sha256": "85cf525a18a391452526e1379c7be18319a865f20d0e31283605d2daff0e16c5"
+}

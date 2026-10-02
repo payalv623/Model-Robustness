@@ -1,0 +1,20 @@
+{
+  "reviewer": "assistant visual inspection",
+  "training_ready": false,
+  "images": [
+    {
+      "source": "archive/train.X1/n01484850/n01484850_20518.JPEG",
+      "source_sha256": "5969bf443166d7e216266889f9ba21953bff735fb146785da4ff7ddc8394ded7",
+      "mask_sha256": "b6fac3ad991ed37baeab2b1e1763501318b93c91006620e549186965c9ce6370",
+      "decision": "reject",
+      "reason": "Neutral composite retains extensive water/glare; target boundary is unreliable. Needs corrected mask."
+    },
+    {
+      "source": "archive/train.X1/n01775062/n01775062_8018.JPEG",
+      "source_sha256": "f991d8deb7f25f16c19e2e7a7a9a0a3c06cf4aa73080e2b83120e67e6501721e",
+      "mask_sha256": "9c91544f088eb55fbf021c1c2f7e803bb118f8e4e0f2833d71a9d75aff33149a",
+      "decision": "pending",
+      "reason": "Source-bound guided mask generated; low stability and fine legs/boundary still require review."
+    }
+  ]
+}

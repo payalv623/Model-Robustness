@@ -1,0 +1,21 @@
+{
+  "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "device": "mps",
+  "mask_boundary_blur_radius_at_224": 1.2,
+  "mps_coordinate_conversion": "float32 before tensor transfer",
+  "sam_commit": "dca509fe793f601edb92606367a655c15ac00fdf",
+  "sam_model": "vit_b",
+  "sam_settings": {
+    "crop_n_layers": 0,
+    "min_mask_region_area": 100,
+    "points_per_batch": 8,
+    "points_per_side": 32,
+    "pred_iou_thresh": 0.88,
+    "stability_score_thresh": 0.95
+  },
+  "schema": 1,
+  "selection": "legacy centrality/area heuristic; semantic target review required",
+  "source_resolution": "original; no downsampling before SAM",
+  "source_splits_sha256": "61591c06294ed7659446e90cd970088cf8a0cff834feed4e8816bc842454f6e8",
+  "torch_version": "2.5.1"
+}

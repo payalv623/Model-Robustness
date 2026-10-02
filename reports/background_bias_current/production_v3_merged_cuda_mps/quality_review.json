@@ -1,0 +1,1211 @@
+{
+  "config_sha256": "a804d74de81c4da37909e904ab8ec7704f4c6b83a5e7222d05d6e73b87aa932e",
+  "images": {
+    "archive/train.X1/n01440764/n01440764_11897.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "7a5a8ebefc00107e6ace9df87f20aef9040358d8110e58c28eaa07db699030ca",
+      "reason": "Head and body boundary are visibly damaged near the holding hand.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "dc3e0c6fc72c457e7a0ad13ad5b7a9f5d9aec2e4a73d91726f2817350bf9a709"
+    },
+    "archive/train.X1/n01440764/n01440764_13702.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "718d2d77095799b4c0877eeba4e3adb338a40a6454de72f67eb63466e987ce21",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "b485f2a6055a91eb9a69f436a2de8c5c4d2696d8279b50f940009addb6e812d0"
+    },
+    "archive/train.X1/n01440764/n01440764_14650.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "1ca043b230772247284517563c6a31c3b6022246a76a5d001db5142905f88b65",
+      "reason": "Holding fingers remain in foreground.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "e08e2b26332500e78e838e592b3db01ac38e9a95bebf3cad084402e5c4f62e91"
+    },
+    "archive/train.X1/n01440764/n01440764_26698.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "0f3097276da8846f924faf0730f107355215cf8ddb9c7d72f2495c35cab1c1df",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "fa7201887c7d9050380cb3391a9272b4f6714774fa9b36de1f3d032db1fe0baf"
+    },
+    "archive/train.X1/n01440764/n01440764_32134.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "b9f947175de0bfa28f69586ca37b9eaf3b3f7091e8657cecb6a19ec1c895c4b0",
+      "reason": "Fish is retained together with a large unrelated net/mat region.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "537ea1ab52a8261901d617e713a5c396a07350e00d907aca8f9c7f15100c4d4f"
+    },
+    "archive/train.X1/n01440764/n01440764_3417.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "7f41901b5ccd0576bd1e83366c555639929fdedfcd60a31272cd07a1a74a6a38",
+      "reason": "Fin/barbel boundaries near hand need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "1c1f3e8380256315a2c1b4c3202c1bb9d1ad1711cf4d151043ca97ac8be552fc"
+    },
+    "archive/train.X1/n01440764/n01440764_449.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "3e4f911345e46ab86e8c968f29174d84c1cceef27fa0b5e559df045e4bbccff0",
+      "reason": "Visible tail/fin region is removed; isolated background fragment remains.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "71825dc844fce01026190e41b8a217f0d47410df97185b5470eb47a07ea32b1b"
+    },
+    "archive/train.X1/n01440764/n01440764_459.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "382b86893e13833cff0739f7e9847fb56095bacc7ffd168925b1c9682520bd02",
+      "reason": "Dorsal-fin region appears omitted; hand occlusion needs detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "b270197b28d551d32e1e9d71723167e8024e134e009e05ca469659a4421b5dcc"
+    },
+    "archive/train.X1/n01440764/n01440764_519.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "9188302d79f7a2564cac305ce759c6c46dd95f327f80e2670a5afe9837c55c7a",
+      "reason": "Secondary fish and visible fins of main fish are omitted.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "05da10174291f99b3352ca89e7aee918347323bda2905f4de0129174c385cb4e"
+    },
+    "archive/train.X1/n01440764/n01440764_8163.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "1ef4bdebbefe6db588bda0cba92912c6d0f1aa7312ac4e0ca9d34ae9b11539b7",
+      "reason": "Holding fingers remain in foreground.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "1cca0f97be029c4a882cf19164003da81b32c1408e229f3002ec07406711e7a6"
+    },
+    "archive/train.X1/n01484850/n01484850_13656.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "e43b93e55227296590192f0976d97510ac59df8d8ac338c4f8bfda188006982d",
+      "reason": "Water texture overlaps submerged shark; boundary needs detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "2742dd983b321bb341b3e49e6d786df05558af0c28ad39fb89703b667854c913"
+    },
+    "archive/train.X1/n01484850/n01484850_14256.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "34dd0ee8c2e4fe8907e1ec63455dd9b6030c32603942f8b657c942f984633c7a",
+      "reason": "Thin harpoon/line remains; inspect target boundary before approval.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "6cb0e9b36e1b364f8eccb87589bb56253f9688634934672ebc1dda039fc5a3b9"
+    },
+    "archive/train.X1/n01484850/n01484850_20518.JPEG": {
+      "decision": "reject",
+      "mask_sha256": "b6fac3ad991ed37baeab2b1e1763501318b93c91006620e549186965c9ce6370",
+      "reason": "Visual inspection of neutral composite: substantial water/glare retained; foreground boundary is unreliable. Requires corrected annotation/mask.",
+      "source_sha256": "5969bf443166d7e216266889f9ba21953bff735fb146785da4ff7ddc8394ded7"
+    },
+    "archive/train.X1/n01484850/n01484850_21914.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "ce00b7f7ef301121c716373ea9f98bbcdd82e2d4e5a79deaa2ba9250cdfcb24f",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "b6c89b9b1da072ba77da8971347ae9dd601756c2d37d25323a57d5d0d8c9bbc3"
+    },
+    "archive/train.X1/n01484850/n01484850_2270.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "0b59bfdb58d1bc464bfc468bd7fec74aa83279515bcea5373acc4b38b088d2ae",
+      "reason": "Other clearly visible shark-shaped animals are omitted.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "1f8af07730f25df8562cb6d5ce21e06d1c0aee35f115e7cdb4408e7a137505e3"
+    },
+    "archive/train.X1/n01484850/n01484850_29653.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "7499bf294106d2b6975dfbcd7a92102622e4ae09203db4df0fe1a55156d1fa78",
+      "reason": "Water occlusion makes visible shark boundary uncertain; inspect full resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "4497868451b6c8943fb61ccdf8c078df4aaca346cb14e05e2467397d33011da9"
+    },
+    "archive/train.X1/n01484850/n01484850_30141.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "4da63f993908a8967a30c7643e72da3191d4ce3c7dc0836f85beb0e5bdeb3d6e",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "0146afbcf8c7d97c0d821fa7aeab87cf1ee24bceaee5cdfa80483493045ced29"
+    },
+    "archive/train.X1/n01484850/n01484850_31115.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0005.jpg",
+      "mask_sha256": "2b15c275b468fbf8641ad386cc2523cf978d23edcdddff03b84a92a3087ec76d",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "0ecd2d0ec2aa0a901373f8fb9e6f5801771c675c708acae5c9d01114eaf83c43"
+    },
+    "archive/train.X1/n01484850/n01484850_33387.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "263ee7df6ac850e7a7621a907c729fe37927575abe02f41b33e185856fee86f3",
+      "reason": "Net/rope and surrounding material retained with shark.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "3a446547694a6da2ec92fb71525ddbf0af19a5b92dfbe09609c818341caa1d37"
+    },
+    "archive/train.X1/n01484850/n01484850_8553.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "ab1ea8eacbc1a902e7cfe779a9823780dd09a66ef62d5658f30195f965a22c47",
+      "reason": "Large water and splash region retained around shark.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "b5ac742eae9911c90b655eac9b22ed30d2eb206282ad4bedce96853e9bafe9af"
+    },
+    "archive/train.X1/n01484850/n01484850_9843.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0000.jpg",
+      "mask_sha256": "6b8a22e07501d003d2b6fba72baf382126c61a2e388428db3c42d2c410e32651",
+      "reason": "Large water region retained around shark.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d148bdd24037247d7d32b37de3349e96e737edf0a169f6a086bc00a17141be86"
+    },
+    "archive/train.X1/n01494475/n01494475_1057.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "1977e3677dfe2be1b7026c26e9dc75c39e6af26c7ad77109637c641557226413",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "b0851e8507137afdb5facd95bd464b96c150eea4469ff7d7b9acceea10cd15fd"
+    },
+    "archive/train.X1/n01494475/n01494475_1220.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "0d8f7c81dcba6fb3b743ccf56435dbefe4da20b965ecfb219278d3c7e89ee81e",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "e6254e50185c797abb056e1c26ca5417dcd49b3450cf5ea294fa9eb38d6e0584"
+    },
+    "archive/train.X1/n01494475/n01494475_13173.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "265bb7f5aff8f5e07b958436756f84d57a4720032490164f1057248c817689bb",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "e0ad2d986e90b38d248c19cbb03ed2d92be12cd1180b85a73821ef40a34cdfea"
+    },
+    "archive/train.X1/n01494475/n01494475_14500.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "da5d5adb42c0caee43e1759392d1177841cee10410bacaac5d816ccc354804e9",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "0bab3da36c85418c768cfabbe19953c812032c31626a5bdc1fd79fc3bb38e429"
+    },
+    "archive/train.X1/n01494475/n01494475_17834.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "ec99d9542f70a6da74d0665ea21ba672c98e78ea719f76db6dd56fa8d6fffc17",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d6595cfa4449ed60b864b3b4843259714eaf01766e92acf714a02dbcfcc4345d"
+    },
+    "archive/train.X1/n01494475/n01494475_18450.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "81bbe332b3e6310ed47e83f0e7b1f9b4fe938f6ca905b07033b7cbc707c1953c",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "8b73ad6aa47513301ae71b6ac5ef9577ef9b9261d693e53110d2f6bd162df227"
+    },
+    "archive/train.X1/n01494475/n01494475_3623.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "00d8bff041492694ff83ec5f4368919d116e885e50bf64e1001c4db2499d1346",
+      "reason": "Several visible sharks are omitted from a multi-animal image.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "70cd9daf12713c29885a4fdef6e57d9e07111cf488baf45244508c1765746fad"
+    },
+    "archive/train.X1/n01494475/n01494475_3676.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "29b9909c6a40ddfc60ea011244a9cb75ca60c82e7e2b20f20d1a4fb3c5d452e6",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "0c9b032ef709b4cd1817c72b62568b89ccaf20fa65f3d6769376d52bdd2dcca6"
+    },
+    "archive/train.X1/n01494475/n01494475_4549.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "2c4b4c9e93deade20a14f05eb8763b116c274dfe42ae01519b9398210353ed0f",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "5ef08b1afd7eac703f3f21c09d7d37da794fa4c37a3210d3a9a31dac70fe9aaa"
+    },
+    "archive/train.X1/n01494475/n01494475_6220.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "28cccff0bc7326ba492c9d5e01cf18a3e6166095f953cf155141c8f289876194",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "7ef66c57ac497c1c4d5f28d146f89c0f4400eaa33533c23576873691737d2b62"
+    },
+    "archive/train.X1/n01531178/n01531178_1012.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "629a476b7593437a90f7e763aa855396d8fd65a7ddaf817aff2a54bb501b3e58",
+      "reason": "Feet at plant contact may be omitted; inspect full resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "96f777b22e04130312c5ba82773d2a9cc8d811fceda83f51881d6bc8877af716"
+    },
+    "archive/train.X1/n01531178/n01531178_10923.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "67c179d0076ef1be9aaa97eb4ba918b6ca2c00fb473d6da1afac4f052f1770f8",
+      "reason": "Feet and body-to-tail boundary at branch need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "c4c79f519b3efb44b3b9cb0b8c07f7c0e649186265910c9d07c6ab9e50c0d136"
+    },
+    "archive/train.X1/n01531178/n01531178_13513.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "5df4fe95bc910249ccd12a3ffcd2bd4ceb5dec02aaf8742b634bff9db75a6aed",
+      "reason": "Visible feet at flower appear omitted; inspect full resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "47aa8c5042fa2d1da2bd92d7c972511ceadf93af6da089304a2897951192ebf2"
+    },
+    "archive/train.X1/n01531178/n01531178_23012.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "05e4e5fa503b0169c37dbc0e8472080f279bf8a12d60f625eddaf4fcebe3ec65",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "93bda94c58fd95072dbf3a06276c4eef67eb107b8485cd46ebd7b96111783b26"
+    },
+    "archive/train.X1/n01531178/n01531178_41134.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "296d42558a95a0e18aea431d0bbef86f79ec51625e864dfe61d3eb997e544c5e",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "70bfff550ce98a707e939c47fbc12cd24f966f3bca55dbfe4800c1d2fc2aebb8"
+    },
+    "archive/train.X1/n01531178/n01531178_5041.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "70001e28482784eb266b7a1b51e870fd302327ed2cb6e67dc2145a5dc0e7e7c8",
+      "reason": "Partly hidden second bird/feet at feeder need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "8049b0627cc70121a1f5171734ae8f36b382d47757b4afd6bfd9af918af2039f"
+    },
+    "archive/train.X1/n01531178/n01531178_5780.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "31be3d33397d1b6769457419002e0a283b923d8c3084e8496e28a2c525ec2396",
+      "reason": "Two of the four clearly visible birds are omitted.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "4dce4620792d5889897d34c6fe62518b9a73a46972ae5f84a9186bbf63aaae04"
+    },
+    "archive/train.X1/n01531178/n01531178_7681.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "9317e549e7d74a3f635ea4c3b033c23f6f9e5537f65555ea32cc4c65cc9f8745",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "ee00a1e29618415bb4621540a69b1c0b060761e9ba28ec7e488a9d64bdf93bd9"
+    },
+    "archive/train.X1/n01531178/n01531178_786.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0006.jpg",
+      "mask_sha256": "395ae15ca1d18e4c864ed20dad1fd79c066fb2ee687c329e52e957953aa869e8",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "149b1adfbc60998b87b1def964a9127b6f10c58f060d974f017520bbd02cdfac"
+    },
+    "archive/train.X1/n01531178/n01531178_7906.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0001.jpg",
+      "mask_sha256": "dae8edbf37fee550bfe9010c8b520550eb25455c28914cbe30cc4184cab075e0",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f30fe6547a1760bb5085ba2446e0bd069c026ae5434fbc12ac664da66d97db9b"
+    },
+    "archive/train.X1/n01632777/n01632777_10512.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "47f527238b9838dd5e2c8f91efb78b7e63ed23668f980aaf99c9c1684ed1d779",
+      "reason": "Fine gills and feet near plants need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "dbd05759ad6c04a3b908816d62765580d4762d39883632b6524d059eb584f43b"
+    },
+    "archive/train.X1/n01632777/n01632777_10766.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "e73545ea5f9d0dbf5984b017c999f61240ce8c42893a825c313d9c63a0bd57cb",
+      "reason": "Bright water/reflection line is retained between limbs.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d003d6ac6f63765f579c3b9081527e8b18685c1d67240d724efa6cb558031583"
+    },
+    "archive/train.X1/n01632777/n01632777_15481.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "69e1a72d22884409e8c38ed7ce2c98be26265cf5f4ee5c415494c3812159b244",
+      "reason": "Small blurred tail/limb extent needs detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "1e7168c63ba0fdc28110b3bc7578c9e25e7d053e44469116c6bed02545d35d80"
+    },
+    "archive/train.X1/n01632777/n01632777_15535.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "94bdb2a2f89f75eac313e78c6f8858124bc17485e0bd7408938f60fa6602adc1",
+      "reason": "Rock and gravel occupy a large part of foreground mask.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "6e0635e0f931835139059d45ac27ff8dd281076aa51620926465afbfd703dc4f"
+    },
+    "archive/train.X1/n01632777/n01632777_17777.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "18e1500a9439c42593d0e24ec0f3ce635375020e22df7f2aee926f3ab0f8ba3d",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "8877ca6be85187eff47c1cee0db135b359501d6bf9a25ad243cc372eb736912e"
+    },
+    "archive/train.X1/n01632777/n01632777_23013.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "907ae6ec510ac0d1a4aca7f05a287395d171a5ec11c92b810c67219f42296032",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "49072ce9170fa7da74d3f106740ac345b3e4b22b649b70a9d3be69f12826c803"
+    },
+    "archive/train.X1/n01632777/n01632777_2451.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "67a995034060e78dc1244bc6baa107b8027a5888058f24cf328eb4a280f53a6c",
+      "reason": "Substantial lower body/limb region is truncated.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "fa9aa9b5d3a40009a128e47c73baf5eca54ab7fd453a6ae6e4b31b89b91f7318"
+    },
+    "archive/train.X1/n01632777/n01632777_6649.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "681d4987011e79d361d14eda8a556b24ee4b39670004d162413c95c07a2eeab5",
+      "reason": "Plant/background region retained around axolotl.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "82a96dc106c9c4f02d70be42b5fb861852148a264ef3152d320ff30424672977"
+    },
+    "archive/train.X1/n01632777/n01632777_9352.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "14d2257087b8dae17184c5c06001d0b45bb0d8114720e16d3a2b84a423a12150",
+      "reason": "Faded tail and fine limb boundaries need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "3939535d89b51516a0dd00f2e2079469f00ea666ed45264052ca65fb69e9c8bf"
+    },
+    "archive/train.X1/n01632777/n01632777_9354.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "93346b09b77324baae3fdc8c2cc7afbe60efee19cb0682f04b9b219e5f4b35d5",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "3c12b10f85a4508863acef54dba12ecafedbce23473746cb997cf79ab3aee9eb"
+    },
+    "archive/train.X1/n01665541/n01665541_11589.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "e4f67e3abfd56f9ace0fbec4fea4db2b7be1c0f945bbd90c8832d6ac4e6b5933",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "207b8f191f53abe01be28c36061866cff811b662614e9ccf00704c0b897d5df4"
+    },
+    "archive/train.X1/n01665541/n01665541_14408.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "2d2f6932e840c7acc323aed65795b51ec861328772b1f412e5f3a7f4cbfcbcd4",
+      "reason": "Sand/background retained around turtle shell.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "cd99c562b242dc99b696062e914329b20bef895c366ed3088d5a335a0bf7aca9"
+    },
+    "archive/train.X1/n01665541/n01665541_14531.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "936a742692ee807266e193ab5f0f2340e634d997f59461099e2f2bd0b8f677fc",
+      "reason": "Only one of several visible turtles is retained.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "39a97ad701f2b0a517f17ba8da2d541eeaeff06bb952704d75fe3f431bba731f"
+    },
+    "archive/train.X1/n01665541/n01665541_1610.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "1affd25a0eb5206f9d051dbde074461bdf1fa603c9b9e4ed0bb61ca5ab3a03a9",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "2803f896ab984fe1e562d06c66c3dea07d9f3de73c994f4e685209e713da512b"
+    },
+    "archive/train.X1/n01665541/n01665541_35662.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "bc5dc779b068ee10cd3cdb1e91928c8a26b082abbd2c18c8d9efadb3cee486bc",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "2066d4a63525d64d62c31af833d696fcc1672d235a6fd2f034c3d861a450d1c9"
+    },
+    "archive/train.X1/n01665541/n01665541_37802.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "b593333e3ef529cb25414a0a229afd2e517cf3a310cf04559d368c69fdf2ed14",
+      "reason": "Net/rope and surrounding water retained around turtle.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "700c8989136e247ba86713cb9241e403d0fe4f18b069d7be171516fa2152ad15"
+    },
+    "archive/train.X1/n01665541/n01665541_5408.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "dfa8a4369aef1936384b91ccaa92d60cad4f8f28379aaca5d72eee1b568e4f75",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "ade94461ecbf39126d9a0d58d28b6adeb41e0ab1132f1dc39d267f2d11345cc6"
+    },
+    "archive/train.X1/n01665541/n01665541_659.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0002.jpg",
+      "mask_sha256": "bf246b92510eb786a70c230c82a5d9530e47f182a5d4f61663befc879db7f3ed",
+      "reason": "Dark turtle flipper/head boundaries need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d9a3bf5dd86c78d507fff4c17472f68e485dbefe1ae928c6e5f1501c780536e7"
+    },
+    "archive/train.X1/n01665541/n01665541_7307.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "1b7c88216980cc18feb0a391853496d08687cb0a8176bc0b45bb40b5718bc6d6",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "0aab501263c01fb04f838f40681966efda10ca6fb809c74e1f3da344a421441c"
+    },
+    "archive/train.X1/n01665541/n01665541_8185.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0007.jpg",
+      "mask_sha256": "e575930cb2269c10f0392115edcc28a9391e535da918333f9293910d0ef096f0",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "590aefab67d9bb98567faa24cfb3b1487701f78b134dac8293f10d7b27ff794c"
+    },
+    "archive/train.X1/n01687978/n01687978_11299.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "bd4198810270db1a2f2f9554b2240050c4e82e5596c86e33aac77726606db02f",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "808163490d4a2fe11177d4472d01b4e75535feff17bb7f3707db6478efbb50c9"
+    },
+    "archive/train.X1/n01687978/n01687978_11651.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "a61d35f320f8339dd9046a9401b5e8774e2889e9bdbd075b4fe02313f4be6407",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "1df623bfbffe7843f83149bb0521cf48de8fa65588a4b62e8d4b7a3d53abe770"
+    },
+    "archive/train.X1/n01687978/n01687978_12322.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "60573509d6bc356db40e4e01616428e86c4fdc3edf804999f10e0fa575663086",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "1dd538c22fdeda01b951e5aa6007f8b4f2e9e9e0179160fd047d4648f29c3e87"
+    },
+    "archive/train.X1/n01687978/n01687978_1747.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "e4368d5c6dd241af92ec6eaba67738535f6c17161ed9396cc0ee62cd73bca37c",
+      "reason": "Rock/shadow region retained next to lizard.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "751c40942aef41f32545c788f9c84491d82f2e86fefebe870d8e4cc80b965751"
+    },
+    "archive/train.X1/n01687978/n01687978_3710.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "b05d2391cff702a4e69083e75df9cc2b2deaf7caa727483d0191e7b5569d7efd",
+      "reason": "Fine toes and tail boundary need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "58c88e8080399bfde5f613991620196c963264e163c7f9b930e7000876e97130"
+    },
+    "archive/train.X1/n01687978/n01687978_3809.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "e00be72605cc73b40fce4ad9a165eae6568a7ddeae14718eecb33be7deca95d5",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "bd04c61b29a98e4aea8caa685d03d53125399ee7363153d27afb9f10d2f36a18"
+    },
+    "archive/train.X1/n01687978/n01687978_5441.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "71afe4fac1af47d39f8a952c5050280b1237d1c1e8dadc8193246cf4724d0fe9",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d84124a8df20b59922cf9b9e004a9308be2dec57ad3d7a0acc516a19d51ef33b"
+    },
+    "archive/train.X1/n01687978/n01687978_5445.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "2b300aafc2ecf279fd493e65f2972a5e53e4693853271540a282609e276750b6",
+      "reason": "Grass fragments and partly occluded limbs need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "8cca508a2e2cdd6ade6edd83fee137a2b55416a10ba7860f8f7511bcc7e65d6a"
+    },
+    "archive/train.X1/n01687978/n01687978_8555.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "1e3e716b8cb084cc28aa1a094b77358c818e1ee578c9891f1a3c393b10990fdd",
+      "reason": "Rock/branch material retained and animal boundary is unreliable.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "efd11fc0a608335dc9aecc8b8ca4ef588ebe16626526ad047ff60b5e9b8a5e0a"
+    },
+    "archive/train.X1/n01687978/n01687978_9505.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "839d5e3a48dab51a72d4ac75c5839ef109d9dfc822721b2c320b267cbb25331a",
+      "reason": "Large rock region retained around lizard.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "36e829911c994803b5fb63a708aa8a3b414cc85ac65ec4ac3d251a8c53e41f97"
+    },
+    "archive/train.X1/n01695060/n01695060_12745.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "ad9a3803b62fbfd8d416e325fc878bde4441eb0afdaae735b5ea5240f07614b3",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "a8a2f81f094796896afcb98573caefda38ab3eb41f5ad16e72fa85e5c8261107"
+    },
+    "archive/train.X1/n01695060/n01695060_13995.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "22f6aa815b4a41c1bc92ff046404d5336139fa39409dfd8f23143c413c6f27b7",
+      "reason": "Unrelated branch to the right of the animal is retained.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "ea926ad9a8643f3c084c565af9e2a8c6d5a12db2f6fdf864c3e549e3e2f7b178"
+    },
+    "archive/train.X1/n01695060/n01695060_14737.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "c6f3408faf23af07dd9bd7a6d73f78fa9a07fe124451e912efc2e5c74a7436ac",
+      "reason": "Most of the surrounding stone background is retained.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "4166bab94fe60110bc62dc6e6cd8297eabb2e6c90009e291bf23b2333043842b"
+    },
+    "archive/train.X1/n01695060/n01695060_15054.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "9c55298404236a03e542a595f898675f630954bb713782f07cf4ebe9091ec35d",
+      "reason": "Legs and tail tip appear incomplete in dark image.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d511876b444365c0c49bc9f7f1eb38b1d3528dbe3daadf3a4209af8bef481113"
+    },
+    "archive/train.X1/n01695060/n01695060_16246.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "4241a901fa551fc50e69c748406d4d1e429f61eafe0e60eaca5b2ec07d2406d2",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "068259018b7dbc7baef942f20b0f0a86b7d3d00daa233d84a7d4908cfccf7fa3"
+    },
+    "archive/train.X1/n01695060/n01695060_20528.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "96695d00368242c4a9a08bcdb6d6d23749f8de520291555c57bf57439cf44824",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "5a089311473c546a991de4b3ef8285b7f0993c4ab39ed1c315689519a35c7fe2"
+    },
+    "archive/train.X1/n01695060/n01695060_20646.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "50fcaca0000a6102d002b963391945bb8acea1acdee3bc807bec1e6d90ca50fe",
+      "reason": "Large rock retained inside and beside animal silhouette.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "9ebdba918b6fb88e790c6ed2e2756232ba8bc3554a60d5d9f3bdbf594cf53723"
+    },
+    "archive/train.X1/n01695060/n01695060_285.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0008.jpg",
+      "mask_sha256": "c2a8e946914cc8f8a7a75039aa0d0ba1ff0d1d5bcc6e39a0ca31c10b5754a37c",
+      "reason": "Large bark support retained next to animal head.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "b6ae8a2b89ea23787bfc297ac8f861599800f97f7e70c0273a7b10b6f86ff517"
+    },
+    "archive/train.X1/n01695060/n01695060_7183.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "ab92040d83b3a4eb70f7b138c39b712bbb1f3233b1fbd1b9b6c32735c25c3cb5",
+      "reason": "Long board/ground strip retained below animal.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "374e71b2423e5f53a60a5cb0a89e8ca1a4c385d8203613fdb5f4ac4fb0b75f37"
+    },
+    "archive/train.X1/n01695060/n01695060_9533.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0003.jpg",
+      "mask_sha256": "a25da76f5bc03de1f2bbdc76d79565b175ca6ab3fbfab916fd507383d99f118f",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "73311a6d86c2aba16d314db127a12794a1c0ee0b18a428adc3a9673963707bb0"
+    },
+    "archive/train.X1/n01749939/n01749939_11219.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "a0bd247059f1f8a3c7a12d500e170be97c1895cb3a758f27844b5e8ff5fc8479",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "882417a139b851bb28945f941ac12cb09ef5082f474f945e0f1454ef42f1c1a1"
+    },
+    "archive/train.X1/n01749939/n01749939_1301.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "c94d07e411055704e7c02941b7236b3580238ed8bc5ef5200575647a777b4609",
+      "reason": "Large branch retained with snake.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "171ee9c41dc719a6161c45977aa12cc1e05183f02ad2ba07a568962ac2c0196e"
+    },
+    "archive/train.X1/n01749939/n01749939_189.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "ebd102df0a9b0bcbfc885e7a660b981c6ebe7c06c341e33926a18c09049ff76a",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f18f61c96b3c4d46760c640edc7c3c0994e01c6b8e842d91cbd5eadaea80923b"
+    },
+    "archive/train.X1/n01749939/n01749939_2114.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "ef96f28816338db73a5c19f72e6113262a9bd4842592ffc0ee10ca5cac3b69cc",
+      "reason": "Branch and background fragments retained between snake coils.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "9543dbbabdd14c31f21b2bc9c1b76db2af42fbf168346c4b331d143ac6510e2e"
+    },
+    "archive/train.X1/n01749939/n01749939_3256.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "df4b1730754883fa157930aaef2ffe0df6cdbc5c3399cff86d1c17db50adc709",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "29382b29bb347333bcabd617bbdc526fd32ea6cdae36c71ed65b671d7d56d37c"
+    },
+    "archive/train.X1/n01749939/n01749939_4556.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "9a8f01386083652e2025d161b0a9456cabcaf0730ba4498c138aed367e21f120",
+      "reason": "Tree trunk and foliage are retained with snake.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "ef8389c6f5f1d588177cabc9e14c7de058c4852e8aab56898cd7974542a91c37"
+    },
+    "archive/train.X1/n01749939/n01749939_5108.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "62d59cf5e0ea1816c56776ed2dc4cf417907fdd2c57aad200c7a398eab13f018",
+      "reason": "Snake head and forward body near the leaves are omitted.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "ac93a870dfc86054be17dc2660119d4d9754dec2989db3a4170d2873a0d51254"
+    },
+    "archive/train.X1/n01749939/n01749939_5959.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "549249fa1a8b66e620b8576b8fe305d8d852f2a9dadfc47ad68a6589881e23e9",
+      "reason": "Animal body is fragmented and branches remain.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f2df3bd9927e1cec378791036e968d6de166fe5999ff35db0465b0f8f2c32b5c"
+    },
+    "archive/train.X1/n01749939/n01749939_8495.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "c907cd2884c372a9ad86207a665f05fe1f9c3a726e0f1a37290d93719fb87b71",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "95fe7de96c40b64389814d52af8a92be6a8927b69828316c7de9106e14f255ad"
+    },
+    "archive/train.X1/n01749939/n01749939_8670.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "625d2d2d0304ae79ad1bbb5b1f392c9b23ec61604b85c4aed367f514925ef705",
+      "reason": "Complex snake boundary near trunk and grass needs detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "99a147a192b4088d02a8486da4d4e8af558bc0dce5ccd62d0e186f28e079df18"
+    },
+    "archive/train.X1/n01775062/n01775062_1142.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "7afe54b546e91c9806719c14360214b31edf756a071e5828f9fe17a351e07f4d",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "12c1cf7833786bc428a72f5c6e8ca69b74e51e2365ea8ba6c9ac3201d74ada3a"
+    },
+    "archive/train.X1/n01775062/n01775062_2470.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "c36939a4d16dc4105a806890a36fa81003c88da95b0911723987897b8173b338",
+      "reason": "Small leg tips and wall-contact boundary need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "b505d403418c99543e610e59d02e8967ad5c98aaa4cbf25865731e78517ea736"
+    },
+    "archive/train.X1/n01775062/n01775062_3812.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "3c02866d61967cec2d461e9fe8a5534cf6622c057d0abc2a99a2f46028f13601",
+      "reason": "Large visible spider legs are omitted; selected region is incomplete.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "b64f696c3553c3efdd17246981196f510381bbc79a5a1d9737265c1cad9eaf30"
+    },
+    "archive/train.X1/n01775062/n01775062_5048.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "e21d5841eed3fe2e4945c97ef87d17d147efae4cd37d98521f74a499f8637e4b",
+      "reason": "Gravel/background fragments remain around spider legs.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "028d9d547e06016c5cd273444108f17a82f13fdc07ad015aab9c59c08b330473"
+    },
+    "archive/train.X1/n01775062/n01775062_6544.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "aa9dfbd4ec2d8f17e55785e87a86c088515874f38e76e614ed552aaa4b373e21",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "24fd611d8116d14809244cbbd12f0c1e72c6ff267220123c7a4a479ab13cad78"
+    },
+    "archive/train.X1/n01775062/n01775062_7053.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "fc8cbc41fd98dd54a2d3d47881728230395056145749ed0b08fb261359f713b3",
+      "reason": "Mask largely selects background and removes spider body.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "6b7a25e894835793418938ab22e30bc5962831d7f9af6d97e460de1af476e2ea"
+    },
+    "archive/train.X1/n01775062/n01775062_7409.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "a2839f40d8e90b903dcb0d4137089efe46bdc9cc6bb73ed0ae7ec84e5b27ca6a",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "2e42e9f5346c5ff993de1cfb6a675e9b53f4062de6deb0d5f545ddb1bfa20778"
+    },
+    "archive/train.X1/n01775062/n01775062_8068.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0009.jpg",
+      "mask_sha256": "27a94eb689f48c6822b3580b37af084f626d4247338197300cebdec36e0dc176",
+      "reason": "Container/reflection/background remains around spider.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "131e3e7313c77e1ca09547f8f395be7bc41b6af17016c5452e9c1f39778c95fe"
+    },
+    "archive/train.X1/n01775062/n01775062_8410.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "5d2eb48aefe9041dddc4507da5207b0d64c985e86231b52673b4a8fb355c8a36",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "20a3cc99b4f80361bc883cb23d24b4f7291a2f044b119a2b059d2bf624475733"
+    },
+    "archive/train.X1/n01775062/n01775062_8458.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0004.jpg",
+      "mask_sha256": "4da10296fbe2433122fa4503617817a6cbe2fe64e7ea9ed6589d7a1e6f60d8bb",
+      "reason": "Large dirt region retained around spider.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "6a98c115af9369c13bc9444351d5589325e7c0338bff634b79f406785b1c51d7"
+    },
+    "archive/val.X/n01440764/ILSVRC2012_val_00017699.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "110b552fb48116a496f352bc2f06a5053e31f50adeffbbf6d1e199da2478e470",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "61ac838ce082c91980edf655348d8e8d44a1b7cfd9e6cb48b242ca42db3e85a1"
+    },
+    "archive/val.X/n01440764/ILSVRC2012_val_00023559.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "68010edb80e8f85bb476945d5a6ddbe48c4fc6d54623971f0ee2808152f5f706",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "94391c989573db65809de51987f47b67904c5fb6570b10c912739c4139424f52"
+    },
+    "archive/val.X/n01440764/ILSVRC2012_val_00031094.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "ea1eba5991608342516705d3e6fa2dd1cb7a1f859c3f277b26d32bcebb39ef85",
+      "reason": "Animal too small on sheet for confident boundary approval.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "38b1957085c0e57b6a9e2fe8e6d058a3bc38443ca2c3b9c8f3b0313315cc81eb"
+    },
+    "archive/val.X/n01440764/ILSVRC2012_val_00037596.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "7254e09c246928769de0d89c0ce0115a8cf4ff3893d2673a29911906ce2ad0ab",
+      "reason": "Detached small background fragments above tail need correction/review.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "723691acf82546c3bd12a2fab89c7165f22eadce2bb18820b0cc11bba32f848b"
+    },
+    "archive/val.X/n01440764/ILSVRC2012_val_00041939.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "57b37a8e4eb499912f9774406f886d45e699cb53d80cba55ab38db31ee11372b",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d5a74b5723751ef72f26f7d57d214b01f7135866d60c3676bef45d71619f0ee0"
+    },
+    "archive/val.X/n01484850/ILSVRC2012_val_00002338.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "d72744dfb94e2f9512189b5c68c0bf5c4022e7fd3d12ff9b41fbf9599a407787",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "8e31d49ad08b869bf365824d57f40ea033ed9b6e2b13142a68975e0ae28cce53"
+    },
+    "archive/val.X/n01484850/ILSVRC2012_val_00004311.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "90af05606916f2ea5ad59450f06243d1f0eececdc40dc51c4555e21f51a77382",
+      "reason": "Bait material remains at mouth; precise foreground boundary uncertain.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "8d0f92f0fc609ede39dc31eea8ae244dc51c4937a1906d7a16763b1038451f44"
+    },
+    "archive/val.X/n01484850/ILSVRC2012_val_00030127.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "b5625e293e928f053b2a5c0249abb17448826cf4585d103698beee661c2aa0f2",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "4aa6ae2fd1f4dd7810db2f94e941b137a68a783f635b2a4fbff0f8650a08cffe"
+    },
+    "archive/val.X/n01484850/ILSVRC2012_val_00035223.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "9c76389cdfdbbbadc4b924d44d35a924070dc02c7124ca07fee34dddf4abd630",
+      "reason": "Book-cover water rectangle and other background retained.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "bc5209d747cb80af442b2d7fa5ef982a9a1238691ee56ee13af3788d73056123"
+    },
+    "archive/val.X/n01484850/ILSVRC2012_val_00035774.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0010.jpg",
+      "mask_sha256": "0ee3e63d7e012972449a0613e59cdbe34b35414ecd4cd50ebb92840ee0bafc97",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "bf13eb4eb25669fab12e8c3803aa1c04d50f8f688d4bd36d2a8540ac6a6f0b13"
+    },
+    "archive/val.X/n01494475/ILSVRC2012_val_00004417.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "65ec970601c660121fd905e26008a6589a3ef9ac2131395b493b62c8bf87f99d",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f0fdeacabe0e399fbcd4e6d9e1152ccd2e27d7c965d4b61493c6b75fc29ab000"
+    },
+    "archive/val.X/n01494475/ILSVRC2012_val_00011388.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "7fa0e57525884aa8934bc34dc07309eb0f9a5f8150b91ead600dcae63326094e",
+      "reason": "Possible second overlapping shark requires full-resolution inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "ef69b4c1f22159771b80aac06148df354f2815c37899176af4e63277e4caea2d"
+    },
+    "archive/val.X/n01494475/ILSVRC2012_val_00021325.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "b3d57136af47c3bed9c0a4c73e9c96c9bb45ab9cfcaff3be94ceba307a245122",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "8915f76729d6cca3dabea11d7e7410d5552edc56159c2a94a8eec9b7d3e20a46"
+    },
+    "archive/val.X/n01494475/ILSVRC2012_val_00034178.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "f09f837dd0ad21447bebb2f67a2707c9abdd5ce2614e30a2b9303880190f61cd",
+      "reason": "Distant multi-animal scene requires target-instance inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f9b269821cab47cd2f3ac928225cfc073034ef0df878645400ada6a7ce966253"
+    },
+    "archive/val.X/n01494475/ILSVRC2012_val_00048576.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "c184d6067f2c13cea8bf0b423cc0971a96b22f1a08c60c12c95e15f1aefdd5e8",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f2861539525191853b7fd9198346221b49a582015ce5007d77f1078157a6e5a8"
+    },
+    "archive/val.X/n01531178/ILSVRC2012_val_00010409.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "f7dbbd54d19dde916b2439ffdfd3427ff3cd834d72cdf1b21d419b750fc3af7a",
+      "reason": "Possible overlap/occlusion and feet need detailed inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f8f0d718532a14fc66952bd7b6f7940696b890868bd089c984d8afa4be5b0039"
+    },
+    "archive/val.X/n01531178/ILSVRC2012_val_00013902.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "b432c588a48b99dbd26a34f314ff8455f9717414537bab5d3c4a6267de73900a",
+      "reason": "Two of three clearly visible birds are omitted.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "a09bdd1d6dbd68ce6e2b0fc2ac127c7008a7c4c2a1f5d817b372bb95f5f18414"
+    },
+    "archive/val.X/n01531178/ILSVRC2012_val_00017391.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "bf29806a92a013a82985cd51ef778a8882325838f7041be9697b894e56948b38",
+      "reason": "Feet on rim appear omitted; inspect full resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "51378080a9cc2ad87c03faccc47843baf391ece52c25178b7dc0a19795819e70"
+    },
+    "archive/val.X/n01531178/ILSVRC2012_val_00019236.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "2da131808c1f3daed463cbf034a977f4257cc655728b9cffdb824ecaaae61d9c",
+      "reason": "Visible legs/feet at post are omitted or incomplete.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "427a1753547d999f2e45e272d6e84dc7bb6a1f387beeda787545a74242b244b8"
+    },
+    "archive/val.X/n01531178/ILSVRC2012_val_00019744.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0011.jpg",
+      "mask_sha256": "df253cb24812531439e071eda0b35198f22ecb4c2b7f90b2fafada885dc8e695",
+      "reason": "Feet on branch appear omitted; inspect full resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "b3cd4f6ecfd92b2ddc1bc5efce2f9930dc2cc44b808db234576cc6eda5c84df2"
+    },
+    "archive/val.X/n01632777/ILSVRC2012_val_00003860.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "0c6a74b9aefd04355909865c72977471ac114242e9c6d707b5b1b154fd1668d7",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "de064e086d392cecf6657fc3631ab6d489ddca55410d8be339f8002729828d8b"
+    },
+    "archive/val.X/n01632777/ILSVRC2012_val_00006579.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "73f18051d9d50d1dc7724b38df2f2262356c3f580d444215fb69f6b0b2b917da",
+      "reason": "Detached gravel fragment retained below axolotl.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "681ca7b132548224c223d3467d04b08401475712aeeb0526540c98666a51a1a7"
+    },
+    "archive/val.X/n01632777/ILSVRC2012_val_00011474.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "f17e769ef827d03926e48bb86a2fdb3d5713f39921fe32cb4c57759ce803c44d",
+      "reason": "Possible second animal/reflection below main animal needs inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "9f6f41d70bb49de26f9b8dbbf39e5bee2bed390659e5fae3e7991540ea0b0096"
+    },
+    "archive/val.X/n01632777/ILSVRC2012_val_00017372.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "254064cb2fcd73e33a1ccd4b41658d2e2ca42d38509fc0db607f8f772a96d29c",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "1d8af34f13d63981c5cd48bdc072afe7c494f5b594e4c0d9782925f0b4e6803a"
+    },
+    "archive/val.X/n01632777/ILSVRC2012_val_00025348.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "8e6f9e188c0f5e4cd1a4aa517792ddacb702a1fbbe845b5ff5af0f2451b7d83d",
+      "reason": "Reflection beneath axolotl head is retained as foreground.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "511d7a37861368260345f0670ca9d2c79d34a2e4c566b64a18fbbeac62dfc8e3"
+    },
+    "archive/val.X/n01665541/ILSVRC2012_val_00002163.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "d0aa728a6e50b1ed7cc30d06717651c0ea7f997190175ede7dfb7b5ed6f57a00",
+      "reason": "Third visible turtle at lower right is omitted.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "4b0d53f4a003a9a3bdc3bea3f9113f94c503a355bcc29d040d101ecda0cdaa5e"
+    },
+    "archive/val.X/n01665541/ILSVRC2012_val_00012746.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "1b81bcac8e0e59522503cbd5aaa84e482e4e1e80442e8bfd7b3d397b9eff8619",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "c2808c1e01f7c13ca4cb161a6f6270bcac4af72da84846d77a18ceb6d723cebe"
+    },
+    "archive/val.X/n01665541/ILSVRC2012_val_00025441.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "233f4e89dd775197b5a99efa557949eb28261c6424bd553e3206e74294a4619b",
+      "reason": "Only one of many visible turtles is retained.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d2e2aa281161528c61cd5bc4e08d0e52c57b95fff6ecaecd52791a87731f0153"
+    },
+    "archive/val.X/n01665541/ILSVRC2012_val_00029324.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "8935511b1c1dd05cf3f72ba8699ffdacbadaa6ca8359d801c3f7343ab976ce10",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "08c01cde8387ff561591316ac2e33327b9c64e128dc95e2b9db7222eec6f269d"
+    },
+    "archive/val.X/n01665541/ILSVRC2012_val_00048011.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0012.jpg",
+      "mask_sha256": "ee7381243b65d28cbc2e81a0d65e3923146d494e1a447225f1428ae4eadd2bc8",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "46735a7316322eacd86196fd089b3b50418ca9df1b0d04690eae70281ef216ca"
+    },
+    "archive/val.X/n01687978/ILSVRC2012_val_00006859.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "23192d2470c990bac8e77469553a06576b011775497d10fabcc8db980b900002",
+      "reason": "Legs at rock contact appear omitted; inspect full resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f6dfe55b461a7ffba9314a71e4a835e992176788e8450bbe2e4a5107d4833240"
+    },
+    "archive/val.X/n01687978/ILSVRC2012_val_00016637.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "c6643f7f410ecc481755551e22e65211c291aeca58ee29f14ac4b0a7374c0d75",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f50890a0d42c22fa19048c1da50f98a63510955bd7aa4e4c502a923e6b059fc3"
+    },
+    "archive/val.X/n01687978/ILSVRC2012_val_00029055.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "ecbcff51cd9ce3dcc64b20bbdea25983091ed26630f978650dc2d1ce4f88cdc9",
+      "reason": "Tree trunk is retained with lizard.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d046651bdacafb2755843e04d803967fed20356e5e216f6e85e2498428dc3b4e"
+    },
+    "archive/val.X/n01687978/ILSVRC2012_val_00037510.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "1a84f37b91144545586297cff10b9694bfc0e5ffa7526da1d4fe4912f4aba0ea",
+      "reason": "Large rock region retained under lizard.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "7220b3e6500f4e4e1d1cec8aebfabc6b6e2ecd448635a51b861d844b1c450559"
+    },
+    "archive/val.X/n01687978/ILSVRC2012_val_00049072.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "6091d707daa5af3d069e663a480da5bc4923d2704f971cf369617894baef2837",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "85b43c0cc9321e05aa3aa9c8d059f71f532b91e57d28b37ca9260003100ba00e"
+    },
+    "archive/val.X/n01695060/ILSVRC2012_val_00000541.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "859b9b71215084d6a33c263b76c36860d14361762caad9d38424183f27a32bed",
+      "reason": "Animal head is omitted; only the foot is retained.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "f94d3d6abf625ef208ad61d5c99af99bf9aec837f1e6e02045c1e15b14033a9a"
+    },
+    "archive/val.X/n01695060/ILSVRC2012_val_00012342.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "78ba3793a72d3e749e31014e2bdda463366cea091f09ff889b100e683dcf97e8",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "189ffd049f1ee4e2c8c34f10de195e6f2bb42aad4cc619c3b9ef57bfb4b0603b"
+    },
+    "archive/val.X/n01695060/ILSVRC2012_val_00024095.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "880ad91f2c6dd4f99d93203e61cb82b8248b4a15faf738aa8039ad0eb53ed18f",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d2944038f5d1e4aa3c74ceb83bff628c0f6330760e132f63d78583cf88fd91ae"
+    },
+    "archive/val.X/n01695060/ILSVRC2012_val_00030703.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "0a0ed1870c43663b476bea3001e8179ae3b9cab624dff181eaf63ebc7917c184",
+      "reason": "Lower edge may include ground; inspect full resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "c16e7de6d742d5592e36480f2a147ace71e31fa44640ed5c819dfd5b5965e874"
+    },
+    "archive/val.X/n01695060/ILSVRC2012_val_00033932.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0013.jpg",
+      "mask_sha256": "b2476ace22f2266edce9fc65478487ed944fa0f4807f37856f1bbb6e2a020119",
+      "reason": "Visible thin tongue appears omitted; inspect full resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "353f0a0829eff17efc6d5002af4f95c303ad9aa146e3a0db407cc198ed20783c"
+    },
+    "archive/val.X/n01749939/ILSVRC2012_val_00021593.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "63f7819a96325b690affe0ffb72e7c1ddb380cbbe2c0ed89383daa00f3032e66",
+      "reason": "Only head retained; leaf-occluded body extent needs inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "7113d3c44f942ebbae30520236032d9a28b6eebf55edc1d615fdd2945e452ca7"
+    },
+    "archive/val.X/n01749939/ILSVRC2012_val_00025938.JPEG": {
+      "decision": "uncertain",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "398df0df34ddbc22e03681642836fa52d1cdfd65e36c0d7868bc5887fc719f73",
+      "reason": "Only head retained; concealed body extent needs inspection.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "4374ab9c3d4df4a8c53afa9f6ec4e58724f9d617038acd269c149b48a4f99d2e"
+    },
+    "archive/val.X/n01749939/ILSVRC2012_val_00029525.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "a5f67e771511c9495385927abd2a7be8ed133c4c6b2fa5f742354a5987397856",
+      "reason": "Visible vertical snake body at left is omitted.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "2372c6957067f99b4078b84cc95761b66ba5c21c5922d30bde39ae4cfbbc2381"
+    },
+    "archive/val.X/n01749939/ILSVRC2012_val_00032220.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "3d5e37087bcfdc56d6eae80b5bec8a5373b494ddec72e8e5513d534df97d8def",
+      "reason": "Visible coil of snake body in the background is omitted.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "d8a1f235bb25c67748d51702be15edc978222c8311684cb08746449e97b98048"
+    },
+    "archive/val.X/n01749939/ILSVRC2012_val_00045594.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "ba2a4a6eb8e74a113f192193ac24f14949a246e1f9f702a9f34cad926e85a9ab",
+      "reason": "Leaf retained beside head and visible coiled body omitted.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "8197e1ed80888712ea8884728b61ea543ddadb22bfd8b0316e15f37fd0971fbf"
+    },
+    "archive/val.X/n01775062/ILSVRC2012_val_00000218.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "5a4baef1911ab1ee33da58c661c5a967544148a3cdc59aa27560363cedf08a7f",
+      "reason": "Mask selects substantial background while removing spider body.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "55005242dbec20547783efb9e201e451c8a68c3394587c300c3be372dd0104c3"
+    },
+    "archive/val.X/n01775062/ILSVRC2012_val_00017986.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "d199acb76c615e05e29d1ddf4ba9427b87732c459ddd7405b79abe9f02f758a2",
+      "reason": "Mask is substantially inverted: spider body is removed.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "a34dd07c885b2734e8311a22920a91b2a881e4a16b524302cdbb41207a1eafc9"
+    },
+    "archive/val.X/n01775062/ILSVRC2012_val_00026848.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "24adf82dc3aed5fe3b77175826a7628e0e673ce2a6c68975dc9152302c1e0765",
+      "reason": "Large background and vegetation regions retained around spider.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "ea627981da66987765ef22dc273a1fcd4a9312f854ad59ae4ec41980d17ac1c8"
+    },
+    "archive/val.X/n01775062/ILSVRC2012_val_00029156.JPEG": {
+      "decision": "reject",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "5a23430994b0b32ada4b53b0a9fabdec243fdbc3dd1bd5c1ee7808639ad79233",
+      "reason": "Most of the surrounding fabric is retained.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "2bd9bde2ac8ca8f82e4ef42bd6c439b5dfe195b22e3bd4acf66438ea1b2e69ab"
+    },
+    "archive/val.X/n01775062/ILSVRC2012_val_00039557.JPEG": {
+      "decision": "approve",
+      "evidence": "reports/background_bias_current/production_v3_merged_cuda_mps/visual_sample/page_0014.jpg",
+      "mask_sha256": "9ad934950030afb53b807b4a2a0633d72c328c7658bda61e27b9bc42a891c0e6",
+      "reason": "Visible target body is retained with no substantial background leakage or visible omitted target at 224-pixel review resolution.",
+      "reviewer": "Codex visual inspection, 2026-10-01; original/mask/neutral contact sheet at model resolution; not pixelwise ground truth",
+      "source_sha256": "680b4dfe2ad9387eecc6473b756c7d246c2d3caf05e0b184ac079078845ffb71"
+    }
+  }
+}

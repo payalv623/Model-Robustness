@@ -1,0 +1,78 @@
+{
+  "correction_archive_drive_uploaded": false,
+  "correction_archive_local": "colab_transfer/template2_semantic_review_v1.zip",
+  "correction_layers_approved": 2,
+  "correction_layers_current": "background_bias_dataset/review_corrections_v2",
+  "correction_layers_generated": 2,
+  "correction_layers_integrated": 0,
+  "drive_backup_scope": "Sample decisions and counts only; full contact sheets and correction layers are local",
+  "flagged_contact_sheet_index": "reports/background_bias_current/production_v3_merged_cuda_mps/flagged_sheets/index.json",
+  "flagged_contact_sheets": 858,
+  "flagged_images_not_yet_visually_reviewed": 8482,
+  "flagged_sample_reviewed": 93,
+  "note": "Latest local semantic review; the previous full pixel audit is retained as historical evidence. These decisions do not approve unseen masks.",
+  "per_class_sample_decisions": {
+    "n01440764": {
+      "approve": 5,
+      "reject": 6,
+      "uncertain": 4
+    },
+    "n01484850": {
+      "approve": 6,
+      "reject": 5,
+      "uncertain": 4
+    },
+    "n01494475": {
+      "approve": 12,
+      "reject": 1,
+      "uncertain": 2
+    },
+    "n01531178": {
+      "approve": 5,
+      "reject": 2,
+      "uncertain": 8
+    },
+    "n01632777": {
+      "approve": 5,
+      "reject": 5,
+      "uncertain": 5
+    },
+    "n01665541": {
+      "approve": 9,
+      "reject": 5,
+      "uncertain": 1
+    },
+    "n01687978": {
+      "approve": 7,
+      "reject": 5,
+      "uncertain": 3
+    },
+    "n01695060": {
+      "approve": 6,
+      "reject": 6,
+      "uncertain": 3
+    },
+    "n01749939": {
+      "approve": 4,
+      "reject": 8,
+      "uncertain": 3
+    },
+    "n01775062": {
+      "approve": 5,
+      "reject": 9,
+      "uncertain": 1
+    }
+  },
+  "quality_review_unresolved": 8555,
+  "required_visual_sample_pending": 86,
+  "reviewed_sample": 150,
+  "sample_decisions": {
+    "approve": 64,
+    "reject": 52,
+    "uncertain": 34
+  },
+  "sample_decisions_drive_backup": "My Drive/Template2-Colab/semantic_review_v1",
+  "training_ready": false,
+  "unflagged_sample_rejections": 5,
+  "unique_required_sources_not_approved": 8568
+}

@@ -1,0 +1,43 @@
+Loading class detector on CPU and SAM on MPS (fallback disabled)
+[1/30] n01440764_10026.JPEG: generated; flagged=1; elapsed=6s
+[2/30] n01440764_10027.JPEG: generated; flagged=2; elapsed=10s
+[3/30] n01440764_10029.JPEG: generated; flagged=2; elapsed=13s
+[4/30] n01484850_10016.JPEG: generated; flagged=3; elapsed=16s
+[5/30] n01484850_10036.JPEG: generated; flagged=4; elapsed=19s
+[6/30] n01484850_10073.JPEG: generated; flagged=4; elapsed=23s
+[7/30] n01494475_10008.JPEG: generated; flagged=5; elapsed=27s
+[8/30] n01494475_10099.JPEG: generated; flagged=5; elapsed=30s
+[9/30] n01494475_10175.JPEG: generated; flagged=5; elapsed=34s
+[10/30] n01531178_1006.JPEG: generated; flagged=6; elapsed=38s
+[11/30] n01531178_10090.JPEG: generated; flagged=6; elapsed=41s
+[12/30] n01531178_1012.JPEG: generated; flagged=6; elapsed=44s
+[13/30] n01632777_1000.JPEG: generated; flagged=7; elapsed=48s
+[14/30] n01632777_10015.JPEG: generated; flagged=8; elapsed=51s
+[15/30] n01632777_10021.JPEG: generated; flagged=9; elapsed=55s
+[16/30] n01665541_10021.JPEG: generated; flagged=10; elapsed=58s
+[17/30] n01665541_10037.JPEG: generated; flagged=10; elapsed=62s
+[18/30] n01665541_1006.JPEG: generated; flagged=10; elapsed=65s
+[19/30] n01687978_10013.JPEG: generated; flagged=11; elapsed=69s
+[20/30] n01687978_1006.JPEG: generated; flagged=12; elapsed=73s
+[21/30] n01687978_10071.JPEG: generated; flagged=12; elapsed=78s
+[22/30] n01695060_10009.JPEG: generated; flagged=13; elapsed=81s
+[23/30] n01695060_10022.JPEG: generated; flagged=14; elapsed=86s
+[24/30] n01695060_10028.JPEG: generated; flagged=15; elapsed=90s
+[25/30] n01749939_10048.JPEG: generated; flagged=15; elapsed=95s
+[26/30] n01749939_10066.JPEG: generated; flagged=16; elapsed=101s
+[27/30] n01749939_10126.JPEG: generated; flagged=16; elapsed=105s
+[28/30] n01775062_10090.JPEG: generated; flagged=17; elapsed=110s
+[29/30] n01775062_1011.JPEG: generated; flagged=18; elapsed=114s
+[30/30] n01775062_10129.JPEG: generated; flagged=19; elapsed=118s
+{
+  "status": "pilot_generated_pending_review",
+  "generated_sources": 30,
+  "failed_sources": 0,
+  "flagged_sources": 19,
+  "total_sources": 30,
+  "training_ready": false,
+  "full_dataset_verified": false,
+  "sam_device": "mps",
+  "elapsed_seconds": 118.5902306249991,
+  "updated_utc": "2026-09-30T10:23:40.707244+00:00"
+}

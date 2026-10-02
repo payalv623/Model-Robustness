@@ -1,0 +1,100 @@
+{
+  "classes": 10,
+  "cloud_setup": "CPU dependencies and pinned weights verified; CUDA checkpoints restored; all 13500 source hashes verified",
+  "code_upload": "complete",
+  "cpu_recovery_test": "Passed: 298 CUDA imports unchanged, 2 CPU repairs, resume, provenance tamper detection, 1200 pixel checks, 2400 manifest rows, checkpoint restoration, quality gates retained.",
+  "cpu_sources_to_process_or_retry": 1102,
+  "cuda_benchmark": {
+    "failed_sources": 0,
+    "images": 100,
+    "mean_inference_seconds": 0.935638117440003,
+    "numeric_audit": "passed",
+    "pixel_verified_pngs": 400,
+    "wall_seconds": 194.72899998799994
+  },
+  "drive_folder_url": "https://drive.google.com/drive/folders/1_net-2l_JI-PXmEwz21WXy9Y__QUJFT1",
+  "drive_mounted": true,
+  "imported_cuda_generated_records": 12398,
+  "last_observed_full_progress": {
+    "elapsed_seconds": 19564,
+    "flagged_for_review": 7841,
+    "processed": 12498,
+    "source": "last GPU notebook output; only 12400 records confirmed persisted",
+    "total": 13500
+  },
+  "latest_semantic_review": {
+    "approved": 64,
+    "corrections_local_only": 2,
+    "decisions_drive_backup": "My Drive/Template2-Colab/semantic_review_v1",
+    "rejected": 52,
+    "sample_reviewed": 150,
+    "training_ready": false,
+    "uncertain": 34
+  },
+  "local_report_archive_sha256": "2f8fb94901326878dc9e564f93dad2b79ba4f51330a6091ee43a9b17a09bc522",
+  "local_reports": "/Volumes/development/5-template-project-AkshayA/reports/background_bias_current/production_v3_merged_cuda_mps",
+  "local_tests": "3 adapted pipeline/policy tests and 2 checkpoint tests passed; notebook cells compile; all archived sources SHA-256 verified",
+  "mac_archive_sha256": "8621c14c92659a3fc816e0b422bd91451d210e6ef43172d9ac98612f65853217",
+  "mac_job": "completed; 1102 candidates pass partial numerical audit after two source-bound annotation proposals",
+  "mac_last_observed": {
+    "completed": 64,
+    "elapsed_seconds": 282.5596461669993,
+    "failed": 2,
+    "flagged": 36,
+    "full_dataset_verified": false,
+    "full_run": false,
+    "last_source": "archive/train.X1/n01695060/n01695060_8090.JPEG",
+    "pid": 24831,
+    "resumed": 0,
+    "sam_device": "mps",
+    "status": "running",
+    "total_sources": 1102,
+    "training_ready": false,
+    "updated_utc": "2026-09-30T17:58:58.432945+00:00"
+  },
+  "mac_mean_inference_seconds": 4.252831805952724,
+  "mac_numeric_audit": {
+    "pixel_verified_pngs": 4408,
+    "quality_review_unresolved": 792,
+    "source_images_verified": 1102,
+    "training_ready": false
+  },
+  "mac_remainder_archive": "colab_transfer/template2_mac_remainder.zip (created on completion)",
+  "mac_remainder_status": "colab_transfer/mac_remainder/reports/background_bias_current/production_v3_mac_remainder/status.json",
+  "merge_code_sha256": "a7b6bbcdaf8907cba178ff08a355c91f08bb0ed1579459ce2de9a4ac00f341f1",
+  "merged_audit": {
+    "backend_source_counts": {
+      "cuda": 12398,
+      "mps": 1102
+    },
+    "full_dataset_verified": false,
+    "manifest_rows": 108000,
+    "pixel_verified_pngs": 54000,
+    "quality_review_unresolved": 8575,
+    "required_visual_sample_pending": 150,
+    "sam_device": "per_record_cuda_or_mps",
+    "source_images_verified": 13500,
+    "status": "numeric_audit_passed",
+    "training_ready": false
+  },
+  "merged_backup": {
+    "checkpoint": "chunk-000001.zip",
+    "confirmed": true,
+    "drive_path": "My Drive/Template2-Colab/merged_checkpoints/production_v3_merged_cuda_mps",
+    "records": 13500
+  },
+  "notebook_url": "https://colab.research.google.com/drive/1Syv0DzN3GdgcT9khYgAGgV1lxTMhusy3",
+  "queued_flow": "restore 12400 CUDA records; import verified generated outputs with provenance; generate missing sources on CPU; numeric audit; persist recovery checkpoints",
+  "remaining": [
+    "correct rejected shark mask and review 8575 flagged sources",
+    "review fixed 150-image class/split sample",
+    "pass quality-release audit before model training"
+  ],
+  "runtime": "Colab CPU stopped after ~59 seconds/image; Mac MPS ~4 seconds/image",
+  "saved_cuda_records": 12400,
+  "source_archive_bytes": 1631349237,
+  "source_images": 13500,
+  "source_upload": "complete",
+  "status": "full_merge_numeric_audit_passed_backed_up_quality_review_pending",
+  "updated_utc": "2026-09-30T20:14:38.613135+00:00"
+}

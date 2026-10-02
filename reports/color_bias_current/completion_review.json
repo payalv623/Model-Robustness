@@ -1,0 +1,39 @@
+{
+  "checked_utc": "2026-09-30T08:17:13.614334+00:00",
+  "python": "3.11.15",
+  "implementation_sha256": {
+    "color_dataset.py": "137455cabb53410be6659a19f4ef3c866c4be63bdfa2725d15ed0d9059473807",
+    "audit_color_dataset.py": "38df52200d0cfdd56aa0cb82e9a3ecba05e1913c3d92e7104e87c78096bd2964",
+    "color_bias_template1_complete.py": "93fb7d62089caf557a6295515e3879daa70dedd1faf2b9a9d6e618af55768a5c",
+    "color_report.py": "da95793f4f15147b700834f6236d0ccf35af87885c549b5a5c1377b24f0c441e",
+    "tests/test_color_pipeline.py": "5d75f86ccfabeeb72641bcb4f1a33b90a070a6b72b75e40973beaf054361b261",
+    "requirements-color.txt": "196fd7975c193abcdce032765e666dcaf8693c18244c03099fb50270e071134f"
+  },
+  "full_audit_sha256": "233ed9fe5912219bf16c89439496351ddb9bc0b4c517e2bb8f81925b401dd051",
+  "tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "result": "passed",
+    "test_methods": 3,
+    "covered": [
+      "exact ratios and assignment-order independence",
+      "all conditions and pixel audit",
+      "unchanged resume",
+      "missing and corrupted image recovery",
+      "manifest tampering",
+      "extra output detection",
+      "different config refusal",
+      "source modification refusal",
+      "source split and class ID tampering"
+    ]
+  },
+  "visual_review": {
+    "overview": "reports/color_bias_current/assignment_overview.png",
+    "scope": "One aligned and one mismatched training example for each of 10 classes; detailed panels also inspected for classes 0 and 5.",
+    "result": "Expected tint direction and actual minority assignments visible; object content retained by blend.",
+    "limitation": "Sample inspection, not manual review of all images or semantic class labels."
+  },
+  "byte_identical_standardized_original_duplicates": [],
+  "byte_identical_standardized_original_cross_split_duplicates": [],
+  "model_training_performed": false,
+  "model_evaluation_performed": false
+}

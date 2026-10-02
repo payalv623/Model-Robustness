@@ -1,0 +1,50 @@
+[
+  {
+    "automatic_selected_candidate": 0,
+    "cache_key": "92dabfde76aa61ac9363c400",
+    "cache_reused": false,
+    "candidate_cache": "background_bias_dataset/pilot_cpu_reference/_sam_cache/92dabfde76aa61ac9363c400.npz",
+    "candidate_score_margin": 0.3697994184273865,
+    "class_id": "n01531178",
+    "composite_audits": {
+      "nature": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45656,
+        "soft_boundary_pixels": 2743,
+        "unchanged_foreground_pixels": 1777
+      },
+      "neutral": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45656,
+        "soft_boundary_pixels": 2743,
+        "unchanged_foreground_pixels": 1777
+      },
+      "urban_indoor": {
+        "pixel_blend_verified": true,
+        "replaced_background_pixels": 45656,
+        "soft_boundary_pixels": 2743,
+        "unchanged_foreground_pixels": 1777
+      }
+    },
+    "elapsed_seconds": 23.623068375000003,
+    "output_directory": "background_bias_dataset/pilot_cpu_reference/n01531178/n01531178_1006",
+    "selected_metrics": {
+      "area_fraction": 0.06293333333333333,
+      "bbox": [
+        189.0,
+        0.0,
+        39.0,
+        374.0
+      ],
+      "border_fraction": 0.003389830508474576,
+      "center_score": 0.8803438596290386,
+      "heuristic_score": 6.257921740587889,
+      "predicted_iou": 0.9980213642120361,
+      "stability_score": 0.9732239842414856
+    },
+    "semantic_review": "pending",
+    "source": "archive/train.X1/n01531178/n01531178_1006.JPEG",
+    "source_sha256": "85cf525a18a391452526e1379c7be18319a865f20d0e31283605d2daff0e16c5",
+    "source_split": "train"
+  }
+]

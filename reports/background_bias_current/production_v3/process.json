@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/usr/bin/caffeinate",
+    "-i",
+    "/Volumes/development/5-template-project-AkshayA/.venv/bin/python",
+    "-u",
+    "/Volumes/development/5-template-project-AkshayA/run_template2_full.py"
+  ],
+  "idle_sleep_inhibited": false,
+  "log": "/Volumes/development/5-template-project-AkshayA/reports/background_bias_current/production_v3/generation.log",
+  "process_running": false,
+  "started_utc": "2026-09-30T10:28:21.660881+00:00",
+  "stop_signal": "SIGINT",
+  "stopped_utc": "2026-09-30T13:34:20.450883+00:00",
+  "supervisor_pid": 10161
+}

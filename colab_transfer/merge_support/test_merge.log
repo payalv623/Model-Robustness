@@ -1,0 +1,14 @@
+Merged source backends: {'cuda': 298, 'mps': 2}
+Running full independent pixel, split, label, ratio, provenance and Color-membership audit...
+{
+  "status": "numeric_audit_passed",
+  "source_images_verified": 300,
+  "pixel_verified_pngs": 1200,
+  "manifest_rows": 2400,
+  "quality_review_unresolved": 300,
+  "required_visual_sample_pending": 150,
+  "full_dataset_verified": false,
+  "training_ready": false,
+  "sam_device": "per_record_cuda_or_mps"
+}
+FULL NUMERICAL AUDIT PASSED. Quality review is still pending; training_ready=False.

@@ -1,0 +1,29 @@
+Merged and verified 1000/13500 source records
+Merged and verified 2000/13500 source records
+Merged and verified 3000/13500 source records
+Merged and verified 4000/13500 source records
+Merged and verified 5000/13500 source records
+Merged and verified 6000/13500 source records
+Merged and verified 7000/13500 source records
+Merged and verified 8000/13500 source records
+Merged and verified 9000/13500 source records
+Merged and verified 10000/13500 source records
+Merged and verified 11000/13500 source records
+Merged and verified 12000/13500 source records
+Merged and verified 13000/13500 source records
+Merged source backends: {'cuda': 12398, 'mps': 1102}
+Running full independent pixel, split, label, ratio, provenance and Color-membership audit...
+{
+  "status": "numeric_audit_passed",
+  "source_images_verified": 13500,
+  "pixel_verified_pngs": 54000,
+  "manifest_rows": 108000,
+  "quality_review_unresolved": 8575,
+  "required_visual_sample_pending": 150,
+  "full_dataset_verified": false,
+  "training_ready": false,
+  "sam_device": "per_record_cuda_or_mps"
+}
+Saving merged candidates, manifests, provenance and audit to Drive...
+Drive checkpoint: chunk-000001.zip (13500 records)
+FULL NUMERICAL AUDIT PASSED. Quality review is still pending; training_ready=False.

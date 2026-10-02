@@ -1,0 +1,1371 @@
+{
+  "assignment_plan_sha256": "f7b6c3da4502b90ce2d586e9e2f3be43e14e229d0ff4bf4875c57ab2b3c984a3",
+  "controls_planned": [
+    "untouched RGB",
+    "same selected foreground on neutral gray"
+  ],
+  "correlation": 0.9,
+  "distributions": {
+    "test/all_nature/n01440764": {
+      "aligned": 50,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_nature/n01484850": {
+      "aligned": 50,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_nature/n01494475": {
+      "aligned": 50,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_nature/n01531178": {
+      "aligned": 50,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_nature/n01632777": {
+      "aligned": 50,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_nature/n01665541": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_nature/n01687978": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_nature/n01695060": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_nature/n01749939": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_nature/n01775062": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01440764": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01484850": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01494475": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01531178": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01632777": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01665541": {
+      "aligned": 50,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01687978": {
+      "aligned": 50,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01695060": {
+      "aligned": 50,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01749939": {
+      "aligned": 50,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/all_urban/n01775062": {
+      "aligned": 50,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/balanced/n01440764": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/balanced/n01484850": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/balanced/n01494475": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/balanced/n01531178": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/balanced/n01632777": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/balanced/n01665541": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/balanced/n01687978": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/balanced/n01695060": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/balanced/n01749939": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/balanced/n01775062": {
+      "aligned": 25,
+      "backgrounds": {
+        "nature": 25,
+        "urban_indoor": 25
+      },
+      "total": 50
+    },
+    "test/correlated/n01440764": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "test/correlated/n01484850": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "test/correlated/n01494475": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "test/correlated/n01531178": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "test/correlated/n01632777": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "test/correlated/n01665541": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/correlated/n01687978": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/correlated/n01695060": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/correlated/n01749939": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/correlated/n01775062": {
+      "aligned": 45,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01440764": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01484850": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01494475": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01531178": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01632777": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 50
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01665541": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01687978": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01695060": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01749939": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/counterfactual/n01775062": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 50
+      },
+      "total": 50
+    },
+    "test/reversed/n01440764": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/reversed/n01484850": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/reversed/n01494475": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/reversed/n01531178": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/reversed/n01632777": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 5,
+        "urban_indoor": 45
+      },
+      "total": 50
+    },
+    "test/reversed/n01665541": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "test/reversed/n01687978": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "test/reversed/n01695060": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "test/reversed/n01749939": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "test/reversed/n01775062": {
+      "aligned": 5,
+      "backgrounds": {
+        "nature": 45,
+        "urban_indoor": 5
+      },
+      "total": 50
+    },
+    "train/all_nature/n01440764": {
+      "aligned": 1040,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_nature/n01484850": {
+      "aligned": 1040,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_nature/n01494475": {
+      "aligned": 1040,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_nature/n01531178": {
+      "aligned": 1040,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_nature/n01632777": {
+      "aligned": 1040,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_nature/n01665541": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_nature/n01687978": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_nature/n01695060": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_nature/n01749939": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_nature/n01775062": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01440764": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01484850": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01494475": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01531178": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01632777": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01665541": {
+      "aligned": 1040,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01687978": {
+      "aligned": 1040,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01695060": {
+      "aligned": 1040,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01749939": {
+      "aligned": 1040,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/all_urban/n01775062": {
+      "aligned": 1040,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/balanced/n01440764": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/balanced/n01484850": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/balanced/n01494475": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/balanced/n01531178": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/balanced/n01632777": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/balanced/n01665541": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/balanced/n01687978": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/balanced/n01695060": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/balanced/n01749939": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/balanced/n01775062": {
+      "aligned": 520,
+      "backgrounds": {
+        "nature": 520,
+        "urban_indoor": 520
+      },
+      "total": 1040
+    },
+    "train/correlated/n01440764": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "train/correlated/n01484850": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "train/correlated/n01494475": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "train/correlated/n01531178": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "train/correlated/n01632777": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "train/correlated/n01665541": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/correlated/n01687978": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/correlated/n01695060": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/correlated/n01749939": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/correlated/n01775062": {
+      "aligned": 936,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01440764": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01484850": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01494475": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01531178": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01632777": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 1040
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01665541": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01687978": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01695060": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01749939": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/counterfactual/n01775062": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 1040
+      },
+      "total": 1040
+    },
+    "train/reversed/n01440764": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/reversed/n01484850": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/reversed/n01494475": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/reversed/n01531178": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/reversed/n01632777": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 104,
+        "urban_indoor": 936
+      },
+      "total": 1040
+    },
+    "train/reversed/n01665541": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "train/reversed/n01687978": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "train/reversed/n01695060": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "train/reversed/n01749939": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "train/reversed/n01775062": {
+      "aligned": 104,
+      "backgrounds": {
+        "nature": 936,
+        "urban_indoor": 104
+      },
+      "total": 1040
+    },
+    "validation/all_nature/n01440764": {
+      "aligned": 260,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_nature/n01484850": {
+      "aligned": 260,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_nature/n01494475": {
+      "aligned": 260,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_nature/n01531178": {
+      "aligned": 260,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_nature/n01632777": {
+      "aligned": 260,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_nature/n01665541": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_nature/n01687978": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_nature/n01695060": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_nature/n01749939": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_nature/n01775062": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01440764": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01484850": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01494475": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01531178": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01632777": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01665541": {
+      "aligned": 260,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01687978": {
+      "aligned": 260,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01695060": {
+      "aligned": 260,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01749939": {
+      "aligned": 260,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/all_urban/n01775062": {
+      "aligned": 260,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/balanced/n01440764": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/balanced/n01484850": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/balanced/n01494475": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/balanced/n01531178": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/balanced/n01632777": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/balanced/n01665541": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/balanced/n01687978": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/balanced/n01695060": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/balanced/n01749939": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/balanced/n01775062": {
+      "aligned": 130,
+      "backgrounds": {
+        "nature": 130,
+        "urban_indoor": 130
+      },
+      "total": 260
+    },
+    "validation/correlated/n01440764": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    },
+    "validation/correlated/n01484850": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    },
+    "validation/correlated/n01494475": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    },
+    "validation/correlated/n01531178": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    },
+    "validation/correlated/n01632777": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    },
+    "validation/correlated/n01665541": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/correlated/n01687978": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/correlated/n01695060": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/correlated/n01749939": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/correlated/n01775062": {
+      "aligned": 234,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01440764": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01484850": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01494475": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01531178": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01632777": {
+      "aligned": 0,
+      "backgrounds": {
+        "urban_indoor": 260
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01665541": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01687978": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01695060": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01749939": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/counterfactual/n01775062": {
+      "aligned": 0,
+      "backgrounds": {
+        "nature": 260
+      },
+      "total": 260
+    },
+    "validation/reversed/n01440764": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/reversed/n01484850": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/reversed/n01494475": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/reversed/n01531178": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/reversed/n01632777": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 26,
+        "urban_indoor": 234
+      },
+      "total": 260
+    },
+    "validation/reversed/n01665541": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    },
+    "validation/reversed/n01687978": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    },
+    "validation/reversed/n01695060": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    },
+    "validation/reversed/n01749939": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    },
+    "validation/reversed/n01775062": {
+      "aligned": 26,
+      "backgrounds": {
+        "nature": 234,
+        "urban_indoor": 26
+      },
+      "total": 260
+    }
+  },
+  "limitations": [
+    "Synthetic nature and urban scenes differ in color and structure; compound appearance shift.",
+    "SAM automatic masks are class-agnostic; target identity must be checked.",
+    "Assignment verification is not segmentation or dataset completion."
+  ],
+  "planned_condition_records": 81000,
+  "same_aligned_minority_source_membership_as_color": true,
+  "same_frozen_splits_as_color": true,
+  "source_images": 13500,
+  "source_split_manifest_sha256": "61591c06294ed7659446e90cd970088cf8a0cff834feed4e8816bc842454f6e8",
+  "status": "assignments_verified_not_generated"
+}

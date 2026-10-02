@@ -1,0 +1,23 @@
+{
+  "completed": 1856,
+  "elapsed_seconds": 11112.400442,
+  "failed": 1,
+  "flagged": 1134,
+  "full_dataset_verified": false,
+  "full_run": true,
+  "last_source": "archive/train.X1/n01484850/n01484850_5221.JPEG",
+  "pid": 10161,
+  "process_running": false,
+  "resumed": 0,
+  "sam_device": "mps",
+  "saved_record_counts": {
+    "generated": 1856,
+    "needs_annotation": 1
+  },
+  "status": "stopped_by_user",
+  "stop_reason": "User requested stopping Mac processing and continuing on Colab.",
+  "stopped_utc": "2026-09-30T13:34:20.450883+00:00",
+  "total_sources": 13500,
+  "training_ready": false,
+  "updated_utc": "2026-09-30T13:34:20.450883+00:00"
+}

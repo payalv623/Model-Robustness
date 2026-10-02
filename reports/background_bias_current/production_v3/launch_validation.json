@@ -1,0 +1,27 @@
+{
+  "code_sha256": {
+    "audit_background_dataset.py": "a0d433f931f6cc19a0b9cd370918a3c155d8d84022fa481e3892bb92d1437b42",
+    "background_dataset.py": "7e6a0a9e5a629ce12e86ffac374961e79c7c5557178282b3a9637d3895e2819d",
+    "background_foreground.py": "6a906778ae5b2a16c74dadf13d6bfba7e84ba97e9e86ef654a199eff62b4b587",
+    "background_grounded_pilot.py": "145319ba50b922f43c0900d5341b543dd3e90c48f5b4e22f5a2841e8e0a8ceb2",
+    "background_pilot.py": "1ce1caa0b30cd8d614fb7669153a737bb6200b97cdc95e3060fd2037973c68a4",
+    "background_progress_report.py": "5308b0bb9022ef779ba2f412e481c53e02b72a6e81451302250a3d89162e32a7",
+    "background_scenes.py": "d960d9194c3f84f689cf49bdb9b36cad02a71e109cf0677ddb16e66cdf219a38",
+    "color_dataset.py": "137455cabb53410be6659a19f4ef3c866c4be63bdfa2725d15ed0d9059473807",
+    "requirements-background.txt": "2aff5a97d84a39ad69f4e33145bed71cf5b23e9b6cb5efe895cbfb437f04f445",
+    "requirements-color.txt": "196fd7975c193abcdce032765e666dcaf8693c18244c03099fb50270e071134f",
+    "requirements-grounded.txt": "a7871fb87bf71cd3ebb3dafefc7dffd94f30e7da2deb7910db8a9ace3a63a758",
+    "run_template2_full.py": "69189fe4bf4df4e10a137826d78f32cbd36e9d000bba9686bf393f794333b5a3"
+  },
+  "cpu_fallback": false,
+  "created_utc": "2026-09-30T10:28:16.060821+00:00",
+  "free_disk_gib": 13.788894653320312,
+  "pilot_numeric_audit": "../refined_pilot_v3/audit.json",
+  "planned_condition_records": 108000,
+  "planned_sources": 13500,
+  "point_repair_probe": "../annotation_verified_v3/results.json",
+  "projected_disk_gib_from_pilot": 2.49,
+  "sam_device": "mps",
+  "tests_passed": 14,
+  "training_ready": false
+}

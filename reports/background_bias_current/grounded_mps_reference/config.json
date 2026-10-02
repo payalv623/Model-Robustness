@@ -1,0 +1,88 @@
+{
+  "box_threshold": 0.25,
+  "detector": {
+    "files": [
+      {
+        "bytes": 1644,
+        "file": "config.json",
+        "sha256": "eec82c5ab66e16df12a9a212e68ac011779927c2536cf9078658e35d85f0c67a",
+        "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny/resolve/a2bb814dd30d776dcf7e30523b00659f4f141c71/config.json"
+      },
+      {
+        "bytes": 457,
+        "file": "preprocessor_config.json",
+        "sha256": "8454179ba95e2ad22947835aad7b45862a601fc0055ab88bf1ee70892d3aea60",
+        "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny/resolve/a2bb814dd30d776dcf7e30523b00659f4f141c71/preprocessor_config.json"
+      },
+      {
+        "bytes": 125,
+        "file": "special_tokens_map.json",
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+        "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny/resolve/a2bb814dd30d776dcf7e30523b00659f4f141c71/special_tokens_map.json"
+      },
+      {
+        "bytes": 711396,
+        "file": "tokenizer.json",
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+        "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny/resolve/a2bb814dd30d776dcf7e30523b00659f4f141c71/tokenizer.json"
+      },
+      {
+        "bytes": 1237,
+        "file": "tokenizer_config.json",
+        "sha256": "d40ab645b68211910b9170d22433d43186a6ec8ee6fd10ba170524b25bf4fb56",
+        "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny/resolve/a2bb814dd30d776dcf7e30523b00659f4f141c71/tokenizer_config.json"
+      },
+      {
+        "bytes": 231508,
+        "file": "vocab.txt",
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+        "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny/resolve/a2bb814dd30d776dcf7e30523b00659f4f141c71/vocab.txt"
+      },
+      {
+        "bytes": 82,
+        "file": "added_tokens.json",
+        "sha256": "909e96cb32d92ce728a01bc99850cbba26196d74115c17ebeb019275412588f2",
+        "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny/resolve/a2bb814dd30d776dcf7e30523b00659f4f141c71/added_tokens.json"
+      },
+      {
+        "bytes": 689359096,
+        "file": "model.safetensors",
+        "sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+        "url": "https://huggingface.co/IDEA-Research/grounding-dino-tiny/resolve/a2bb814dd30d776dcf7e30523b00659f4f141c71/model.safetensors"
+      }
+    ],
+    "hash_note": "Hashes of downloaded bytes; not independent external verification.",
+    "model_id": "IDEA-Research/grounding-dino-tiny",
+    "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71"
+  },
+  "detector_device": "cpu",
+  "duplicate_box_nms_iou": 0.5,
+  "mask_blur_radius_at_224": 1.2,
+  "mps_operation_cpu_fallback": false,
+  "pilot_sampling": "first N frozen training rows per class; no held-out tuning",
+  "precision": "float32",
+  "prompts": {
+    "n01440764": "a tench fish. a fish.",
+    "n01484850": "a great white shark. a shark.",
+    "n01494475": "a hammerhead shark. a shark.",
+    "n01531178": "a goldfinch bird. a bird.",
+    "n01632777": "an axolotl. a salamander.",
+    "n01665541": "a leatherback sea turtle. a turtle.",
+    "n01687978": "an agama lizard. a lizard.",
+    "n01695060": "a komodo dragon. a lizard.",
+    "n01749939": "a green mamba snake. a snake.",
+    "n01775062": "a wolf spider. a spider."
+  },
+  "sam_checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "sam_device": "mps",
+  "sam_min_predicted_iou": 0.88,
+  "sam_min_stability": 0.95,
+  "sam_mode": "box prompt, multimask_output=True",
+  "schema": 1,
+  "selection": "highest detector score box; highest SAM predicted IoU candidate",
+  "semantic_approval": "required separately; numeric scores never approve target identity",
+  "source_splits_sha256": "61591c06294ed7659446e90cd970088cf8a0cff834feed4e8816bc842454f6e8",
+  "text_threshold": 0.2,
+  "torch": "2.5.1",
+  "transformers": "4.49.0"
+}

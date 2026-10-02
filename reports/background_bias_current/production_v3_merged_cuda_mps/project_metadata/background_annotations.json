@@ -1,0 +1,129 @@
+{
+  "images": {
+    "archive/train.X1/n01440764/n01440764_10026.JPEG": {
+      "boxes_normalized": [
+        [
+          0.34657208251953125,
+          0.658428955078125,
+          0.8195220336914063,
+          0.850549072265625
+        ]
+      ],
+      "point_labels": [],
+      "points_normalized": [],
+      "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+      "reason": "Use the visible held fish box; exclude the false lower bag detection.",
+      "source_sha256": "1278bc934896315c902cc4b9972ee43797840e98aecb724a10c01646c3ae416d"
+    },
+    "archive/train.X1/n01484850/n01484850_20518.JPEG": {
+      "boxes_normalized": [
+        [
+          0.12,
+          0.18,
+          1.0,
+          0.67
+        ]
+      ],
+      "manual_review_required": true,
+      "point_labels": [
+        1,
+        1,
+        0
+      ],
+      "points_normalized": [
+        [
+          0.72,
+          0.43
+        ],
+        [
+          0.88,
+          0.43
+        ],
+        [
+          0.75,
+          0.78
+        ]
+      ],
+      "provenance": "Assistant box/point guidance from visual inspection of original frozen image on 2026-10-01; approximate proposal, not ground-truth segmentation. Mandatory visual review.",
+      "reason": "Detector missed the faint submerged shark. Approximate visible body guidance; severe water glare and uncertain boundary require review.",
+      "source_sha256": "5969bf443166d7e216266889f9ba21953bff735fb146785da4ff7ddc8394ded7"
+    },
+    "archive/train.X1/n01531178/n01531178_1006.JPEG": {
+      "boxes_normalized": [
+        [
+          0.0,
+          0.25,
+          0.87,
+          0.8
+        ]
+      ],
+      "point_labels": [
+        1,
+        1,
+        0
+      ],
+      "points_normalized": [
+        [
+          0.62,
+          0.56
+        ],
+        [
+          0.25,
+          0.4
+        ],
+        [
+          0.41,
+          0.32
+        ]
+      ],
+      "provenance": "Assistant annotation from visual inspection of frozen training images; approximate guidance, not ground-truth segmentation.",
+      "reason": "Reuse the earlier visually located bird box and cage-bar negative prompt, adding a visible wing point.",
+      "source_sha256": "85cf525a18a391452526e1379c7be18319a865f20d0e31283605d2daff0e16c5"
+    },
+    "archive/train.X1/n01775062/n01775062_8018.JPEG": {
+      "boxes_normalized": [
+        [
+          0.33,
+          0.19,
+          0.81,
+          0.73
+        ]
+      ],
+      "manual_review_required": true,
+      "point_labels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "points_normalized": [
+        [
+          0.53,
+          0.47
+        ],
+        [
+          0.42,
+          0.35
+        ],
+        [
+          0.7,
+          0.48
+        ],
+        [
+          0.19,
+          0.74
+        ],
+        [
+          0.87,
+          0.76
+        ]
+      ],
+      "provenance": "Assistant box/point guidance from visual inspection of original frozen image on 2026-10-01; approximate proposal, not ground-truth segmentation. Mandatory visual review.",
+      "reason": "Detector missed central spider; include visible legs and exclude leaf/bark. Approximate guidance requires review.",
+      "source_sha256": "f991d8deb7f25f16c19e2e7a7a9a0a3c06cf4aa73080e2b83120e67e6501721e"
+    }
+  },
+  "note": "Chosen source annotations retained exactly; manual recovery masks are proposals pending review.",
+  "schema": 1
+}

@@ -1,0 +1,14 @@
+{
+  "source_images": 13500,
+  "classes": 10,
+  "files": {
+    "template2_colab_code.zip": {
+      "bytes": 1982989,
+      "sha256": "26c6151d18c49fc17735c3d53f9406c45e91273e6e3a44560fabab4f260d7f18"
+    },
+    "template2_imagenet10_sources.zip": {
+      "bytes": 1631349237,
+      "sha256": "6af6b40f1399a874cf40441169168d891ff8a6d0a13dd3a60154de26dd4db14e"
+    }
+  }
+}

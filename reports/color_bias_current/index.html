@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Template 1 — Color audit</title>
+<style>body{font:16px/1.6 system-ui;max-width:1152px;margin:40px auto;padding:0 24px;color:#18232e}
+h1,h2{line-height:1.2}table{border-collapse:collapse;width:100%;margin:20px 0}
+td,th{border:1px solid #d7dfe5;padding:10px;text-align:left}th{background:#edf3f5}
+.pass{background:#e5f6eb;padding:18px;border-left:5px solid #24754a}img{max-width:100%}
+details{margin:14px 0}code{background:#f0f3f5;padding:2px 5px}</style>
+<h1>Template 1: Color bias</h1><p class="pass"><b>Dataset audit passed.</b>
+13,500 original images; 54,000 unique PNGs verified pixel by pixel;
+24 condition manifests; 108,000 manifest records; zero audit issues.</p>
+<p>Audited: 2026-09-30T08:16:13.958605+00:00. Models have not been trained or evaluated.</p>
+<h2>Frozen classes and correlation</h2><p>Target: 90% aligned,
+10% mismatched within every class and split (integer counts are shown below).
+The tint is 70% original + 30% solid red or blue. All saved images are 224 × 224 RGB PNGs.</p>
+<table><tr><th>Class ID</th><th>Name</th><th>Group / majority tint</th><th>Train aligned / mismatch</th>
+<th>Validation aligned / mismatch</th><th>Test aligned / mismatch</th></tr><tr><td>n01440764</td><td>tench</td><td>A — red</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr><tr><td>n01484850</td><td>great white shark</td><td>A — red</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr><tr><td>n01494475</td><td>hammerhead</td><td>A — red</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr><tr><td>n01531178</td><td>goldfinch</td><td>A — red</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr><tr><td>n01632777</td><td>axolotl</td><td>A — red</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr><tr><td>n01665541</td><td>leatherback turtle</td><td>B — blue</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr><tr><td>n01687978</td><td>agama</td><td>B — blue</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr><tr><td>n01695060</td><td>Komodo dragon</td><td>B — blue</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr><tr><td>n01749939</td><td>green mamba</td><td>B — blue</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr><tr><td>n01775062</td><td>wolf spider</td><td>B — blue</td><td>936 / 104</td><td>234 / 26</td><td>45 / 5</td></tr></table>
+<h2>Conditions</h2><table><tr><th>Manifest condition</th><th>Definition</th></tr><tr><td>all_blue</td><td>Every source blue, paired with the identical all_red source</td></tr><tr><td>all_red</td><td>Every source red, paired with the identical all_blue source</td></tr><tr><td>correlated</td><td>Group A majority red; Group B majority blue</td></tr><tr><td>counterfactual</td><td>Every image receives the group-opposite tint; 0% aligned</td></tr><tr><td>grayscale</td><td>Grayscale from untinted original; removes natural color too; RGB channels retained</td></tr><tr><td>original</td><td>Untinted RGB, standardized exactly like tinted images</td></tr><tr><td>randomized</td><td>Randomized assignment with exact half aligned within each class/split when n is even</td></tr><tr><td>reversed</td><td>Swap red and blue for each correlated source; 10% aligned at ratio 90%</td></tr></table>
+<h2>Storage and use</h2><p>Use <code>color_bias_dataset/manifests/&lt;split&gt;/&lt;condition&gt;.csv</code>.
+Each row gives the source, true class, group, output path, hashes and assigned cue. Source paths are
+relative to the project; output paths are relative to <code>color_bias_dataset</code>. Image variants
+are stored once under <code>images/&lt;split&gt;/&lt;class&gt;/&lt;variant&gt;/</code> and reused across manifests.</p>
+<p>Do not load the images root as an ordinary ImageFolder: use manifest labels.
+For biased training use only <code>train/correlated.csv</code>; for untinted baseline training use
+<code>train/original.csv</code>. Test images are reserved for final model evaluation.
+All-red/all-blue manifests provide paired views for pretrained robustness evaluation.</p>
+<h2>Actual assignments: aligned and minority examples</h2>
+<p>These are saved outputs selected through their manifests, using training images only.</p>
+<img src="assignment_overview.png" alt="Aligned and mismatched examples for every class">
+<details><summary>tench</summary><img src="class_0_n01440764.png" alt="Actual output conditions"></details><details><summary>great white shark</summary><img src="class_1_n01484850.png" alt="Actual output conditions"></details><details><summary>hammerhead</summary><img src="class_2_n01494475.png" alt="Actual output conditions"></details><details><summary>goldfinch</summary><img src="class_3_n01531178.png" alt="Actual output conditions"></details><details><summary>axolotl</summary><img src="class_4_n01632777.png" alt="Actual output conditions"></details><details><summary>leatherback turtle</summary><img src="class_5_n01665541.png" alt="Actual output conditions"></details><details><summary>agama</summary><img src="class_6_n01687978.png" alt="Actual output conditions"></details><details><summary>Komodo dragon</summary><img src="class_7_n01695060.png" alt="Actual output conditions"></details><details><summary>green mamba</summary><img src="class_8_n01749939.png" alt="Actual output conditions"></details><details><summary>wolf spider</summary><img src="class_9_n01775062.png" alt="Actual output conditions"></details><h2>Checks and limits</h2><p>See <a href="audit.json">full machine-readable audit</a> and
+<a href="visual_sample_records.json">visual sample provenance</a>.</p><ul><li>No near-duplicate or exhaustive manual label audit</li><li>Pretrained model overlap with ImageNet is unknown</li><li>Direct square resizing can distort aspect ratio, equally in all conditions</li><li>Grayscale removes natural color as well as the artificial cue</li><li>Cue predicts a five-class group, not an individual class</li><li>Dataset verification does not establish model robustness; model experiments are pending</li></ul>
+<p>Historical reports in other folders refer to the earlier Linux run. This report describes the current dataset.</p>
+</html>

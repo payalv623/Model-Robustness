@@ -1,0 +1,62 @@
+Generated/validated 500/13500 sources; written=2000, reused=0
+Generated/validated 1000/13500 sources; written=4000, reused=0
+Generated/validated 1500/13500 sources; written=6000, reused=0
+Generated/validated 2000/13500 sources; written=8000, reused=0
+Generated/validated 2500/13500 sources; written=10000, reused=0
+Generated/validated 3000/13500 sources; written=12000, reused=0
+Generated/validated 3500/13500 sources; written=14000, reused=0
+Generated/validated 4000/13500 sources; written=16000, reused=0
+Generated/validated 4500/13500 sources; written=18000, reused=0
+Generated/validated 5000/13500 sources; written=20000, reused=0
+Generated/validated 5500/13500 sources; written=22000, reused=0
+Generated/validated 6000/13500 sources; written=24000, reused=0
+Generated/validated 6500/13500 sources; written=26000, reused=0
+Generated/validated 7000/13500 sources; written=28000, reused=0
+Generated/validated 7500/13500 sources; written=30000, reused=0
+Generated/validated 8000/13500 sources; written=32000, reused=0
+Generated/validated 8500/13500 sources; written=34000, reused=0
+Generated/validated 9000/13500 sources; written=36000, reused=0
+Generated/validated 9500/13500 sources; written=38000, reused=0
+Generated/validated 10000/13500 sources; written=40000, reused=0
+Generated/validated 10500/13500 sources; written=42000, reused=0
+Generated/validated 11000/13500 sources; written=44000, reused=0
+Generated/validated 11500/13500 sources; written=46000, reused=0
+Generated/validated 12000/13500 sources; written=48000, reused=0
+Generated/validated 12500/13500 sources; written=50000, reused=0
+Generated/validated 13000/13500 sources; written=52000, reused=0
+Generated/validated 13500/13500 sources; written=54000, reused=0
+Audited 500/13500 sources; pixel-verified PNGs=2000; issues=0
+Audited 1000/13500 sources; pixel-verified PNGs=4000; issues=0
+Audited 1500/13500 sources; pixel-verified PNGs=6000; issues=0
+Audited 2000/13500 sources; pixel-verified PNGs=8000; issues=0
+Audited 2500/13500 sources; pixel-verified PNGs=10000; issues=0
+Audited 3000/13500 sources; pixel-verified PNGs=12000; issues=0
+Audited 3500/13500 sources; pixel-verified PNGs=14000; issues=0
+Audited 4000/13500 sources; pixel-verified PNGs=16000; issues=0
+Audited 4500/13500 sources; pixel-verified PNGs=18000; issues=0
+Audited 5000/13500 sources; pixel-verified PNGs=20000; issues=0
+Audited 5500/13500 sources; pixel-verified PNGs=22000; issues=0
+Audited 6000/13500 sources; pixel-verified PNGs=24000; issues=0
+Audited 6500/13500 sources; pixel-verified PNGs=26000; issues=0
+Audited 7000/13500 sources; pixel-verified PNGs=28000; issues=0
+Audited 7500/13500 sources; pixel-verified PNGs=30000; issues=0
+Audited 8000/13500 sources; pixel-verified PNGs=32000; issues=0
+Audited 8500/13500 sources; pixel-verified PNGs=34000; issues=0
+Audited 9000/13500 sources; pixel-verified PNGs=36000; issues=0
+Audited 9500/13500 sources; pixel-verified PNGs=38000; issues=0
+Audited 10000/13500 sources; pixel-verified PNGs=40000; issues=0
+Audited 10500/13500 sources; pixel-verified PNGs=42000; issues=0
+Audited 11000/13500 sources; pixel-verified PNGs=44000; issues=0
+Audited 11500/13500 sources; pixel-verified PNGs=46000; issues=0
+Audited 12000/13500 sources; pixel-verified PNGs=48000; issues=0
+Audited 12500/13500 sources; pixel-verified PNGs=50000; issues=0
+Audited 13000/13500 sources; pixel-verified PNGs=52000; issues=0
+Audited 13500/13500 sources; pixel-verified PNGs=54000; issues=0
+{
+  "status": "passed",
+  "source_images": 13500,
+  "pixel_verified_pngs": 54000,
+  "manifest_rows": 108000,
+  "issues_count": 0
+}
+Template 1 verified. Report: /Volumes/development/5-template-project-AkshayA/reports/color_bias_current/index.html

@@ -1,0 +1,7 @@
+{
+  "completed_images": 1,
+  "device": "cpu",
+  "full_dataset_complete": false,
+  "requested_images": 1,
+  "status": "pilot_generated_semantic_review_required"
+}

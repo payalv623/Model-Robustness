@@ -1,0 +1,68 @@
+{
+  "seed": 42,
+  "assignment": "SHA256 ordering of seed|project-relative source path within each class",
+  "training_source": "80% of each original train.X1 class",
+  "validation_source": "20% of each original train.X1 class",
+  "test_source": "All original val.X images, reserved for final evaluation",
+  "counts": {
+    "train": 10400,
+    "validation": 2600,
+    "test": 500
+  },
+  "per_class_counts": {
+    "n01440764": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    },
+    "n01484850": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    },
+    "n01494475": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    },
+    "n01531178": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    },
+    "n01632777": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    },
+    "n01665541": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    },
+    "n01687978": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    },
+    "n01695060": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    },
+    "n01749939": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    },
+    "n01775062": {
+      "train": 1040,
+      "validation": 260,
+      "test": 50
+    }
+  },
+  "split_manifest_sha256": "61591c06294ed7659446e90cd970088cf8a0cff834feed4e8816bc842454f6e8",
+  "source_manifest_sha256": "deb0d41b6425781b3b1e4949d922ae7e074752cfb825cd6d522a9c24f9c79991",
+  "near_duplicate_audit": "not performed",
+  "pretraining_overlap": "unknown; held out from this project, not necessarily from model pretraining"
+}

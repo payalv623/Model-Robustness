@@ -18,3 +18,29 @@ checkpoints/
 .vscode/
 .idea/
 .DS_Store
+
+# Source dataset downloads and partial extraction files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.partial
+
+# Authentication and local upload/download state
+.env
+.env.*
+!.env.example
+.secrets/
+.artifact_cache/
+artifact_exports/
+*.safetensors
+*.npz
+
+# Large review bundles and generated media live in artifact storage.
+/colab_transfer/mask_review/
+/colab_transfer/mac_remainder/archive
+/colab_transfer/mac_remainder/checkpoints
+/reports/**/*.png
+/reports/**/*.jpg
+/reports/**/*.jpeg
+/reports/background_bias_current/assignment_plan.csv
