@@ -1,0 +1,4 @@
+# Source code and frozen metadata are hashed by the dataset provenance checks.
+# Preserve their exact bytes, including the existing CRLF-formatted CSV files.
+* -text
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
