@@ -13,8 +13,14 @@
       "files": 13501,
       "bytes": 1629067017,
       "description": "Frozen ten-class sources; 13,500 originals",
-      "new_storage_status": "awaiting_terabox_upload",
-      "remote": null
+      "new_storage_status": "partial_upload",
+      "remote": {
+        "provider": "terabox",
+        "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+        "manifest": "project_metadata/artifact_bundles.json",
+        "uploaded_parts": 1,
+        "expected_parts": 2
+      }
     },
     {
       "id": "models",
@@ -22,8 +28,14 @@
       "files": 9,
       "bytes": 1065347928,
       "description": "SAM ViT-B and pinned Grounding DINO Tiny",
-      "new_storage_status": "awaiting_terabox_upload",
-      "remote": null
+      "new_storage_status": "prepared_not_uploaded",
+      "remote": {
+        "provider": "terabox",
+        "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+        "manifest": "project_metadata/artifact_bundles.json",
+        "uploaded_parts": 0,
+        "expected_parts": 2
+      }
     },
     {
       "id": "color",
@@ -31,8 +43,14 @@
       "files": 54027,
       "bytes": 4277519592,
       "description": "Complete verified Template 1",
-      "new_storage_status": "awaiting_terabox_upload",
-      "remote": null
+      "new_storage_status": "prepared_not_uploaded",
+      "remote": {
+        "provider": "terabox",
+        "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+        "manifest": "project_metadata/artifact_bundles.json",
+        "uploaded_parts": 0,
+        "expected_parts": 5
+      }
     },
     {
       "id": "shape",
@@ -40,8 +58,14 @@
       "files": 54051,
       "bytes": 4132210724,
       "description": "Complete verified Template 3",
-      "new_storage_status": "awaiting_terabox_upload",
-      "remote": null
+      "new_storage_status": "prepared_not_uploaded",
+      "remote": {
+        "provider": "terabox",
+        "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+        "manifest": "project_metadata/artifact_bundles.json",
+        "uploaded_parts": 0,
+        "expected_parts": 5
+      }
     },
     {
       "id": "background_local",
@@ -49,8 +73,14 @@
       "files": 14158,
       "bytes": 465943526,
       "description": "Earlier Mac run, pilots and both correction revisions; not the full merged dataset",
-      "new_storage_status": "awaiting_terabox_upload",
-      "remote": null
+      "new_storage_status": "prepared_not_uploaded",
+      "remote": {
+        "provider": "terabox",
+        "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+        "manifest": "project_metadata/artifact_bundles.json",
+        "uploaded_parts": 0,
+        "expected_parts": 1
+      }
     },
     {
       "id": "reports",
@@ -58,8 +88,14 @@
       "files": 1074,
       "bytes": 585770046,
       "description": "Numerical audits, semantic decisions and visual review panels",
-      "new_storage_status": "awaiting_terabox_upload",
-      "remote": null
+      "new_storage_status": "upload_visible_not_download_verified",
+      "remote": {
+        "provider": "terabox",
+        "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+        "manifest": "project_metadata/artifact_bundles.json",
+        "uploaded_parts": 1,
+        "expected_parts": 1
+      }
     },
     {
       "id": "background_mask_review",
@@ -67,8 +103,14 @@
       "files": 27604,
       "bytes": 191707249,
       "description": "All merged masks/records and the 150-image sample; not all merged image variants",
-      "new_storage_status": "awaiting_terabox_upload",
-      "remote": null
+      "new_storage_status": "prepared_not_uploaded",
+      "remote": {
+        "provider": "terabox",
+        "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+        "manifest": "project_metadata/artifact_bundles.json",
+        "uploaded_parts": 0,
+        "expected_parts": 1
+      }
     },
     {
       "id": "mac_remainder",
@@ -76,8 +118,14 @@
       "files": 7743,
       "bytes": 256879557,
       "description": "Completed 1,102-source Mac remainder",
-      "new_storage_status": "awaiting_terabox_upload",
-      "remote": null
+      "new_storage_status": "prepared_not_uploaded",
+      "remote": {
+        "provider": "terabox",
+        "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+        "manifest": "project_metadata/artifact_bundles.json",
+        "uploaded_parts": 0,
+        "expected_parts": 1
+      }
     },
     {
       "id": "transfer_archives",
@@ -85,8 +133,12 @@
       "files": 6,
       "bytes": 1902787247,
       "description": "Existing transfer ZIP archives only",
-      "new_storage_status": "awaiting_terabox_upload",
-      "remote": null
+      "new_storage_status": "top_level_drive_import_visible_not_download_verified",
+      "remote": {
+        "provider": "terabox",
+        "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FImport%2FFrom%20Google%20Drive%2FTemplate2-Colab",
+        "verification": "Names and displayed sizes seen in UI; no remote SHA-256 readback"
+      }
     },
     {
       "id": "original_download",
@@ -94,7 +146,7 @@
       "files": 1,
       "bytes": 17293937662,
       "description": "Original 100-class download; optional archival copy, not needed for the ten-class project",
-      "new_storage_status": "awaiting_terabox_upload",
+      "new_storage_status": "optional_original_100_class_archive_local_only",
       "remote": null
     },
     {
@@ -103,13 +155,16 @@
       "description": "Complete original 13,500-source merged checkpoint. Latest semantic review and correction layers are separate. Not training-ready.",
       "files": null,
       "bytes": null,
-      "new_storage_status": "awaiting_terabox_upload",
+      "new_storage_status": "drive_copy_present_terabox_copy_unconfirmed",
       "remote": {
         "provider": "google_drive",
         "folder_url": "https://drive.google.com/drive/folders/1_net-2l_JI-PXmEwz21WXy9Y__QUJFT1",
         "path": "Template2-Colab/merged_checkpoints/production_v3_merged_cuda_mps/chunk-000001.zip",
         "sha256_sidecar": "chunk-000001.zip.sha256",
-        "backup_previously_verified": true
+        "backup_previously_verified": true,
+        "checkpoint_folder_url": "https://drive.google.com/drive/folders/1Eu7mht4br4TplaSl3rTSFmcJiwjsd11r",
+        "displayed_archive_size": "2.82 GB",
+        "copy_checked_utc": "2026-10-03T09:57:07.328047+00:00"
       }
     }
   ],
@@ -121,5 +176,17 @@
     "Do not overwrite original Template 2 records with correction layers; integration and full audit are pending.",
     "Original Kaggle archive contains other classes; active templates use only the frozen ten."
   ],
-  "new_storage_status": "awaiting_login_and_upload"
+  "new_storage_status": "partial_upload_browser_file_access_pending",
+  "status_checked_utc": "2026-10-03T09:57:07.328047+00:00",
+  "terabox": {
+    "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+    "observed_permanent_gb": 30,
+    "observed_time_limited_gb": 994,
+    "temporary_expiry_verified": false,
+    "remote_download_roundtrip_verified": false,
+    "imported_folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FImport%2FFrom%20Google%20Drive%2FTemplate2-Colab",
+    "imported_top_level_files": 7,
+    "reported_import_size": "1.85 GB",
+    "nested_merged_checkpoint_confirmed": false
+  }
 }

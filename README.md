@@ -31,7 +31,11 @@ commits. Their locations and backup status are recorded in
 [ARTIFACTS.md](ARTIFACTS.md) and
 [project_metadata/artifact_inventory.json](project_metadata/artifact_inventory.json).
 A code clone alone does not include those files. TeraBox was selected for the
-new artifact backup; account sign-in and uploads are pending.
+new artifact backup. Archives and checksum-based restore tooling are prepared;
+uploads are partial. See the per-part status in
+[project_metadata/artifact_bundles.json](project_metadata/artifact_bundles.json).
+The account shows 30 GB permanent storage plus 994 GB with a time limit.
+Keep local and Drive copies until upload and download verification finish.
 
 For a fresh Python 3.11 environment:
 

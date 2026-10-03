@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-10-03T09:43:24.182601+00:00",
+  "model_roundtrip_files": 9,
+  "frozen_source_hashes_matched_to_archive_index": 13500,
+  "bundle_unit_tests": 4,
+  "project_and_downloader_tests": 18,
+  "remote_download_roundtrip": "not_yet_verified",
+  "training_status_unchanged": true
+}

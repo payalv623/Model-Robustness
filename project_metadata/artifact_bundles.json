@@ -1,0 +1,243 @@
+{
+  "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+  "groups": {
+    "background_local": {
+      "expected_parts": 1,
+      "files": 14158,
+      "part_bytes": 1000000000,
+      "parts": [
+        {
+          "bytes": 472658387,
+          "file": "background_local-0001-of-0001.zip",
+          "kind": "zip",
+          "number": 1,
+          "remote_path": null,
+          "sha256": "7f3bf7fcee06a786047d0eee99d6b87f0fae672628402c2ad7f0de7ad9b99f3d",
+          "upload_status": "prepared_not_uploaded"
+        }
+      ],
+      "prepared_complete": true,
+      "source_snapshot": "0024a9c0430472ae0debf500e98b326cb9ca139db40255c30f9866346ed5f8fe"
+    },
+    "background_mask_review": {
+      "expected_parts": 1,
+      "files": 27604,
+      "part_bytes": 1000000000,
+      "parts": [
+        {
+          "bytes": 203133271,
+          "file": "background_mask_review-0001-of-0001.zip",
+          "kind": "zip",
+          "number": 1,
+          "remote_path": null,
+          "sha256": "2c0c27173da82769a6305990825e7871c53e7d9c7890d7532299efc44dfb8652",
+          "upload_status": "prepared_not_uploaded"
+        }
+      ],
+      "prepared_complete": true,
+      "source_snapshot": "1cd2fbef473bd49a9967c18ef39e4eaf8b9c62e66b39c024330e58debae0a399"
+    },
+    "color": {
+      "expected_parts": 5,
+      "files": 54027,
+      "part_bytes": 1000000000,
+      "parts": [
+        {
+          "bytes": 1006185380,
+          "file": "color-0001-of-0005.zip",
+          "kind": "zip",
+          "number": 1,
+          "remote_path": null,
+          "sha256": "8ac58f9022ed1e39b5a5dffcae070dac30e32c665696a42820cf42c797801bfe",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 1006079254,
+          "file": "color-0002-of-0005.zip",
+          "kind": "zip",
+          "number": 2,
+          "remote_path": null,
+          "sha256": "e2150791c106671c8869d948de810fece03069223e2e284f9a100298e0c71103",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 1005317331,
+          "file": "color-0003-of-0005.zip",
+          "kind": "zip",
+          "number": 3,
+          "remote_path": null,
+          "sha256": "40fec8a20055e6cff36a206425927f6bfb0ebf4c0e9d9e45df1ca30cfd7a29dc",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 1005873346,
+          "file": "color-0004-of-0005.zip",
+          "kind": "zip",
+          "number": 4,
+          "remote_path": null,
+          "sha256": "df47d59195690ce48022851a7d1edbd68098c0202694d86286b44b80cb13a9b8",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 279126863,
+          "file": "color-0005-of-0005.zip",
+          "kind": "zip",
+          "number": 5,
+          "remote_path": null,
+          "sha256": "f5cf01d4568ea44de0e8ebdabd30361b63bceee61008d72756ac34cbab76df02",
+          "upload_status": "prepared_not_uploaded"
+        }
+      ],
+      "prepared_complete": true,
+      "source_snapshot": "1cd9a0ab04e3f20145a12176e7e2da4e1dfedba12eecc62f36632d64da6d8370"
+    },
+    "mac_remainder": {
+      "expected_parts": 1,
+      "files": 7743,
+      "part_bytes": 1000000000,
+      "parts": [
+        {
+          "bytes": 261599610,
+          "file": "mac_remainder-0001-of-0001.zip",
+          "kind": "zip",
+          "number": 1,
+          "remote_path": null,
+          "sha256": "85a232f005bf60c2541891cfb510739a1dc8b20b0769d341be0e3d9e3a52e183",
+          "upload_status": "prepared_not_uploaded"
+        }
+      ],
+      "prepared_complete": true,
+      "source_snapshot": "85efb2d790db7c364764d2f7ccf166d3fa03068e210eada8ecf19fe1af246674"
+    },
+    "models": {
+      "expected_parts": 2,
+      "files": 9,
+      "part_bytes": 1000000000,
+      "parts": [
+        {
+          "bytes": 690308494,
+          "file": "models-0001-of-0002.zip",
+          "kind": "zip",
+          "number": 1,
+          "remote_path": null,
+          "sha256": "f9a81cc59bb2c17734aa9ad0e80177381961cc9302efa3695c7e28f75759d602",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 375042831,
+          "file": "models-0002-of-0002.zip",
+          "kind": "zip",
+          "number": 2,
+          "remote_path": null,
+          "sha256": "a0c9d4efd3645e6a1f9f9721c8e1448c6f67045586ea25ac194764b69904d705",
+          "upload_status": "prepared_not_uploaded"
+        }
+      ],
+      "prepared_complete": true,
+      "source_snapshot": "4ac3dfc5e863bc1ee67abc4b183018e4b059d93e80aa7ad664682e95c2430331"
+    },
+    "reports": {
+      "expected_parts": 1,
+      "files": 1074,
+      "part_bytes": 1000000000,
+      "parts": [
+        {
+          "bytes": 586264267,
+          "file": "reports-0001-of-0001.zip",
+          "kind": "zip",
+          "number": 1,
+          "remote_path": "/Model-Robustness-artifacts-2026-10-02/reports-0001-of-0001.zip",
+          "sha256": "8dc7d3e164bb9b076445f0169b5c3991685669e8ea8dea2292330f79d927f434",
+          "upload_status": "visible_in_terabox_file_list"
+        }
+      ],
+      "prepared_complete": true,
+      "source_snapshot": "66b11502c38b4ae4fc2485beede9a345585325db9e701a77234151f2874fa068"
+    },
+    "shape": {
+      "expected_parts": 5,
+      "files": 54051,
+      "part_bytes": 1000000000,
+      "parts": [
+        {
+          "bytes": 1006249883,
+          "file": "shape-0001-of-0005.zip",
+          "kind": "zip",
+          "number": 1,
+          "remote_path": null,
+          "sha256": "1d0eddb758a38e0cb2e1d2960a2f268c5c0cec9921ac7c87a9d2aeb58c32c516",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 1006425817,
+          "file": "shape-0002-of-0005.zip",
+          "kind": "zip",
+          "number": 2,
+          "remote_path": null,
+          "sha256": "6d66ca070dbb74d6c1fec0bcb01f73bfa7912b5e1daa810774b632f5fd194f92",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 1005798033,
+          "file": "shape-0003-of-0005.zip",
+          "kind": "zip",
+          "number": 3,
+          "remote_path": null,
+          "sha256": "f30f9a6d5e2f46a116c280b35060f1c2ca4fa04b70d37b080fb08c5f9ddab68e",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 1006280676,
+          "file": "shape-0004-of-0005.zip",
+          "kind": "zip",
+          "number": 4,
+          "remote_path": null,
+          "sha256": "c92f601087c2067e4199baa3c3f6b892f372f0536d19d45bc4f58e1d0c7c4aec",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 133107233,
+          "file": "shape-0005-of-0005.zip",
+          "kind": "zip",
+          "number": 5,
+          "remote_path": null,
+          "sha256": "8ef8197a5a4e50f0c26f58d6e46c03ed5c19ab61725e4d15fc7b2ad384960450",
+          "upload_status": "prepared_not_uploaded"
+        }
+      ],
+      "prepared_complete": true,
+      "source_snapshot": "d299cb7d63bc7f87accc2ba2da9092f20db41ac4eb4230efe4d3734033134a65"
+    },
+    "sources": {
+      "expected_parts": 2,
+      "files": 13501,
+      "part_bytes": 1000000000,
+      "parts": [
+        {
+          "bytes": 1003041185,
+          "file": "sources-0001-of-0002.zip",
+          "kind": "zip",
+          "number": 1,
+          "remote_path": null,
+          "sha256": "f3b21ef48851eb70565709ab34620a348a72220e85d183c5f071bb1738a850b7",
+          "upload_status": "prepared_not_uploaded"
+        },
+        {
+          "bytes": 630673089,
+          "file": "sources-0002-of-0002.zip",
+          "kind": "zip",
+          "number": 2,
+          "remote_path": "/Model-Robustness-artifacts-2026-10-02/sources-0002-of-0002.zip",
+          "sha256": "fce2cde33a433a01722d2a6843955f99ecac8321e52ab95d6e59cb297256e0e5",
+          "upload_status": "visible_in_terabox_file_list"
+        }
+      ],
+      "prepared_complete": true,
+      "source_snapshot": "19a2c787f27ab3c57bd1ef8c6b7c83881796287ada4f0a07108bb94c2fca43b3"
+    }
+  },
+  "provider": "terabox",
+  "remote_download_roundtrip_verified": false,
+  "schema_version": 1,
+  "status_checked_utc": "2026-10-03T09:57:07.328047+00:00"
+}
