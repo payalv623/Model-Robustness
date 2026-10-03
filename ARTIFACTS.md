@@ -24,15 +24,27 @@ the full merged checkpoint still requires separate confirmation. Its Drive
 folder is [production_v3_merged_cuda_mps](https://drive.google.com/drive/folders/1Eu7mht4br4TplaSl3rTSFmcJiwjsd11r);
 the ZIP is displayed as 2.82 GB.
 
-As of 3 October 2026, the artifact folder visibly contains
-`reports-0001-of-0001.zip` and `sources-0002-of-0002.zip`. Sixteen other
-numbered archives are prepared locally but not uploaded. The initial inventory
-JSON in TeraBox is an older snapshot; GitHub holds the current inventory.
-Upload completion has not yet been verified by downloading and hashing a copy.
-Direct browser uploading needs the ChatGPT extension file-access setting;
-the native picker has proved unreliable. Reconnecting the Drive importer was
-blocked by automatic approval review because its consent covers all Drive files
-and account information. No broader access was granted.
+As of 3 October 2026, **all 18 numbered local-artifact archives are present**
+in the artifact folder (12,683,164,950 bytes in total). TeraBox reported the
+16-file final batch complete; both earlier archives are also present.
+Remote downloads have not yet been checked against the local SHA-256 hashes.
+The initial `artifact_inventory.json` on TeraBox is an older snapshot; use
+GitHub's inventory. A separate 8.9 MB recovery metadata export has been
+prepared with the restore tools and latest semantic-review transfer ZIP; its
+upload is not yet confirmed. See `project_metadata/recovery_metadata_export.json`.
+
+The full merged Background checkpoint remains a separate transfer. Three
+private transfer copies were prepared at the top level of My Drive:
+`Template2-production_v3_merged_cuda_mps.zip`, its `.zip.sha256` sidecar, and
+`Template2-production_v3_merged_cuda_mps-index.json`. The original checkpoint
+folder remains unchanged. Only these project items should be selected in the
+TeraBox importer; never use its default selection of all Drive files.
+
+Direct browser uploads need the extension file-access setting. The 16-file
+batch succeeded using keyboard selection in the native file picker, without
+changing that setting. Reconnecting the Drive importer encountered automatic
+approval review because its consent covers all Drive files and account
+information; explicit approval is pending for the remaining connection step.
 
 ## Current inventory
 
@@ -42,13 +54,13 @@ Exact local byte counts and migration status are recorded in
 | Artifact | Restore location | Current copy |
 |---|---|---|
 | 13,500 frozen source images | `archive/` | Local; verified source ZIP also in Drive `Template2-Colab` |
-| SAM and Grounding DINO weights | `checkpoints/` | Local; pinned official download URLs and hashes in `project_metadata/` |
-| Template 1 Color | `color_bias_dataset/` | Local, complete and verified |
-| Template 3 Shape | `shape_bias_dataset/production_v1/` | Local, complete and verified |
+| SAM and Grounding DINO weights | `checkpoints/` | TeraBox numbered archives uploaded; official download URLs and hashes also in `project_metadata/` |
+| Template 1 Color | `color_bias_dataset/` | TeraBox numbered archives uploaded; local generation verified |
+| Template 3 Shape | `shape_bias_dataset/production_v1/` | TeraBox numbered archives uploaded; local generation verified |
 | Full Template 2 merged candidates | `background_bias_dataset/production_v3_merged_cuda_mps/` | Google Drive merged checkpoint below; **not training-ready** |
 | Template 2 masks/records and visual sample | `colab_transfer/mask_review/` | Local review bundle, not the entire merged dataset |
 | Template 2 Mac remainder | `colab_transfer/mac_remainder/` | Local; transfer ZIP also in Drive |
-| Template 2 approved correction layers | `background_bias_dataset/review_corrections_v2/` | Local; two corrections, not integrated |
+| Template 2 approved correction layers | `background_bias_dataset/review_corrections_v2/` | Included in uploaded Background archive; two corrections, not integrated |
 | Audits and review media | `reports/` | Local; lightweight metadata also in GitHub |
 | Transfer archives | `colab_transfer/*.zip` | Local; some also in Drive as recorded in transfer metadata |
 | Original ImageNet-100 download | `archive (1).zip` | Local, optional; not required for the frozen ten-class experiment |

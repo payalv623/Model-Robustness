@@ -31,8 +31,9 @@ commits. Their locations and backup status are recorded in
 [ARTIFACTS.md](ARTIFACTS.md) and
 [project_metadata/artifact_inventory.json](project_metadata/artifact_inventory.json).
 A code clone alone does not include those files. TeraBox was selected for the
-new artifact backup. Archives and checksum-based restore tooling are prepared;
-uploads are partial. See the per-part status in
+new artifact backup. All 18 numbered local-artifact archives are uploaded;
+the separate full merged Background checkpoint still awaits import. Download
+verification from TeraBox remains unconfirmed. See the per-part status in
 [project_metadata/artifact_bundles.json](project_metadata/artifact_bundles.json).
 The account shows 30 GB permanent storage plus 994 GB with a time limit.
 Keep local and Drive copies until upload and download verification finish.

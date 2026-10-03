@@ -1,0 +1,20 @@
+{
+  "file": "recovery_metadata_2026-10-03.zip",
+  "bytes": 8861512,
+  "sha256": "d825347665ae58ef1c8052ae59810f19614a596c00c927bfef145f69c682fe7c",
+  "members": [
+    "ARTIFACTS.md",
+    "README.md",
+    "artifact_bundle.py",
+    "download_models.py",
+    "project_metadata/artifact_bundles.json",
+    "project_metadata/artifact_inventory.json",
+    "project_metadata/artifact_validation.json",
+    "project_metadata/sam_checkpoint.json",
+    "project_metadata/grounding_dino_checkpoint.json",
+    "colab_transfer/template2_semantic_review_v1.zip"
+  ],
+  "upload_status": "prepared_not_uploaded",
+  "folder_url": "https://dm.1024terabox.com/main?category=all&path=%2FModel-Robustness-artifacts-2026-10-02",
+  "note": "Snapshot of restore instructions and checksums, plus the latest semantic-review transfer ZIP. GitHub remains the current inventory."
+}
